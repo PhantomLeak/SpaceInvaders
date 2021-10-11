@@ -1,6 +1,7 @@
 # IndividualProject
 Workout application that allows you to 
-- Use a timer
-- Create a workout plan/schedule
-- (possibly if time allows for it connect your spotify account to listen to music and use the app)
+- Use a timer to track how long you have been doing your workout
+- Create a workout plan
+- Create a workout schedule (with calendar)
+- Listen to your spotify workout playlist (if time persists)
 
