@@ -1,4 +1,4 @@
-# IndividualProject
+# EagleWorkout
 Workout application that allows you to 
 - Use a timer to track how long you have been doing your workout
 - Create a workout plan
