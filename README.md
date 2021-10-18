@@ -5,5 +5,5 @@ Workout application that allows you to:
 - Create a workout schedule (with calendar)
 - Listen to your spotify workout playlist (if time persists)
 
-Written with Flutter and Dart using OOP
+Written with C++ using OOP
 
