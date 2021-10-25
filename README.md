@@ -1,9 +1,8 @@
-# EagleWorkout
-Workout application that allows you to:
-- Use a timer to track how long you have been doing your workout
-- Create a workout plan
-- Create a workout schedule (with calendar)
-- Listen to your spotify workout playlist (if time persists)
+# Unknown Name
+Allows you to: 
+- Create a budget 
+- Set your payment dates on the calendar
+- know when your payments are due and how much they will be
 
 Written with C++ using OOP
 
