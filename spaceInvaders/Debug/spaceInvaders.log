@@ -1,2 +1,24 @@
-﻿  spaceInvaders.cpp
-  spaceInvaders.vcxproj -> C:\Users\Dstoc\source\repos\spaceInvaders\Debug\spaceInvaders.exe
+﻿  Block.cpp
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(63,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(63,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(63,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(63,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Bullet.cpp
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Bullet.cpp(40,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Ship.cpp
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(32,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(33,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(53,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(58,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(164,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(170,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(175,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(190,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(211,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(211,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(213,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(213,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  spaceInvaders.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  spaceInvaders.vcxproj -> C:\Users\Dstoc\source\repos\SpaceInvaders\Debug\spaceInvaders.exe

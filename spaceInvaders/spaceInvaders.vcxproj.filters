@@ -21,12 +21,30 @@
     <ClInclude Include="fgcugl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="spaceInvaders.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="fgcugl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
