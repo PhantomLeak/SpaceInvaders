@@ -1,3 +1,7 @@
+// file: Bullet.cpp
+//by: Dylan Stocking
+//Des: implementation of a player Bullet block class object
+//-----------------------------------------------------
 
 #define _USE_MATH_DEFINES  // enable M_PI
 
@@ -6,7 +10,7 @@
 #include <math.h>
 
 // Constructors
-Bullet::Bullet(float y, float velocityY, int size,
+Bullet::Bullet(float x, float y, float velocityY, int size,
                fgcugl::Color color) {
   ypos = y;
   this->velocityY = velocityY;
@@ -18,12 +22,14 @@ Bullet::Bullet(float y, float velocityY, int size,
 //-----------------------------------------
 // Getters
 float Bullet::getYCoordinate() { return ypos; }
+float Bullet::getXCoordinate() { return xpos; }
 float Bullet::getYVelocity() { return velocityY; }
 int Bullet::getSize() { return radius; }
 fgcugl::Color Bullet::getColor() { return color; }
 
 // setters
 void Bullet::setYCoordinate(float value) { ypos = value; }
+void Bullet::setXCoordinate(float value) { xpos = value; }
 void Bullet::setYVelocity(float value) { velocityY = value; }
 void Bullet::setSize(int value) { radius = value; }
 void Bullet::setColor(fgcugl::Color value) { color = value; }

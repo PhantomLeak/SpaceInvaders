@@ -10,17 +10,19 @@
 
 class Bullet {
  public:
-  Bullet(float y, float velocityY, int size,
+  Bullet(float x, float y, float velocityY, int size,
          fgcugl::Color color = fgcugl::Blue);
 
   // getters
   float getYCoordinate();
+  float getXCoordinate();
   float getYVelocity();
   int getSize();
   fgcugl::Color getColor();
 
   // setters
   void setYCoordinate(float value);
+  void setXCoordinate(float value);
   void setYVelocity(float value);
   void setSize(int);
   void setColor(fgcugl::Color value);
@@ -35,6 +37,7 @@ class Bullet {
   void draw(float lag);
 
  private:
+  float xpos;
   float ypos;
   float velocityY;
   int radius;
