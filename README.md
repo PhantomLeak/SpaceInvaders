@@ -1,4 +1,4 @@
-# +SPACE INVADERS
+# SPACE INVADERS
 
 This program is for the term project for COP3003
 
