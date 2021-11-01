@@ -2,7 +2,7 @@
 
 This program is for the term project for COP3003
 
-It is a clone of the classic arade game Space Invaders using C++
+It is a clone of the classic arade game Space Invaders using C++, OpenGL libraries, FGCU libraries, and OOP
 
 OpenGL Libraries linked below
 - OpenGL: https://www.opengl.org/
