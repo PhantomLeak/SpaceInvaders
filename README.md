@@ -8,11 +8,10 @@ It is a clone of the classic arade game Space Invaders using
   - FGCU OpenGL wraper API 
   - Object Oriented Programming
 
-OpenGL Libraries linked below
+OpenGL Libraries linked below:
 - OpenGL: https://www.opengl.org/
 - OpenGL Extension Wrangler Library (GLEW): http://glew.sourceforge.net/
 - OpenGL: https://www.glfw.org/
-
 
 - FGCU OpenGL wrapper API code: https://github.com/pallenfgcu/fgcugl
 
