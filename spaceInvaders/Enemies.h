@@ -1,5 +1,6 @@
 
-#include "Blocks.h"
+#include "Block.h"
+#include "fgcugl.h"
 
 class Enemy : public Block {
 	private: 
