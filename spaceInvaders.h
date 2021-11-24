@@ -27,7 +27,7 @@ enum Direction {
 // main game window properties
 const int WINDOW_WIDTH = 900;
 const int WINDOW_HEIGHT = 604;
-const std::string WINDOW_TITLE = "Breakout";
+const std::string WINDOW_TITLE = "SPACE INVADERS";
 
 // game settings
 const double FRAME_RATE = 1.0 / 60.0;  // Updae game every 1/60th of a second
@@ -38,7 +38,7 @@ const double FRAME_RATE = 1.0 / 60.0;  // Updae game every 1/60th of a second
 int SHIP_WIDTH = 40;
 int SHIP_HEIGHT = 20;
 
-// ball properties
+// Bullet properties
 const int BALL_SIZE = 8;  // radius of ball in pixels
 const fgcugl::Color BALL_COLOR = fgcugl::Blue;
 const float BALL_SPEED_X = 40.0;  // speed horizontally in pixels
@@ -47,13 +47,21 @@ const float BALL_SPEED_Y = 70.0;  // speed vertically in pixels
 // border walls
 const int WALL_SIZE = 2;
 
+// Enemies
+const int ENEMY_HEIGHT = 20;
+const int ENEMY_WIDTH = 64;
+const int ENEMIES_COLUMNS = 14;
+const int ENEMIES_ROWS = 8;
+const int ENEMIES_START_X = WALL_SIZE;
+const int ENEMIES_START_Y = (WINDOW_HEIGHT / 2 * WALL_SIZE) / 2;
+
 // bricks
-const int BRICK_WIDTH = 64;
-const int BRICK_HEIGHT = 20;
-const int BRICKS_COLUMNS = 14;  // number of bricks across
-const int BRICKS_ROWS = 8;      // number of brcks down
-const int BRICKS_START_X = WALL_SIZE;
-const int BRICKS_START_Y = (WINDOW_HEIGHT - 2 * WALL_SIZE) / 2;
+const int BRICK_WIDTH = 100;
+const int BRICK_HEIGHT = 80;
+const int BRICKS_COLUMNS = 1;  // number of bricks across
+const int BRICKS_ROWS = 1;      // number of brcks down
+const int BRICKS_START_X = WALL_SIZE * + 100;
+const int BRICKS_START_Y = (WINDOW_HEIGHT /2 - 30 * WALL_SIZE) / 2;
 
 //---------------------------------------------------------//
 // Structures

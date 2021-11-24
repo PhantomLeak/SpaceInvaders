@@ -7,17 +7,21 @@
 
 #include <iostream>
 
+#include "Enemy.h"   //Enemies
 #include "Ship.h"    // Ship
-#include "Ship.h"    // player ship
 #include "fgcugl.h"  // openGL library
 
 // function prototypes (declaration)
 // creation
+void createBricks(Block bricks[BRICKS_ROWS][BRICKS_COLUMNS]);
+void createEnemies(Enemy enemies[ENEMIES_ROWS][ENEMIES_COLUMNS]);
 Direction processInput();
 bool update(Ship& ship, Walls walls, double lag, Direction next);
-void render(Ship ship, Walls walls, double lag);
+void render(Ship ship, Block bricks[BRICKS_ROWS][BRICKS_COLUMNS],
+            Enemy enemy[ENEMIES_ROWS][ENEMIES_COLUMNS], Walls walls,
+            double lag);
 
-int main() {
+    int main() {
   // main game window
   fgcugl::openWindow(WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_TITLE, false);
 
@@ -36,39 +40,138 @@ int main() {
   // Direction
   Direction currentDirection = DIR_NONE, nextDirection = DIR_NONE;
 
+  // Create the bricks
+  Block bricks[BRICKS_ROWS][BRICKS_COLUMNS];
+  createBricks(bricks);
+
+  // Create the enemies
+  Enemy enemy[ENEMIES_ROWS][ENEMIES_COLUMNS];
+  createEnemies(enemy);
+
   // timing for game loop
   double startTime = fgcugl::getTime();
   double finishTime = 0.0, deltaTime = 0.0;
 
   bool gameover = false;
-  	while (!gameover)
-	{
-		finishTime = fgcugl::getTime();        // sright the frame timer 
-		deltaTime += finishTime - startTime;   // add current lag
-		startTime = finishTime;
+  while (!gameover) {
+    finishTime = fgcugl::getTime();       // sright the frame timer
+    deltaTime += finishTime - startTime;  // add current lag
+    startTime = finishTime;
 
-		// Process input
-		nextDirection = processInput();
+    // Process input
+    nextDirection = processInput();
 
-		// update
-		while (deltaTime >= FRAME_RATE)
-		{
-			gameover = update(ship, walls, deltaTime, nextDirection);
-			deltaTime -= FRAME_RATE;
-		}
+    // update
+    while (deltaTime >= FRAME_RATE) {
+      gameover = update(ship, walls, deltaTime, nextDirection);
+      deltaTime -= FRAME_RATE;
+    }
 
-		// render
-		render(ship, walls, deltaTime);
+    // render
+    render(ship, bricks, enemy, walls, deltaTime);
 
-		//get keyboard and windos move/close events
-		fgcugl::getEvents();
+    // get keyboard and windos move/close events
+    fgcugl::getEvents();
 
-		// end game if window closes
-		gameover = gameover || fgcugl::windowClosing();
-	} // end game loop
+    // end game if window closes
+    gameover = gameover || fgcugl::windowClosing();
+  }  // end game loop
 
   return 0;  // Return success
 }
+
+/**
+ * Create rows of enemies
+ *
+ * Parameters:
+ * enemies		the array of blocks
+ *
+ * Returns:
+ * void
+ */
+void createEnemies(Enemy enemies[ENEMIES_ROWS][ENEMIES_COLUMNS]) {
+  int y = ENEMIES_START_Y;
+
+  for (int row = 0; row < ENEMIES_ROWS; row++) {
+    int x = ENEMIES_START_X;
+    for (int column = 0; column < ENEMIES_COLUMNS; column++) {
+      fgcugl::Color enemyColor;
+
+      // assign color by row number
+      switch (row) {
+        case 0:
+        case 1:
+          enemyColor = fgcugl::Yellow;
+          break;
+        case 2:
+        case 3:
+          enemyColor = fgcugl::Green;
+          break;
+        case 4:
+        case 5:
+          enemyColor = fgcugl::Orange;
+          break;
+        case 6:
+        case 7:
+          enemyColor = fgcugl::Red;
+      }  // color
+
+      enemies[row][column] = Enemy(x, y, ENEMY_WIDTH, ENEMY_HEIGHT, enemyColor);
+
+      x += ENEMY_WIDTH;
+    }  // Column
+    y += ENEMY_HEIGHT;
+  }  // rows
+}  // create enemies
+
+/**
+ * Create bricks for user
+ *
+ * Parameters:
+ * bricks		the array of blocks
+ *
+ * Returns:
+ * void
+ */
+void createBricks(Block bricks[BRICKS_ROWS][BRICKS_COLUMNS]) {
+  int y = BRICKS_START_Y;
+
+  for (int row = 0; row < BRICKS_ROWS; row++) {
+    int x = BRICKS_START_X;
+
+    for (int column = 0; column < BRICKS_COLUMNS; column++) {
+      fgcugl::Color blockColor;
+
+      // assign color by row number
+      switch (row) {
+        case 0:
+        case 1:
+          blockColor = fgcugl::Yellow;
+          break;
+        case 2:
+        case 3:
+          blockColor = fgcugl::Green;
+          break;
+        case 4:
+        case 5:
+          blockColor = fgcugl::Orange;
+          break;
+        case 6:
+        case 7:
+          blockColor = fgcugl::Red;
+      }  // color
+
+      bricks[row][column] = Block(x, y, BRICK_WIDTH, BRICK_HEIGHT, blockColor);
+
+      x += BRICK_WIDTH;
+
+    }  // columns
+
+    y += BRICK_HEIGHT;
+
+  }  // rows
+
+}  // createBricks
 
 /**
  get user keyboard input
@@ -127,8 +230,30 @@ Parameters:
 returnts:
 void
 */
-void render(Ship ship, Walls walls, double lag) {
+void render(Ship ship, Block bricks[BRICKS_ROWS][BRICKS_COLUMNS],
+            Enemy enemy[ENEMIES_ROWS][ENEMIES_COLUMNS], Walls walls,
+            double lag) {
   ship.draw(lag);
+
+  // draw bricks
+  for (int row = 0; row < BRICKS_ROWS; row++) {
+    for (int column = 0; column < BRICKS_COLUMNS; column++) {
+      // if current block not broken (has y-coordinate)
+      if (!bricks[row][column].isEmpty()) {
+        bricks[row][column].drawWithBorder();
+      }
+    }  // column
+  }    // row
+
+  // draw Enemies
+  for (int row = 0; row < ENEMIES_ROWS; row++) {
+    for (int column = 0; column < ENEMIES_COLUMNS; column++) {
+      // if current block not broken (has y-coordinate)
+      if (!enemy[row][column].isEmpty()) {
+        enemy[row][column].drawWithBorder();
+      }
+    }  // column
+  }    // row
 
   // draw walls
   walls.top.draw();

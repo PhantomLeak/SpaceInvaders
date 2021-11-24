@@ -2,21 +2,20 @@
 // By: Dylan Stocking
 // Des: Declaration of block class object
 
-#ifndef BLOCK_H
-#define BLOCK_H
+#ifndef ENEMY_H
+#define ENEMY_H
 
+#include "Block.h"
 #include "fgcugl.h"
 
-class Block {
+class Enemy: public Block{
  public:
-  // constructors
-  Block();
-  Block(int x, int y, int width, int height,
+  Enemy();
+  Enemy(int x, int y, int width, int height,
         fgcugl::Color color = fgcugl::White);
-
   // accessors
   // getters
-  virtual int getXCoordinate();
+  int getXCoordinate();
   int getYCoordinate();
   int getWidth();
   int getHeight();
@@ -46,6 +45,8 @@ class Block {
   int width;
   int height;
   fgcugl::Color color;
+  int health;
+  float direction;
 };
 
-#endif  // BLOCK_H
+#endif  // ENEMY_H

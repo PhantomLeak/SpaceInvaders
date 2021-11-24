@@ -1,7 +1,5 @@
 // file: Ship.cpp
-// lab: 11
 // by: Dylan Stocking
-// org: cop 2001, 2021 10410
 // Des: implementation of a player Ship block class object
 //-----------------------------------------------------
 
