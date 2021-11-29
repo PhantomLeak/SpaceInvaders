@@ -1,5 +1,0 @@
-﻿  spaceInvaders.cpp
-C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(35,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(107,13): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(110,15): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  spaceInvaders.vcxproj -> C:\Users\Dstoc\source\repos\SpaceInvaders\Debug\spaceInvaders.exe
