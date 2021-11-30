@@ -1,0 +1,43 @@
+\hypertarget{_entity_8h_source}{}\doxysection{Entity.\+h}
+\label{_entity_8h_source}\index{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/Entity.h@{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/Entity.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// file: Entity.h}}
+\DoxyCodeLine{2 \textcolor{comment}{// by: Dylan Stocking}}
+\DoxyCodeLine{3 \textcolor{comment}{// Des: Entity implementation}}
+\DoxyCodeLine{4 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#ifndef ENTITY\_H}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#define ENTITY\_H}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}fgcugl.h"{}}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include "{}spaceInvaders.h"{}}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{keyword}{class }\mbox{\hyperlink{class_entity}{Entity}} \{}
+\DoxyCodeLine{16  \textcolor{keyword}{public}:}
+\DoxyCodeLine{17   \mbox{\hyperlink{class_entity}{Entity}}(\textcolor{keywordtype}{float} x, \textcolor{keywordtype}{float} y, \textcolor{keywordtype}{int} health, \textcolor{keywordtype}{float} movementSpeed);}
+\DoxyCodeLine{18   \mbox{\hyperlink{class_entity}{Entity}}();}
+\DoxyCodeLine{19   \textcolor{keyword}{virtual} \mbox{\hyperlink{class_entity}{\string~Entity}}();}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21   \textcolor{comment}{// Getters}}
+\DoxyCodeLine{22   \textcolor{keywordtype}{int} getHealth();}
+\DoxyCodeLine{23   \textcolor{keywordtype}{float} getMovementSpeed();}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25   \textcolor{comment}{// Setters}}
+\DoxyCodeLine{26   \textcolor{keywordtype}{void} setHealth(\textcolor{keywordtype}{int} value);}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28   \textcolor{comment}{// Functions}}
+\DoxyCodeLine{29   \textcolor{keywordtype}{void} movement(\textcolor{keywordtype}{double} frameTime, \textcolor{keywordtype}{short} \textcolor{keywordtype}{int} direction);}
+\DoxyCodeLine{30   \textcolor{keywordtype}{void} hpDown();}
+\DoxyCodeLine{31   \textcolor{keywordtype}{bool} isDead();}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33  \textcolor{keyword}{protected}:}
+\DoxyCodeLine{34   \textcolor{keywordtype}{float} \_movement\_speed;}
+\DoxyCodeLine{35   \textcolor{keywordtype}{int} \_health;}
+\DoxyCodeLine{36 \};}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// ENTITY\_H}}
+
+\end{DoxyCode}

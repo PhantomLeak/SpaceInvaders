@@ -1,0 +1,83 @@
+\hypertarget{space_invaders_8h_source}{}\doxysection{space\+Invaders.\+h}
+\label{space_invaders_8h_source}\index{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/spaceInvaders.h@{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/spaceInvaders.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// file: spaceInvader.h}}
+\DoxyCodeLine{2 \textcolor{comment}{// by: Dylan Stocking}}
+\DoxyCodeLine{3 \textcolor{comment}{// Des: Main configuration for the game}}
+\DoxyCodeLine{4 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#ifndef SPACEINVADERS\_H}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#define SPACEINVADERS\_H}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <string>}  \textcolor{comment}{//for window title}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}Block.h"{}}   \textcolor{comment}{// Block object}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}fgcugl.h"{}}  \textcolor{comment}{// openGL library}}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{comment}{// flag values}}
+\DoxyCodeLine{15 \textcolor{keyword}{enum} Direction \{}
+\DoxyCodeLine{16   DIR\_EXIT = -\/1,}
+\DoxyCodeLine{17   DIR\_NONE,}
+\DoxyCodeLine{18   DIR\_UP,}
+\DoxyCodeLine{19   DIR\_DOWN,}
+\DoxyCodeLine{20   DIR\_LEFT,}
+\DoxyCodeLine{21   DIR\_RIGHT}
+\DoxyCodeLine{22 \};}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{25 \textcolor{comment}{// global constants}}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{comment}{// main game window properties}}
+\DoxyCodeLine{28 \textcolor{keyword}{const} \textcolor{keywordtype}{int} WINDOW\_WIDTH = 900;}
+\DoxyCodeLine{29 \textcolor{keyword}{const} \textcolor{keywordtype}{int} WINDOW\_HEIGHT = 604;}
+\DoxyCodeLine{30 \textcolor{keyword}{const} std::string WINDOW\_TITLE = \textcolor{stringliteral}{"{}SPACE INVADERS"{}};}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 \textcolor{comment}{// game settings}}
+\DoxyCodeLine{33 \textcolor{keyword}{const} \textcolor{keywordtype}{double} FRAME\_RATE = 1.0 / 60.0;  \textcolor{comment}{// Updae game every 1/60th of a second}}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 \textcolor{comment}{// game components}}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 \textcolor{comment}{// Player ship properties}}
+\DoxyCodeLine{38 \textcolor{keywordtype}{int} SHIP\_WIDTH = 40;}
+\DoxyCodeLine{39 \textcolor{keywordtype}{int} SHIP\_HEIGHT = 20;}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{41 \textcolor{comment}{// Bullet properties}}
+\DoxyCodeLine{42 \textcolor{keyword}{const} \textcolor{keywordtype}{int} BALL\_SIZE = 8;  \textcolor{comment}{// radius of ball in pixels}}
+\DoxyCodeLine{43 \textcolor{keyword}{const} fgcugl::Color BALL\_COLOR = fgcugl::Blue;}
+\DoxyCodeLine{44 \textcolor{keyword}{const} \textcolor{keywordtype}{float} BALL\_SPEED\_X = 40.0;  \textcolor{comment}{// speed horizontally in pixels}}
+\DoxyCodeLine{45 \textcolor{keyword}{const} \textcolor{keywordtype}{float} BALL\_SPEED\_Y = 70.0;  \textcolor{comment}{// speed vertically in pixels}}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47 \textcolor{comment}{// border walls}}
+\DoxyCodeLine{48 \textcolor{keyword}{const} \textcolor{keywordtype}{int} WALL\_SIZE = 2;}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50 \textcolor{comment}{// Enemies}}
+\DoxyCodeLine{51 \textcolor{keyword}{const} \textcolor{keywordtype}{int} ENEMY\_HEIGHT = 20;}
+\DoxyCodeLine{52 \textcolor{keyword}{const} \textcolor{keywordtype}{int} ENEMY\_WIDTH = 64;}
+\DoxyCodeLine{53 \textcolor{keyword}{const} \textcolor{keywordtype}{int} ENEMIES\_COLUMNS = 14;}
+\DoxyCodeLine{54 \textcolor{keyword}{const} \textcolor{keywordtype}{int} ENEMIES\_ROWS = 8;}
+\DoxyCodeLine{55 \textcolor{keyword}{const} \textcolor{keywordtype}{int} ENEMIES\_START\_X = WALL\_SIZE;}
+\DoxyCodeLine{56 \textcolor{keyword}{const} \textcolor{keywordtype}{int} ENEMIES\_START\_Y = (WINDOW\_HEIGHT / 2 * WALL\_SIZE) / 2;}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{comment}{// bricks}}
+\DoxyCodeLine{59 \textcolor{keyword}{const} \textcolor{keywordtype}{int} BRICK\_WIDTH = 100;}
+\DoxyCodeLine{60 \textcolor{keyword}{const} \textcolor{keywordtype}{int} BRICK\_HEIGHT = 80;}
+\DoxyCodeLine{61 \textcolor{keyword}{const} \textcolor{keywordtype}{int} BRICKS\_COLUMNS = 1;  \textcolor{comment}{// number of bricks across}}
+\DoxyCodeLine{62 \textcolor{keyword}{const} \textcolor{keywordtype}{int} BRICKS\_ROWS = 1;      \textcolor{comment}{// number of brcks down}}
+\DoxyCodeLine{63 \textcolor{keyword}{const} \textcolor{keywordtype}{int} BRICKS\_START\_X = WALL\_SIZE * + 100;}
+\DoxyCodeLine{64 \textcolor{keyword}{const} \textcolor{keywordtype}{int} BRICKS\_START\_Y = (WINDOW\_HEIGHT /2 -\/ 30 * WALL\_SIZE) / 2;}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\///}}
+\DoxyCodeLine{67 \textcolor{comment}{// Structures}}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69 \textcolor{comment}{// border walls}}
+\DoxyCodeLine{70 \textcolor{keyword}{struct }\mbox{\hyperlink{struct_walls}{Walls}} \{}
+\DoxyCodeLine{71   \mbox{\hyperlink{class_block}{Block}} top;}
+\DoxyCodeLine{72   \mbox{\hyperlink{class_block}{Block}} bottom;}
+\DoxyCodeLine{73   \mbox{\hyperlink{class_block}{Block}} left;}
+\DoxyCodeLine{74   \mbox{\hyperlink{class_block}{Block}} right;}
+\DoxyCodeLine{75 \};}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// SPACEINVADERS\_H}}
+
+\end{DoxyCode}

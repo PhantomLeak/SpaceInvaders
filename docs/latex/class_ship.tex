@@ -1,0 +1,117 @@
+\hypertarget{class_ship}{}\doxysection{Ship Class Reference}
+\label{class_ship}\index{Ship@{Ship}}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_ship_a8fd2751e13d0db112e25d4081e410a82}\label{class_ship_a8fd2751e13d0db112e25d4081e410a82}} 
+enum {\bfseries Ship\+Direction} \{ {\bfseries None}
+, {\bfseries Left}
+, {\bfseries Right}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ship_a9f5c5cff9726215ced3ca23cffc8e959}{Ship}} (int x, int y, int width, int height, fgcugl\+::\+Color color=fgcugl\+::\+Green)
+\item 
+\mbox{\Hypertarget{class_ship_a521cd180aff5bdc2664251bc333065ff}\label{class_ship_a521cd180aff5bdc2664251bc333065ff}} 
+\mbox{\hyperlink{class_block}{Block}} {\bfseries get\+Ship} ()
+\item 
+\mbox{\Hypertarget{class_ship_a469230a299a68c4d159f154875bf1270}\label{class_ship_a469230a299a68c4d159f154875bf1270}} 
+float {\bfseries get\+XCoordinate} ()
+\item 
+\mbox{\Hypertarget{class_ship_a1cdc8d76d0cdcd013aaaa5d0e8b136af}\label{class_ship_a1cdc8d76d0cdcd013aaaa5d0e8b136af}} 
+float {\bfseries get\+YCoordinate} ()
+\item 
+\mbox{\Hypertarget{class_ship_aeba3adb876e7c83760448245f6950d8b}\label{class_ship_aeba3adb876e7c83760448245f6950d8b}} 
+int {\bfseries get\+Width} ()
+\item 
+\mbox{\Hypertarget{class_ship_aa776da1fa8f5fd12019ec0030ae138c0}\label{class_ship_aa776da1fa8f5fd12019ec0030ae138c0}} 
+int {\bfseries get\+Height} ()
+\item 
+\mbox{\Hypertarget{class_ship_a508dfb701b8e49feba1b9cd40041e220}\label{class_ship_a508dfb701b8e49feba1b9cd40041e220}} 
+float {\bfseries get\+Velocity} ()
+\item 
+\mbox{\Hypertarget{class_ship_a7d6b2af81d00cd32283c256d2eda907f}\label{class_ship_a7d6b2af81d00cd32283c256d2eda907f}} 
+fgcugl\+::\+Color {\bfseries get\+Color} ()
+\item 
+\mbox{\Hypertarget{class_ship_af5470d5f605c070ca84571e7e5c12d38}\label{class_ship_af5470d5f605c070ca84571e7e5c12d38}} 
+void {\bfseries set\+XCoordinate} (float value)
+\item 
+\mbox{\Hypertarget{class_ship_a394a0c33818877f21b70b909133b52dd}\label{class_ship_a394a0c33818877f21b70b909133b52dd}} 
+void {\bfseries set\+YCoordinate} (float value)
+\item 
+\mbox{\Hypertarget{class_ship_a6e0c917d7013aa6c1fc1b35bbb1957c1}\label{class_ship_a6e0c917d7013aa6c1fc1b35bbb1957c1}} 
+void {\bfseries set\+Width} (int value)
+\item 
+\mbox{\Hypertarget{class_ship_acf4e20d1612e1c91749376af7014c3c8}\label{class_ship_acf4e20d1612e1c91749376af7014c3c8}} 
+void {\bfseries set\+Height} (int value)
+\item 
+\mbox{\Hypertarget{class_ship_a4f35fb8266d5018b467fdb5b4e0c8925}\label{class_ship_a4f35fb8266d5018b467fdb5b4e0c8925}} 
+void {\bfseries set\+Velocity} (float value)
+\item 
+\mbox{\Hypertarget{class_ship_ae4dcfebaf9e379eaf2cb5066f6799b50}\label{class_ship_ae4dcfebaf9e379eaf2cb5066f6799b50}} 
+void {\bfseries set\+Color} (fgcugl\+::\+Color value)
+\item 
+\mbox{\Hypertarget{class_ship_a28f83e65230b40e533837df30a3b5435}\label{class_ship_a28f83e65230b40e533837df30a3b5435}} 
+int {\bfseries top} ()
+\item 
+\mbox{\Hypertarget{class_ship_a6a41898b8327484aa2e608ecc20f89b4}\label{class_ship_a6a41898b8327484aa2e608ecc20f89b4}} 
+int {\bfseries bottom} ()
+\item 
+\mbox{\Hypertarget{class_ship_a4cb05563cc8632db30554047ad70811b}\label{class_ship_a4cb05563cc8632db30554047ad70811b}} 
+int {\bfseries left} ()
+\item 
+\mbox{\Hypertarget{class_ship_a97420a3ffe564858d54ae378ffb675bf}\label{class_ship_a97420a3ffe564858d54ae378ffb675bf}} 
+int {\bfseries right} ()
+\item 
+\mbox{\Hypertarget{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}\label{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}} 
+bool {\bfseries is\+Empty} ()
+\item 
+\mbox{\Hypertarget{class_ship_aee44a9b6f31add5ddf849b79a072e324}\label{class_ship_aee44a9b6f31add5ddf849b79a072e324}} 
+Ship\+Direction {\bfseries current\+Direction} ()
+\item 
+void \mbox{\hyperlink{class_ship_abe985fe663d2e93560734c40faa0f55f}{update}} (Ship\+Direction next, \mbox{\hyperlink{class_block}{Block}} left\+Wall, \mbox{\hyperlink{class_block}{Block}} right\+Wall, float lag)
+\item 
+void \mbox{\hyperlink{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}{draw}} (float lag)
+\item 
+void \mbox{\hyperlink{class_ship_a3e6c8e4839ec569518baad64a4490b14}{draw\+With\+Border}} (float lag, fgcugl\+::\+Color border\+Color=fgcugl\+::\+Black, int border\+Size=1)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_ship_a9f5c5cff9726215ced3ca23cffc8e959}\label{class_ship_a9f5c5cff9726215ced3ca23cffc8e959}} 
+\index{Ship@{Ship}!Ship@{Ship}}
+\index{Ship@{Ship}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{Ship()}{Ship()}}
+{\footnotesize\ttfamily Ship\+::\+Ship (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{fgcugl\+::\+Color}]{color = {\ttfamily fgcugl\+:\+:Green} }\end{DoxyParamCaption})}
+
+Properties constructor -\/ initalize parameter values 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}\label{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}} 
+\index{Ship@{Ship}!draw@{draw}}
+\index{draw@{draw}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Ship\+::draw (\begin{DoxyParamCaption}\item[{float}]{lag }\end{DoxyParamCaption})}
+
+draw a Paddle object on the Open\+GL window relative to current x/y with lag \mbox{\Hypertarget{class_ship_a3e6c8e4839ec569518baad64a4490b14}\label{class_ship_a3e6c8e4839ec569518baad64a4490b14}} 
+\index{Ship@{Ship}!drawWithBorder@{drawWithBorder}}
+\index{drawWithBorder@{drawWithBorder}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{drawWithBorder()}{drawWithBorder()}}
+{\footnotesize\ttfamily void Ship\+::draw\+With\+Border (\begin{DoxyParamCaption}\item[{float}]{lag,  }\item[{fgcugl\+::\+Color}]{border\+Color = {\ttfamily fgcugl\+:\+:Black},  }\item[{int}]{border\+Size = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+draw a paddle with a border by drawing the block passed in on top of a background block
+
+Paramaters\+: border\+Color color of the border block border\+Size size of the border in pixels \mbox{\Hypertarget{class_ship_abe985fe663d2e93560734c40faa0f55f}\label{class_ship_abe985fe663d2e93560734c40faa0f55f}} 
+\index{Ship@{Ship}!update@{update}}
+\index{update@{update}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Ship\+::update (\begin{DoxyParamCaption}\item[{Ship\+Direction}]{next,  }\item[{\mbox{\hyperlink{class_block}{Block}}}]{left\+Wall,  }\item[{\mbox{\hyperlink{class_block}{Block}}}]{right\+Wall,  }\item[{float}]{lag }\end{DoxyParamCaption})}
+
+Update location of the paddle each frame relative to lag and perform collision checking with left and right walls Parameters\+: Next -\/ user keyboard input left\+Wall -\/ location of left wall right\+Wall -\/ location of right wall lag -\/ current frame lag 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Ship.\+h\item 
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Ship.\+cpp\end{DoxyCompactItemize}
