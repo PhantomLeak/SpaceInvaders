@@ -1,0 +1,1517 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'WINDOW_WIDTH' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 26,
+                  "endLine": 28,
+                  "endColumn": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'WINDOW_HEIGHT' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 27,
+                  "endLine": 29,
+                  "endColumn": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'FRAME_RATE' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 27,
+                  "endLine": 33,
+                  "endColumn": 33
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'BALL_SIZE' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 23,
+                  "endLine": 42,
+                  "endColumn": 23
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'fgcugl::Color' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 42,
+                  "endLine": 43,
+                  "endColumn": 42
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'BALL_SPEED_X' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 28,
+                  "endLine": 44,
+                  "endColumn": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'BALL_SPEED_Y' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 28,
+                  "endLine": 45,
+                  "endColumn": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'WALL_SIZE' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 23,
+                  "endLine": 48,
+                  "endColumn": 23
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'ENEMY_HEIGHT' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 26,
+                  "endLine": 51,
+                  "endColumn": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'ENEMY_WIDTH' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 25,
+                  "endLine": 52,
+                  "endColumn": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'ENEMIES_COLUMNS' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 29,
+                  "endLine": 53,
+                  "endColumn": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'ENEMIES_ROWS' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 26,
+                  "endLine": 54,
+                  "endColumn": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'ENEMIES_START_X' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 29,
+                  "endLine": 55,
+                  "endColumn": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'ENEMIES_START_Y' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 30,
+                  "endLine": 56,
+                  "endColumn": 63
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'BRICK_WIDTH' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 25,
+                  "endLine": 59,
+                  "endColumn": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'BRICK_HEIGHT' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 26,
+                  "endLine": 60,
+                  "endColumn": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'BRICKS_COLUMNS' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 28,
+                  "endLine": 61,
+                  "endColumn": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'BRICKS_ROWS' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 25,
+                  "endLine": 62,
+                  "endColumn": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'BRICKS_START_X' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 28,
+                  "endLine": 63,
+                  "endColumn": 42
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'BRICKS_START_Y' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+                },
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 29,
+                  "endLine": 64,
+                  "endColumn": 66
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'shipX' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 7,
+                  "endLine": 36,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'shipY' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 7,
+                  "endLine": 37,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'currentDirection' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 13,
+                  "endLine": 41,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'Direction' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 13,
+                  "endLine": 41,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Expression 'bricks': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 3,
+                  "endLine": 45,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Expression 'enemy': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 3,
+                  "endLine": 49,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Expression 'bricks': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 5,
+                  "endLine": 73,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Expression 'enemy': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 5,
+                  "endLine": 73,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Symbol 'enemies' is never tested for nullness, it can be marked as not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 6,
+                  "endLine": 94,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?createEnemies@@YAXQAY0O@VEnemy@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26818",
+          "message": {
+            "text": "Switch statement does not cover all cases. Consider adding a 'default' label (es.79)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 7,
+                  "endLine": 103,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?createEnemies@@YAXQAY0O@VEnemy@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 7,
+                  "endLine": 121,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?createEnemies@@YAXQAY0O@VEnemy@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Variable 'enemyColor' is uninitialized. Always initialize an object (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 21,
+                  "endLine": 100,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?createEnemies@@YAXQAY0O@VEnemy@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "enemyColor"
+          }
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Expression 'enemies': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/spaceinvaders.cpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 6,
+                  "endLine": 17,
+                  "endColumn": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Symbol 'bricks' is never tested for nullness, it can be marked as not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 6,
+                  "endLine": 138,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?createBricks@@YAXQAY00VBlock@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26818",
+          "message": {
+            "text": "Switch statement does not cover all cases. Consider adding a 'default' label (es.79)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 7,
+                  "endLine": 148,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?createBricks@@YAXQAY00VBlock@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 7,
+                  "endLine": 166,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?createBricks@@YAXQAY00VBlock@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Variable 'blockColor' is uninitialized. Always initialize an object (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 21,
+                  "endLine": 145,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?createBricks@@YAXQAY00VBlock@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "blockColor"
+          }
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Expression 'bricks': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/spaceinvaders.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 6,
+                  "endLine": 16,
+                  "endColumn": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'key' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 8,
+                  "endLine": 188,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?processInput@@YA?AW4Direction@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26818",
+          "message": {
+            "text": "Switch statement does not cover all cases. Consider adding a 'default' label (es.79)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 3,
+                  "endLine": 190,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?processInput@@YA?AW4Direction@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'quit' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 8,
+                  "endLine": 211,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?update@@YA_NAAVShip@@UWalls@@NW4Direction@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'Ship::ShipDirection' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 23,
+                  "endLine": 213,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?update@@YA_NAAVShip@@UWalls@@NW4Direction@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Symbol 'bricks' is never tested for nullness, it can be marked as not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 6,
+                  "endLine": 235,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Symbol 'enemy' is never tested for nullness, it can be marked as not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 6,
+                  "endLine": 235,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 12,
+                  "endLine": 244,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 9,
+                  "endLine": 245,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 12,
+                  "endLine": 254,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 9,
+                  "endLine": 255,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Expression 'bricks': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/spaceinvaders.cpp"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 6,
+                  "endLine": 20,
+                  "endColumn": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Expression 'enemy': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/spaceinvaders.cpp"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 6,
+                  "endLine": 20,
+                  "endColumn": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 12,
+                  "endLine": 244,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 12,
+                  "endLine": 244,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 12,
+                  "endLine": 254,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 12,
+                  "endLine": 254,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Only index into arrays using constant expressions (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?render@@YAXVShip@@QAY00VBlock@@QAY0O@VEnemy@@UWalls@@N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30136.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0006D1C0 -il C:\\Users\\Dstoc\\AppData\\Local\\Temp\\_CL_425073b1ast -typedil -f spaceInvaders.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930136 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I C:\\Users\\Dstoc\\OpenGL\\glew-2.1.0\\include -I C:\\Users\\Dstoc\\OpenGL\\glfw-3.3.4.bin.WIN32\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\spaceInvaders.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset CoreRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a49b780f100b5477d577c0cd172c3ed6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d8761db42ed0c3aabd69d150f96d0688"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/block.h"
+          },
+          "hashes": {
+            "md5": "67aa50b52a7f69190858a60b9e4f1a69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/fgcugl.h"
+          },
+          "hashes": {
+            "md5": "746fad1a5264d97e2cade7e9a6dbb99c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/opengl/glew-2.1.0/include/gl/glew.h"
+          },
+          "hashes": {
+            "md5": "ed03b570ce4f82b44f8f05414b55d9a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/opengl/glfw-3.3.4.bin.win32/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "md5": "3bd6b8c8a50a4064c4f8704c206032d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/enemy.h"
+          },
+          "hashes": {
+            "md5": "7db58e1d1fba9cce4e6dc4ab15d886bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/ship.h"
+          },
+          "hashes": {
+            "md5": "77428105430ee28fe46b220476b31907"
+          }
+        }
+      ]
+    }
+  ]
+}

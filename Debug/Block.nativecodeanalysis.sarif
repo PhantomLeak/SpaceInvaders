@@ -1,0 +1,661 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 8,
+                  "endLine": 12,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Block@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'fgcugl::Color' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 2,
+                  "endLine": 18,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Block@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::Block' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 8,
+                  "endLine": 24,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Block@@QAE@HHHHW4Color@fgcugl@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26436",
+          "message": {
+            "text": "The type 'class Block' with a virtual function needs either public virtual or protected non-virtual destructor (c.35)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 12,
+                  "endLine": 35,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getXCoordinate@Block@@UAEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::getXCoordinate' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 12,
+                  "endLine": 35,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getXCoordinate@Block@@UAEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::getYCoordinate' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 12,
+                  "endLine": 36,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getYCoordinate@Block@@QAEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::getWidth' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 12,
+                  "endLine": 37,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getWidth@Block@@QAEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::getHeight' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 12,
+                  "endLine": 38,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getHeight@Block@@QAEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::getColor' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 22,
+                  "endLine": 39,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getColor@Block@@QAE?AW4Color@fgcugl@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::setXCoordinate' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 13,
+                  "endLine": 41,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?setXCoordinate@Block@@QAEXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::setYCoordinate' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 13,
+                  "endLine": 42,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?setYCoordinate@Block@@QAEXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::setWidth' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 13,
+                  "endLine": 43,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?setWidth@Block@@QAEXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::setHeight' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 13,
+                  "endLine": 44,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?setHeight@Block@@QAEXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::setColor' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 13,
+                  "endLine": 45,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?setColor@Block@@QAEXW4Color@fgcugl@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::top' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 12,
+                  "endLine": 49,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?top@Block@@QAEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::bottom' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 12,
+                  "endLine": 50,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?bottom@Block@@QAEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::left' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 12,
+                  "endLine": 51,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?left@Block@@QAEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::right' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 12,
+                  "endLine": 52,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?right@Block@@QAEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Block::isEmpty' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 13,
+                  "endLine": 57,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?isEmpty@Block@@QAE_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30136.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0006D1C0 -il C:\\Users\\Dstoc\\AppData\\Local\\Temp\\_CL_002aeb07ast -typedil -f Block.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930136 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I C:\\Users\\Dstoc\\OpenGL\\glew-2.1.0\\include -I C:\\Users\\Dstoc\\OpenGL\\glfw-3.3.4.bin.WIN32\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\Block.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset CoreRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a49b780f100b5477d577c0cd172c3ed6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/spaceInvaders.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d8761db42ed0c3aabd69d150f96d0688"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/block.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "67aa50b52a7f69190858a60b9e4f1a69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/fgcugl.h"
+          },
+          "hashes": {
+            "md5": "746fad1a5264d97e2cade7e9a6dbb99c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/opengl/glew-2.1.0/include/gl/glew.h"
+          },
+          "hashes": {
+            "md5": "ed03b570ce4f82b44f8f05414b55d9a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/opengl/glfw-3.3.4.bin.win32/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "md5": "3bd6b8c8a50a4064c4f8704c206032d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/enemy.h"
+          },
+          "hashes": {
+            "md5": "7db58e1d1fba9cce4e6dc4ab15d886bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dstoc/source/repos/spaceinvaders/spaceinvaders/ship.h"
+          },
+          "hashes": {
+            "md5": "77428105430ee28fe46b220476b31907"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Ship.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b3775e6713eaf7cee32b7811b75cbaca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/fgcugl.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3981d7418632f3172543fc45439a9662"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Enemy.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ab99867f95daf179a1b50a08e939b19b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Dstoc/source/repos/SpaceInvaders/spaceInvaders/Block.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a582a0bb49ff0f0bcb23c219f1e65d34"
+          }
+        }
+      ]
+    }
+  ]
+}

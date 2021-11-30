@@ -1,0 +1,2 @@
+C:\Users\Dstoc\source\repos\SpaceInvaders\Debug\spaceInvaders.exe.lastcodeanalysissucceeded
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Debug\NativeCodeAnalysis.read.1.tlog

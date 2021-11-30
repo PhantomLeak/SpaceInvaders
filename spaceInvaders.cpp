@@ -54,6 +54,8 @@ void render(Ship ship, Block bricks[BRICKS_ROWS][BRICKS_COLUMNS],
 
   bool gameover = false;
   while (!gameover) {
+    std::string displayTitle = "SPACE INVADERS";
+    fgcugl::drawText(360, 550, displayTitle, 2.5);
     finishTime = fgcugl::getTime();       // sright the frame timer
     deltaTime += finishTime - startTime;  // add current lag
     startTime = finishTime;

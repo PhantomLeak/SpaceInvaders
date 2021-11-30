@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/I\"C:\\Users\\Dstoc\\OpenGL\\glew-2.1.0\\include\" \/I\"C:\\Users\\Dstoc\\OpenGL\\glfw-3.3.4.bin.WIN32\\include\" \/ZI \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/Od \/Oy- \/D CODE_ANALYSIS \/D WIN32 \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"Debug\\\\\" \/Gd \/TP   \"C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\Block.cpp\"",
+    "file": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\Block.cpp"
+  },
+  {
+    "directory": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/I\"C:\\Users\\Dstoc\\OpenGL\\glew-2.1.0\\include\" \/I\"C:\\Users\\Dstoc\\OpenGL\\glfw-3.3.4.bin.WIN32\\include\" \/ZI \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/Od \/Oy- \/D CODE_ANALYSIS \/D WIN32 \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"Debug\\\\\" \/Gd \/TP   \"C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\Enemy.cpp\"",
+    "file": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\Enemy.cpp"
+  },
+  {
+    "directory": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/I\"C:\\Users\\Dstoc\\OpenGL\\glew-2.1.0\\include\" \/I\"C:\\Users\\Dstoc\\OpenGL\\glfw-3.3.4.bin.WIN32\\include\" \/ZI \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/Od \/Oy- \/D CODE_ANALYSIS \/D WIN32 \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"Debug\\\\\" \/Gd \/TP   \"C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\fgcugl.cpp\"",
+    "file": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\fgcugl.cpp"
+  },
+  {
+    "directory": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/I\"C:\\Users\\Dstoc\\OpenGL\\glew-2.1.0\\include\" \/I\"C:\\Users\\Dstoc\\OpenGL\\glfw-3.3.4.bin.WIN32\\include\" \/ZI \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/Od \/Oy- \/D CODE_ANALYSIS \/D WIN32 \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"Debug\\\\\" \/Gd \/TP   \"C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\Ship.cpp\"",
+    "file": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\Ship.cpp"
+  },
+  {
+    "directory": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders",
+    "command": "\"C:\\WINDOWS\\system32\\CL.exe\" \/c \/I\"C:\\Users\\Dstoc\\OpenGL\\glew-2.1.0\\include\" \/I\"C:\\Users\\Dstoc\\OpenGL\\glfw-3.3.4.bin.WIN32\\include\" \/ZI \/JMC \/nologo \/W3 \/WX- \/diagnostics:column \/Od \/Oy- \/D CODE_ANALYSIS \/D WIN32 \/D _DEBUG \/D _CONSOLE \/D _UNICODE \/D UNICODE \/EHsc \/RTC1 \/MDd \/GS \/fp:precise \/permissive- \/Fo\"Debug\\\\\" \/Gd \/TP   \"C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\spaceInvaders.cpp\"",
+    "file": "C:\\Users\\Dstoc\\source\\repos\\SpaceInvaders\\spaceInvaders\\spaceInvaders.cpp"
+  }
+]

@@ -1,4 +1,730 @@
-﻿  spaceInvaders.cpp
-C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(115,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(131,13): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+﻿  Block.cpp
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(64,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(64,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(64,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(64,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Enemy.cpp
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(61,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(61,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(61,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(61,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  fgcugl.cpp
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(204,33): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(241,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(302,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(303,17): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(304,16): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  Ship.cpp
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(26,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(27,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(43,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(47,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(121,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(126,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(129,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(141,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(161,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(161,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(164,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(164,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  spaceInvaders.cpp
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(58,46): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(220,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(238,13): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Running Code Analysis for C/C++...
+  Generating Code...
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(6,10): warning GA2B63E01: non-portable path to file '"Block.h"'; specified path differs in case from file name on disk [clang-diagnostic-nonportable-include-path]
+  #include "block.h"
+           ^~~~~~~~~
+           "Block.h"
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(35,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Block::getXCoordinate() { return xpos; }
+  ~~~        ^
+  auto                        -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(36,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Block::getYCoordinate() { return ypos; }
+  ~~~        ^
+  auto                        -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(36,12): warning G0EB485FC: method 'getYCoordinate' can be made const [readability-make-member-function-const]
+  int Block::getYCoordinate() { return ypos; }
+             ^
+                              const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(37,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Block::getWidth() { return width; }
+  ~~~        ^
+  auto                  -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(37,12): warning G0EB485FC: method 'getWidth' can be made const [readability-make-member-function-const]
+  int Block::getWidth() { return width; }
+             ^
+                        const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(38,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Block::getHeight() { return height; }
+  ~~~        ^
+  auto                   -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(38,12): warning G0EB485FC: method 'getHeight' can be made const [readability-make-member-function-const]
+  int Block::getHeight() { return height; }
+             ^
+                         const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(39,22): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  fgcugl::Color Block::getColor() { return color; }
+  ~~~~~~~~~~~~~        ^
+  auto                            -> fgcugl::Color
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(49,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Block::top() { return ypos + height; }
+  ~~~        ^
+  auto             -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(49,12): warning G0EB485FC: method 'top' can be made const [readability-make-member-function-const]
+  int Block::top() { return ypos + height; }
+             ^
+                   const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(50,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Block::bottom() { return ypos; }
+  ~~~        ^
+  auto                -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(50,12): warning G0EB485FC: method 'bottom' can be made const [readability-make-member-function-const]
+  int Block::bottom() { return ypos; }
+             ^
+                      const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(51,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Block::left() { return xpos; }
+  ~~~        ^
+  auto              -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(51,12): warning G0EB485FC: method 'left' can be made const [readability-make-member-function-const]
+  int Block::left() { return xpos; }
+             ^
+                    const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(52,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Block::right() { return xpos + width; }
+  ~~~        ^
+  auto               -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(52,12): warning G0EB485FC: method 'right' can be made const [readability-make-member-function-const]
+  int Block::right() { return xpos + width; }
+             ^
+                     const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(57,13): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  bool Block::isEmpty() { return width + height == 0; }
+  ~~~~        ^
+  auto                  -> bool
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(57,13): warning G0EB485FC: method 'isEmpty' can be made const [readability-make-member-function-const]
+  bool Block::isEmpty() { return width + height == 0; }
+              ^
+                        const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(32,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Enemy::getXCoordinate() { return xpos; }
+  ~~~        ^
+  auto                        -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(33,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Enemy::getYCoordinate() { return ypos; }
+  ~~~        ^
+  auto                        -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(33,12): warning G0EB485FC: method 'getYCoordinate' can be made const [readability-make-member-function-const]
+  int Enemy::getYCoordinate() { return ypos; }
+             ^
+                              const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(34,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Enemy::getWidth() { return width; }
+  ~~~        ^
+  auto                  -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(34,12): warning G0EB485FC: method 'getWidth' can be made const [readability-make-member-function-const]
+  int Enemy::getWidth() { return width; }
+             ^
+                        const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(35,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Enemy::getHeight() { return height; }
+  ~~~        ^
+  auto                   -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(35,12): warning G0EB485FC: method 'getHeight' can be made const [readability-make-member-function-const]
+  int Enemy::getHeight() { return height; }
+             ^
+                         const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(36,22): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  fgcugl::Color Enemy::getColor() { return color; }
+  ~~~~~~~~~~~~~        ^
+  auto                            -> fgcugl::Color
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(46,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Enemy::top() { return ypos + height; }
+  ~~~        ^
+  auto             -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(46,12): warning G0EB485FC: method 'top' can be made const [readability-make-member-function-const]
+  int Enemy::top() { return ypos + height; }
+             ^
+                   const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(47,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Enemy::bottom() { return ypos; }
+  ~~~        ^
+  auto                -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(47,12): warning G0EB485FC: method 'bottom' can be made const [readability-make-member-function-const]
+  int Enemy::bottom() { return ypos; }
+             ^
+                      const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(48,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Enemy::left() { return xpos; }
+  ~~~        ^
+  auto              -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(48,12): warning G0EB485FC: method 'left' can be made const [readability-make-member-function-const]
+  int Enemy::left() { return xpos; }
+             ^
+                    const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(49,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Enemy::right() { return xpos + width; }
+  ~~~        ^
+  auto               -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(49,12): warning G0EB485FC: method 'right' can be made const [readability-make-member-function-const]
+  int Enemy::right() { return xpos + width; }
+             ^
+                     const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(54,13): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  bool Enemy::isEmpty() { return width + height == 0; }
+  ~~~~        ^
+  auto                  -> bool
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(54,13): warning G0EB485FC: method 'isEmpty' can be made const [readability-make-member-function-const]
+  bool Enemy::isEmpty() { return width + height == 0; }
+              ^
+                        const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(8,10): warning GC9088177: inclusion of deprecated C++ header 'math.h'; consider using 'cmath' instead [modernize-deprecated-headers]
+  #include <math.h>  // velocity checking
+           ^~~~~~~~
+           <cmath>
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(32,13): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  Block Ship::getShip() { return ship; }
+  ~~~~~       ^
+  auto                  -> Block
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(33,13): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  float Ship::getXCoordinate() { return currentX; }
+  ~~~~~       ^
+  auto                         -> float
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(33,13): warning G0EB485FC: method 'getXCoordinate' can be made const [readability-make-member-function-const]
+  float Ship::getXCoordinate() { return currentX; }
+              ^
+                               const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(34,13): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  float Ship::getYCoordinate() { return currentY; }
+  ~~~~~       ^
+  auto                         -> float
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(34,13): warning G0EB485FC: method 'getYCoordinate' can be made const [readability-make-member-function-const]
+  float Ship::getYCoordinate() { return currentY; }
+              ^
+                               const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(35,11): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Ship::getWidth() { return ship.getWidth(); }
+  ~~~       ^
+  auto                 -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(36,11): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Ship::getHeight() { return ship.getHeight(); }
+  ~~~       ^
+  auto                  -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(37,13): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  float Ship::getVelocity() { return velocity; }
+  ~~~~~       ^
+  auto                      -> float
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(37,13): warning G0EB485FC: method 'getVelocity' can be made const [readability-make-member-function-const]
+  float Ship::getVelocity() { return velocity; }
+              ^
+                            const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(38,21): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  fgcugl::Color Ship::getColor() { return ship.getColor(); }
+  ~~~~~~~~~~~~~       ^
+  auto                           -> fgcugl::Color
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(55,11): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Ship::top() { return ship.top(); }
+  ~~~       ^
+  auto            -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(56,11): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Ship::bottom() { return ship.bottom(); }
+  ~~~       ^
+  auto               -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(57,11): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Ship::left() { return ship.left(); }
+  ~~~       ^
+  auto             -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(58,11): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  int Ship::right() { return ship.right(); }
+  ~~~       ^
+  auto              -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(60,12): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  bool Ship::isEmpty() { return ship.isEmpty(); }
+  ~~~~       ^
+  auto                 -> bool
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(62,27): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  Ship::ShipDirection Ship::currentDirection() {
+  ~~~~~~~~~~~~~~~~~~~       ^
+  auto                                         -> Ship::ShipDirection
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(62,27): warning G0EB485FC: method 'currentDirection' can be made const [readability-make-member-function-const]
+  Ship::ShipDirection Ship::currentDirection() {
+                            ^
+                                               const
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(22,28): warning G7F9B23DD: all parameters should be named in a function [readability-named-parameter]
+          void setColor(unsigned int);
+                                    ^
+                                     /*color*/
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(27,8): warning G430775E5: implicit conversion 'int' -> bool [readability-implicit-bool-conversion]
+                  if (!glfwInit())
+                      ~^
+                                  == 0
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(27,19): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  if (!glfwInit())
+                                  ^
+                                   {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(38,17): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  if (resizable)
+                                ^
+                                 {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(40,7): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else
+                      ^
+                       {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(45,61): warning GC456CE42: use nullptr [modernize-use-nullptr]
+                  s_window = glfwCreateWindow(width, height, title.c_str(), NULL, NULL);
+                                                                            ^~~~
+                                                                            nullptr
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(45,67): warning GC456CE42: use nullptr [modernize-use-nullptr]
+                  s_window = glfwCreateWindow(width, height, title.c_str(), NULL, NULL);
+                                                                                  ^~~~
+                                                                                  nullptr
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(47,8): warning G430775E5: implicit conversion 'GLFWwindow *' -> bool [readability-implicit-bool-conversion]
+                  if (!s_window)
+                      ~^
+                                == nullptr
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(79,16): warning G0FA3AB64: floating point literal has suffix 'f', which is not uppercase [readability-uppercase-literal-suffix]
+                  glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+                               ^  ~
+                                  F
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(79,22): warning G0FA3AB64: floating point literal has suffix 'f', which is not uppercase [readability-uppercase-literal-suffix]
+                  glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+                                     ^  ~
+                                        F
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(79,28): warning G0FA3AB64: floating point literal has suffix 'f', which is not uppercase [readability-uppercase-literal-suffix]
+                  glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+                                           ^  ~
+                                              F
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(79,34): warning G0FA3AB64: floating point literal has suffix 'f', which is not uppercase [readability-uppercase-literal-suffix]
+                  glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+                                                 ^  ~
+                                                    F
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(84,7): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+          bool windowClosing()
+          ~~~~ ^
+          auto                 -> bool
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(86,10): warning G430775E5: implicit conversion 'int' -> bool [readability-implicit-bool-conversion]
+                  return glfwWindowShouldClose(s_window);
+                         ^
+                                                         != 0
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(97,9): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+          double getTime()
+          ~~~~~~ ^
+          auto             -> double
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(102,16): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+          unsigned char getKey()
+          ~~~~~~~~~~~~~ ^
+          auto                   -> unsigned char
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(106,59): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  if (glfwGetKey(s_window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+                                                                          ^
+                                                                           {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(107,10): warning GD20ABED0: 0x1B is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                          key = 0x1B; // ESC
+                                ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(108,59): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else if (glfwGetKey(s_window, GLFW_KEY_X) == GLFW_PRESS)
+                                                                          ^
+                                                                           {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(110,59): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else if (glfwGetKey(s_window, GLFW_KEY_W) == GLFW_PRESS)
+                                                                          ^
+                                                                           {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(112,59): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else if (glfwGetKey(s_window, GLFW_KEY_S) == GLFW_PRESS)
+                                                                          ^
+                                                                           {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(114,59): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else if (glfwGetKey(s_window, GLFW_KEY_A) == GLFW_PRESS)
+                                                                          ^
+                                                                           {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(116,59): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else if (glfwGetKey(s_window, GLFW_KEY_D) == GLFW_PRESS)
+                                                                          ^
+                                                                           {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(118,60): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else if (glfwGetKey(s_window, GLFW_KEY_UP) == GLFW_PRESS)
+                                                                           ^
+                                                                            {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(120,62): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else if (glfwGetKey(s_window, GLFW_KEY_DOWN) == GLFW_PRESS)
+                                                                             ^
+                                                                              {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(122,62): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else if (glfwGetKey(s_window, GLFW_KEY_LEFT) == GLFW_PRESS)
+                                                                             ^
+                                                                              {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(124,63): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  else if (glfwGetKey(s_window, GLFW_KEY_RIGHT) == GLFW_PRESS)
+                                                                              ^
+                                                                               {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(144,3): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+                  GLfloat vertices[] =
+                  ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(162,3): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+                  GLfloat pointVertex[] = { x, y };
+                  ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(165,14): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  if (smooth)
+                             ^
+                              {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(173,14): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  if (smooth)
+                             ^
+                              {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(180,3): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+                  GLfloat lineVertices[] = {
+                  ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(187,14): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  if (smooth)
+                             ^
+                              {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(195,14): warning G70A15EFF: statement should be inside braces [google-readability-braces-around-statements,readability-braces-around-statements]
+                  if (smooth)
+                             ^
+                              {
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(204,22): warning G61A965A2: 2.0f is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                  GLfloat doublePi = 2.0f * M_PI;
+                                     ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(204,22): warning G0FA3AB64: floating point literal has suffix 'f', which is not uppercase [readability-uppercase-literal-suffix]
+                  GLfloat doublePi = 2.0f * M_PI;
+                                     ^  ~
+                                        F
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(206,3): warning G233B552D: use auto when initializing with new to avoid duplicating the type name [modernize-use-auto]
+                  GLfloat* circleVerticesX = new GLfloat[numberOfVertices];
+                  ^~~~~~~
+                  auto
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(207,3): warning G233B552D: use auto when initializing with new to avoid duplicating the type name [modernize-use-auto]
+                  GLfloat* circleVerticesY = new GLfloat[numberOfVertices];
+                  ^~~~~~~
+                  auto
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(218,3): warning G233B552D: use auto when initializing with new to avoid duplicating the type name [modernize-use-auto]
+                  GLfloat* allCircleVertices = new GLfloat[numberOfVertices * 2];
+                  ^~~~~~~
+                  auto
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(239,3): warning G64A2F80C: multiple declarations in a single statement reduces readability [readability-isolate-declaration]
+                  GLfloat xpos, ypos;
+                  ^~~~~~~~~~~~~~~~~~~
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(241,3): warning G4F9AAA59: use range-based for loop instead [modernize-loop-convert]
+                  for (int c = 0; c < text.length(); c++)
+                  ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                      (char c : text)
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(243,15): warning G4D00918C: 8 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                          ypos = y + 8;
+                                     ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(244,24): warning G4D00918C: 8 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                          for (int i = 0; i < 8; i++)
+                                              ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(247,41): warning G30911502: 32 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                                  GLubyte byte = CHARACTERS[text[c] - 32][i];
+                                                                      ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(248,25): warning G4D00918C: 8 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                                  for (int b = 0; b < 8; b++)
+                                                      ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(250,10): warning G430775E5: implicit conversion 'int' -> bool [readability-implicit-bool-conversion]
+                                          if (byte & 0x80)
+                                              ^
+                                              (          ) != 0
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(250,17): warning GFC007884: 0x80 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                                          if (byte & 0x80)
+                                                     ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(252,7): warning GF01600D6: Variable 'ys' with floating point type 'GLfloat' should not be used as a loop counter [clang-analyzer-security.FloatLoopCounter]
+                                                  for (GLfloat ys = ypos; ys < ypos + size; ys++)
+                                                  ^
+  C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp:252:7: note: Variable 'ys' with floating point type 'GLfloat' should not be used as a loop counter
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(254,8): warning GF01600D6: Variable 'xs' with floating point type 'GLfloat' should not be used as a loop counter [clang-analyzer-security.FloatLoopCounter]
+                                                          for (GLfloat xs = xpos; xs < xpos + size; xs++)
+                                                          ^
+  C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp:254:8: note: Variable 'xs' with floating point type 'GLfloat' should not be used as a loop counter
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(302,28): warning GD965410A: 16 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                  GLfloat red = ((color >> 16) & 0xFF) / 255.0;
+                                           ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(302,34): warning G3A06AF62: 0xFF is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                  GLfloat red = ((color >> 16) & 0xFF) / 255.0;
+                                                 ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(302,42): warning G1BA75B5E: 255.0 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                  GLfloat red = ((color >> 16) & 0xFF) / 255.0;
+                                                         ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(303,30): warning G4D00918C: 8 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                  GLfloat green = ((color >> 8) & 0xFF) / 255.0;
+                                             ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(303,35): warning G3A06AF62: 0xFF is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                  GLfloat green = ((color >> 8) & 0xFF) / 255.0;
+                                                  ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(303,43): warning G1BA75B5E: 255.0 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                  GLfloat green = ((color >> 8) & 0xFF) / 255.0;
+                                                          ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(304,27): warning G3A06AF62: 0xFF is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                  GLfloat blue = (color & 0xFF) / 255.0;
+                                          ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(304,35): warning G1BA75B5E: 255.0 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+                  GLfloat blue = (color & 0xFF) / 255.0;
+                                                  ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(16,19): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+  void createBricks(Block bricks[BRICKS_ROWS][BRICKS_COLUMNS]);
+                    ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(17,20): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+  void createEnemies(Enemy enemies[ENEMIES_ROWS][ENEMIES_COLUMNS]);
+                     ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(18,11): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  Direction processInput();
+  ~~~~~~~~~ ^
+  auto                     -> Direction
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(19,6): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  bool update(Ship& ship, Walls walls, double lag, Direction next);
+  ~~~~ ^
+  auto                                                             -> bool
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(20,24): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+  void render(Ship ship, Block bricks[BRICKS_ROWS][BRICKS_COLUMNS],
+                         ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(21,13): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+              Enemy enemy[ENEMIES_ROWS][ENEMIES_COLUMNS], Walls walls,
+              ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(24,9): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+      int main() {
+      ~~~ ^
+      auto       -> int
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(41,3): warning G64A2F80C: multiple declarations in a single statement reduces readability [readability-isolate-declaration]
+    Direction currentDirection = DIR_NONE, nextDirection = DIR_NONE;
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(41,13): warning G7C671A4C: unused variable 'currentDirection' [clang-diagnostic-unused-variable]
+    Direction currentDirection = DIR_NONE, nextDirection = DIR_NONE;
+              ^
+  Suppressed 37456 warnings (37456 in non-user code).
+  Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(44,3): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+    Block bricks[BRICKS_ROWS][BRICKS_COLUMNS];
+    ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(48,3): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+    Enemy enemy[ENEMIES_ROWS][ENEMIES_COLUMNS];
+    ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(53,3): warning G64A2F80C: multiple declarations in a single statement reduces readability [readability-isolate-declaration]
+    double finishTime = 0.0, deltaTime = 0.0;
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(58,22): warning GC2AC0F57: 360 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+      fgcugl::drawText(360, 550, displayTitle, 2.5);
+                       ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(58,27): warning G8FF7F732: 550 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+      fgcugl::drawText(360, 550, displayTitle, 2.5);
+                            ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(58,46): warning GE66B59EB: implicit conversion from 'double' to 'int' changes value from 2.5 to 2 [clang-diagnostic-literal-conversion]
+      fgcugl::drawText(360, 550, displayTitle, 2.5);
+                                               ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(58,46): warning GFA799802: 2.5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(94,20): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+  void createEnemies(Enemy enemies[ENEMIES_ROWS][ENEMIES_COLUMNS]) {
+                     ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(113,14): warning G8AE7BC01: 5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+          case 5:
+               ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(116,14): warning G6A7730B0: 6 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+          case 6:
+               ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(117,14): warning G2E242078: 7 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+          case 7:
+               ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(138,19): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+  void createBricks(Block bricks[BRICKS_ROWS][BRICKS_COLUMNS]) {
+                    ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(158,14): warning G8AE7BC01: 5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+          case 5:
+               ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(161,14): warning G6A7730B0: 6 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+          case 6:
+               ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(162,14): warning G2E242078: 7 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+          case 7:
+               ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(184,11): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  Direction processInput() {
+  ~~~~~~~~~ ^
+  auto                     -> Direction
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(210,6): warning GB5504D48: use a trailing return type for this function [modernize-use-trailing-return-type]
+  bool update(Ship& ship, Walls walls, double lag, Direction next) {
+  ~~~~ ^
+  auto                                                             -> bool
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(235,24): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+  void render(Ship ship, Block bricks[BRICKS_ROWS][BRICKS_COLUMNS],
+                         ^
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(236,13): warning G9ADF52A3: do not declare C-style arrays, use std::array<> instead [modernize-avoid-c-arrays]
+              Enemy enemy[ENEMIES_ROWS][ENEMIES_COLUMNS], Walls walls,
+              ^
   spaceInvaders.vcxproj -> C:\Users\Dstoc\source\repos\SpaceInvaders\Debug\spaceInvaders.exe
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(12): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(18): warning C26812: The enum type 'fgcugl::Color' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(24): warning C26440: Function 'Block::Block' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(35): warning C26436: The type 'class Block' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(35): warning C26440: Function 'Block::getXCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(36): warning C26440: Function 'Block::getYCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(37): warning C26440: Function 'Block::getWidth' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(38): warning C26440: Function 'Block::getHeight' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(39): warning C26440: Function 'Block::getColor' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(41): warning C26440: Function 'Block::setXCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(42): warning C26440: Function 'Block::setYCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(43): warning C26440: Function 'Block::setWidth' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(44): warning C26440: Function 'Block::setHeight' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(45): warning C26440: Function 'Block::setColor' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(49): warning C26440: Function 'Block::top' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(50): warning C26440: Function 'Block::bottom' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(51): warning C26440: Function 'Block::left' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(52): warning C26440: Function 'Block::right' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.cpp(57): warning C26440: Function 'Block::isEmpty' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(11): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(11): warning C26495: Variable 'Enemy::direction' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(16): warning C26812: The enum type 'fgcugl::Color' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(22): warning C26495: Variable 'Enemy::direction' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(32): warning C26433: Function 'Enemy::getXCoordinate' should be marked with 'override' (c.128).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(32): warning C26436: The type 'class Enemy' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(32): warning C26440: Function 'Enemy::getXCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(33): warning C26434: Function 'Enemy::getYCoordinate' hides a non-virtual function 'Block::getYCoordinate'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(33): warning C26440: Function 'Enemy::getYCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(34): warning C26434: Function 'Enemy::getWidth' hides a non-virtual function 'Block::getWidth'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(34): warning C26440: Function 'Enemy::getWidth' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(35): warning C26434: Function 'Enemy::getHeight' hides a non-virtual function 'Block::getHeight'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(35): warning C26440: Function 'Enemy::getHeight' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(36): warning C26434: Function 'Enemy::getColor' hides a non-virtual function 'Block::getColor'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(36): warning C26440: Function 'Enemy::getColor' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(38): warning C26434: Function 'Enemy::setXCoordinate' hides a non-virtual function 'Block::setXCoordinate'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(38): warning C26440: Function 'Enemy::setXCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(39): warning C26434: Function 'Enemy::setYCoordinate' hides a non-virtual function 'Block::setYCoordinate'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(39): warning C26440: Function 'Enemy::setYCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(40): warning C26434: Function 'Enemy::setWidth' hides a non-virtual function 'Block::setWidth'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(40): warning C26440: Function 'Enemy::setWidth' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(41): warning C26434: Function 'Enemy::setHeight' hides a non-virtual function 'Block::setHeight'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(41): warning C26440: Function 'Enemy::setHeight' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(42): warning C26434: Function 'Enemy::setColor' hides a non-virtual function 'Block::setColor'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(42): warning C26440: Function 'Enemy::setColor' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(46): warning C26434: Function 'Enemy::top' hides a non-virtual function 'Block::top'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(46): warning C26440: Function 'Enemy::top' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(47): warning C26434: Function 'Enemy::bottom' hides a non-virtual function 'Block::bottom'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(47): warning C26440: Function 'Enemy::bottom' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(48): warning C26434: Function 'Enemy::left' hides a non-virtual function 'Block::left'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(48): warning C26440: Function 'Enemy::left' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(49): warning C26434: Function 'Enemy::right' hides a non-virtual function 'Block::right'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(49): warning C26440: Function 'Enemy::right' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(54): warning C26434: Function 'Enemy::isEmpty' hides a non-virtual function 'Block::isEmpty'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(54): warning C26440: Function 'Enemy::isEmpty' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(59): warning C26434: Function 'Enemy::draw' hides a non-virtual function 'Block::draw'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Enemy.cpp(72): warning C26434: Function 'Enemy::drawWithBorder' hides a non-virtual function 'Block::drawWithBorder'.
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(24): warning C26440: Function 'fgcugl::openWindow' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(45): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(45): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(84): warning C26440: Function 'fgcugl::windowClosing' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(89): warning C26440: Function 'fgcugl::windowPaint' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(97): warning C26440: Function 'fgcugl::getTime' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(102): warning C26440: Function 'fgcugl::getKey' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(130): warning C26440: Function 'fgcugl::getEvents' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(136): warning C26440: Function 'fgcugl::cleanup' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(144): warning C26496: The variable 'vertices' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(153): warning C26485: Expression 'vertices': No array to pointer decay (bounds.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(162): warning C26496: The variable 'pointVertex' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(169): warning C26485: Expression 'pointVertex': No array to pointer decay (bounds.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(180): warning C26496: The variable 'lineVertices' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(191): warning C26485: Expression 'lineVertices': No array to pointer decay (bounds.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(202): warning C26496: The variable 'numberOfVertices' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(204): warning C26496: The variable 'doublePi' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(206): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(206): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(207): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(207): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(218): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(218): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(232): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(232): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(233): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(233): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(234): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(234): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(209): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(210): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(214): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(215): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(222): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(223): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(247): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(247): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(247): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(239): warning C26494: Variable 'xpos' is uninitialized. Always initialize an object (type.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(239): warning C26494: Variable 'ypos' is uninitialized. Always initialize an object (type.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(247): warning C26482: Only index into arrays using constant expressions (bounds.2).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(283): warning C26440: Function 'fgcugl::framebuffer_size_callback' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(302): warning C26496: The variable 'red' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(303): warning C26496: The variable 'green' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(304): warning C26496: The variable 'blue' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\fgcugl.cpp(300): warning C26440: Function 'fgcugl::setColor' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(10): warning C26814: The const variable 'ACCEL_SPEED' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(11): warning C26814: The const variable 'MAX_SPEED' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(14): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Block.h(49): warning C26812: The enum type 'fgcugl::Color' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(32): warning C26440: Function 'Ship::getShip' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(33): warning C26440: Function 'Ship::getXCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(34): warning C26440: Function 'Ship::getYCoordinate' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(37): warning C26440: Function 'Ship::getVelocity' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(51): warning C26440: Function 'Ship::setVelocity' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(62): warning C26440: Function 'Ship::currentDirection' can be declared 'noexcept' (f.6).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(63): warning C26494: Variable 'direction' is uninitialized. Always initialize an object (type.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(63): warning C26812: The enum type 'Ship::ShipDirection' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(85): warning C26496: The variable 'curDir' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(139): warning C26496: The variable 'x' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(155): warning C26496: The variable 'x' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(156): warning C26496: The variable 'y' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(157): warning C26496: The variable 'width' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(158): warning C26496: The variable 'height' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\Ship.cpp(159): warning C26496: The variable 'color' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(28): warning C26814: The const variable 'WINDOW_WIDTH' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(29): warning C26814: The const variable 'WINDOW_HEIGHT' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(33): warning C26814: The const variable 'FRAME_RATE' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(42): warning C26814: The const variable 'BALL_SIZE' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(43): warning C26812: The enum type 'fgcugl::Color' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(44): warning C26814: The const variable 'BALL_SPEED_X' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(45): warning C26814: The const variable 'BALL_SPEED_Y' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(48): warning C26814: The const variable 'WALL_SIZE' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(51): warning C26814: The const variable 'ENEMY_HEIGHT' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(52): warning C26814: The const variable 'ENEMY_WIDTH' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(53): warning C26814: The const variable 'ENEMIES_COLUMNS' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(54): warning C26814: The const variable 'ENEMIES_ROWS' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(55): warning C26814: The const variable 'ENEMIES_START_X' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(56): warning C26814: The const variable 'ENEMIES_START_Y' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(59): warning C26814: The const variable 'BRICK_WIDTH' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(60): warning C26814: The const variable 'BRICK_HEIGHT' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(61): warning C26814: The const variable 'BRICKS_COLUMNS' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(62): warning C26814: The const variable 'BRICKS_ROWS' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(63): warning C26814: The const variable 'BRICKS_START_X' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.h(64): warning C26814: The const variable 'BRICKS_START_Y' can be computed at compile-time. Consider using constexpr (con.5).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(36): warning C26496: The variable 'shipX' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(37): warning C26496: The variable 'shipY' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(41): warning C26496: The variable 'currentDirection' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(41): warning C26812: The enum type 'Direction' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(45): warning C26485: Expression 'bricks': No array to pointer decay (bounds.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(49): warning C26485: Expression 'enemy': No array to pointer decay (bounds.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(73): warning C26485: Expression 'bricks': No array to pointer decay (bounds.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(94): warning C26429: Symbol 'enemies' is never tested for nullness, it can be marked as not_null (f.23).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(103): warning C26818: Switch statement does not cover all cases. Consider adding a 'default' label (es.79).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(121): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(100): warning C26494: Variable 'enemyColor' is uninitialized. Always initialize an object (type.5).
+c:\users\dstoc\source\repos\spaceinvaders\spaceinvaders\spaceinvaders.cpp(17): warning C26485: Expression 'enemies': No array to pointer decay (bounds.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(138): warning C26429: Symbol 'bricks' is never tested for nullness, it can be marked as not_null (f.23).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(148): warning C26818: Switch statement does not cover all cases. Consider adding a 'default' label (es.79).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(166): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(145): warning C26494: Variable 'blockColor' is uninitialized. Always initialize an object (type.5).
+c:\users\dstoc\source\repos\spaceinvaders\spaceinvaders\spaceinvaders.cpp(16): warning C26485: Expression 'bricks': No array to pointer decay (bounds.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(188): warning C26496: The variable 'key' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(190): warning C26818: Switch statement does not cover all cases. Consider adding a 'default' label (es.79).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(211): warning C26496: The variable 'quit' does not change after construction, mark it as const (con.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(213): warning C26812: The enum type 'Ship::ShipDirection' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(235): warning C26429: Symbol 'bricks' is never tested for nullness, it can be marked as not_null (f.23).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(244): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(245): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(254): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(255): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+c:\users\dstoc\source\repos\spaceinvaders\spaceinvaders\spaceinvaders.cpp(20): warning C26485: Expression 'bricks': No array to pointer decay (bounds.3).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(244): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(244): warning C26482: Only index into arrays using constant expressions (bounds.2).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(245): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(245): warning C26482: Only index into arrays using constant expressions (bounds.2).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(254): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(254): warning C26482: Only index into arrays using constant expressions (bounds.2).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(255): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+C:\Users\Dstoc\source\repos\SpaceInvaders\spaceInvaders\spaceInvaders.cpp(255): warning C26482: Only index into arrays using constant expressions (bounds.2).
