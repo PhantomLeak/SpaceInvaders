@@ -1,7 +1,14 @@
-// file: Ship.h
-// by: Dylan Stocking
-// Des: Declaration of Ship class object
-//--------------------------------------------------------------------
+/** @file Ship.h
+
+ *  @brief Declaration of Ship class object
+
+ *  Declaring ship class object that the user will control
+
+ *  @author Dylan Stocking
+
+ *  @bug No known bugs.
+
+ */
 
 #ifndef SHIP_H
 #define SHIP_H

@@ -1,13 +1,20 @@
-// file: Enemy.cpp
-// by: Dylan Stocking
-// Des: implementation of Enemy class object
-//-----------------------------------------------------
+/** @file Enemy.cpp
+
+ *  @brief Implementation of Enemy class object
+
+ *  Implementation of Enemy class to get and set variables 
+
+ *  @author Dylan Stocking
+
+ *  @bug No known bugs.
+
+ */
 #include "Enemy.h"
 // constructors
-//-----------------------------------------------------
+
 /**
- * defaut constructor - initialize empty Enemy
- */
+* @brief initialize empty enemy
+*/
 Enemy::Enemy() {
   xpos = 0;
   ypos = 0;
@@ -17,7 +24,7 @@ Enemy::Enemy() {
 }
 
 /**
-* Properties constructor - Initialize to paramater values
+* @brief Initialize to paramater values
 */
 Enemy::Enemy(int x, int y, int width, int height, fgcugl::Color color) {
   xpos = x;
@@ -49,12 +56,14 @@ int Enemy::left() { return xpos; }
 int Enemy::right() { return xpos + width; }
 
 /**
-* return true if Enemy is empty (width + height is zero)
+* @brief checks to enemy object is empty
+* @return bool
 */
 bool Enemy::isEmpty() { return width + height == 0; }
 
 /**
-draw a Enemy object on the OpenGL window
+ * @brief draw a Enemy object on the OpenGL window
+ * @return void 
 */
 void Enemy::draw()
 {
@@ -62,12 +71,13 @@ void Enemy::draw()
 }
 
 /**
-* draw a Enemy with a border by drawing the Enemy passed in on top
+* @brief Draw an Enemy with a broder by drawing the enemy pass in top 
 * of a background Enemy
-*
-* Paramaters:
-* borderColor	color of the border Enemy
-* borderSize	size of the border in pixels
+* 
+* @param borderColor
+* @param borderSize
+* 
+* @return void
 */
 void Enemy::drawWithBorder(fgcugl::Color borderColor, int borderSize)
 {

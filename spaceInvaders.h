@@ -1,7 +1,14 @@
-// file: spaceInvader.h
-// by: Dylan Stocking
-// Des: Main configuration for the game
-//--------------------------------------------------------------------
+/** @file spaceInvaders.h
+
+ *  @brief Main configuration for the game
+
+ *  Main configureation of objects and variables to be used in the game
+
+ *  @author Dylan Stocking
+
+ *  @bug No known bugs.
+
+ */
 
 #ifndef SPACEINVADERS_H
 #define SPACEINVADERS_H
@@ -59,9 +66,9 @@ const int ENEMIES_START_Y = (WINDOW_HEIGHT / 2 * WALL_SIZE) / 2;
 const int BRICK_WIDTH = 100;
 const int BRICK_HEIGHT = 80;
 const int BRICKS_COLUMNS = 1;  // number of bricks across
-const int BRICKS_ROWS = 1;      // number of brcks down
-const int BRICKS_START_X = WALL_SIZE * + 100;
-const int BRICKS_START_Y = (WINDOW_HEIGHT /2 - 30 * WALL_SIZE) / 2;
+const int BRICKS_ROWS = 1;     // number of brcks down
+const int BRICKS_START_X = WALL_SIZE * +100;
+const int BRICKS_START_Y = (WINDOW_HEIGHT / 2 - 30 * WALL_SIZE) / 2;
 
 //---------------------------------------------------------//
 // Structures

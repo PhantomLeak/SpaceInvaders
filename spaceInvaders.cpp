@@ -1,7 +1,15 @@
-// file: spaceInvaders.cpp
-// by: Dylan Stocking
-// Des: Main application file for space invaders game
-//-----------------------------------------------------
+/** @file spaceInvaders.cpp
+
+ *  @brief Main application file for space invaders game
+
+ *  Main application file to display and render movement, refresh rate, and
+ functions of application
+
+ *  @author Dylan Stocking
+
+ *  @bug No known bugs.
+
+ */
 
 #include "spaceInvaders.h"  // header file
 
@@ -21,7 +29,7 @@ void render(Ship ship, Block bricks[BRICKS_ROWS][BRICKS_COLUMNS],
             Enemy enemy[ENEMIES_ROWS][ENEMIES_COLUMNS], Walls walls,
             double lag);
 
-    int main() {
+int main() {
   // main game window
   fgcugl::openWindow(WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_TITLE, false);
 
@@ -83,13 +91,12 @@ void render(Ship ship, Block bricks[BRICKS_ROWS][BRICKS_COLUMNS],
 }
 
 /**
- * Create rows of enemies
+ * @brief Create rows of enemies
  *
- * Parameters:
- * enemies		the array of blocks
+ * @param enemies
+ * @param array of blocks
  *
- * Returns:
- * void
+ * @return void
  */
 void createEnemies(Enemy enemies[ENEMIES_ROWS][ENEMIES_COLUMNS]) {
   int y = ENEMIES_START_Y;
@@ -127,13 +134,12 @@ void createEnemies(Enemy enemies[ENEMIES_ROWS][ENEMIES_COLUMNS]) {
 }  // create enemies
 
 /**
- * Create bricks for user
+ * @brief Create bricks for user
  *
- * Parameters:
- * bricks		the array of blocks
+ * @param bricks
+ * @param array of blocks
  *
- * Returns:
- * void
+ * @return void
  */
 void createBricks(Block bricks[BRICKS_ROWS][BRICKS_COLUMNS]) {
   int y = BRICKS_START_Y;
@@ -176,11 +182,10 @@ void createBricks(Block bricks[BRICKS_ROWS][BRICKS_COLUMNS]) {
 }  // createBricks
 
 /**
- get user keyboard input
- parameters:
- Return:
- Direction	next direction to move (default DIR_NONE)
-*/
+ * @brief Get user direction
+ * 
+ * @return Direction newdirection
+ */
 Direction processInput() {
   Direction direction = DIR_NONE;
 
@@ -207,6 +212,17 @@ Direction processInput() {
   return direction;
 }  // end processInput
 
+/**
+ * @brief Update objectes on OpenGL window
+ *
+ * @param ship
+ * @param walls
+ * @param lag
+ * @param next
+ *
+ * @return bool
+ */
+
 bool update(Ship& ship, Walls walls, double lag, Direction next) {
   bool quit = false;
 
@@ -223,15 +239,16 @@ bool update(Ship& ship, Walls walls, double lag, Direction next) {
 }
 
 /**
-draw game objects on OpenGL window
-Parameters:
-        ball			   location and speed of the ball
-        paddle			   loaction of player paddle
-        walls              border walls for collision check
-        lag                build up of lag between frames
-returnts:
-void
-*/
+ * @brief draw game objects on OpenGL window
+ *
+ * @param ship
+ * @param bricks
+ * @param enemy
+ * @param walls
+ * @param lag
+ *
+ * return void
+ */
 void render(Ship ship, Block bricks[BRICKS_ROWS][BRICKS_COLUMNS],
             Enemy enemy[ENEMIES_ROWS][ENEMIES_COLUMNS], Walls walls,
             double lag) {

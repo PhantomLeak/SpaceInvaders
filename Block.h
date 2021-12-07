@@ -1,6 +1,14 @@
-// file: Block.h
-// By: Dylan Stocking
-// Des: Declaration of block class object
+/** @file Block.h
+
+ *  @brief Declaration of block class object
+
+ *  Block class object used for enemies, user blocks, and player ship
+
+ *  @author Dylan Stocking
+
+ *  @bug No known bugs.
+
+ */
 
 #ifndef BLOCK_H
 #define BLOCK_H

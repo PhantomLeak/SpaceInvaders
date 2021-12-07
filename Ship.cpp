@@ -1,7 +1,14 @@
-// file: Ship.cpp
-// by: Dylan Stocking
-// Des: implementation of a player Ship block class object
-//-----------------------------------------------------
+/** @file Ship.cpp
+
+ *  @brief Implementation of play ship block class object
+
+ *  Implementation of object user controlls to fight against enemy
+
+ *  @author Dylan Stocking
+
+ *  @bug No known bugs.
+
+ */
 
 #include "Ship.h"
 
@@ -10,7 +17,9 @@
 const float ACCEL_SPEED = 6.0;
 const float MAX_SPEED = 300.0;
 
-// Constructors
+/**
+ * @brief initialize empty ship
+ */
 Ship::Ship() {
   ship = Block();
   currentX = 0.0;
@@ -19,7 +28,7 @@ Ship::Ship() {
 }
 
 /**
- * Properties constructor - initalize parameter values
+ * @brief Initalize parameter values
  */
 Ship::Ship(int x, int y, int width, int height, fgcugl::Color color) {
   ship = Block(x, y, width, height, color);
@@ -57,8 +66,17 @@ int Ship::bottom() { return ship.bottom(); }
 int Ship::left() { return ship.left(); }
 int Ship::right() { return ship.right(); }
 
+/**
+ * @brief checks if ship object is empty
+ * @return bool
+ */
 bool Ship::isEmpty() { return ship.isEmpty(); }
 
+/**
+ * @brief Get ships current direction
+ *
+ * @return bool
+ */
 Ship::ShipDirection Ship::currentDirection() {
   ShipDirection direction;
   if (fpclassify(velocity) == FP_ZERO) {
@@ -72,14 +90,13 @@ Ship::ShipDirection Ship::currentDirection() {
 }
 
 /**
-Update location of the paddle each frame relative to lag
-and perform collision checking with left and right walls
-Parameters:
-Next		- user keyboard input
-leftWall	- location of left wall
-rightWall	- location of right wall
-lag			- current frame lag
-*/
+ * @brief Update location of ship each from relative to lag and perform
+ * collision checking with left and right walls
+ * @param next
+ * @param leftWall
+ * @param rightWall
+ * @param lag
+ */
 void Ship::update(ShipDirection next, Block leftWall, Block rightWall,
                   float lag) {
   ShipDirection curDir = currentDirection();
@@ -132,9 +149,11 @@ void Ship::update(ShipDirection next, Block leftWall, Block rightWall,
 }  // update
 
 /**
-draw a Paddle object on the OpenGL window relative to
-current x/y with lag
-*/
+ * @brief Draw ship object on the OpenGL Window Relative to current x/y with
+ * lag
+ * 
+ * @param lag
+ */
 void Ship::draw(float lag) {
   float x = currentX + velocity * lag;
   Block currentPos(ship);
@@ -143,13 +162,14 @@ void Ship::draw(float lag) {
 }
 
 /**
- * draw a paddle with a border by drawing the block passed in on top
- * of a background block
+ * @brief Draw a ship with a border by drawing the block passed in on top of a background block
  *
- * Paramaters:
- * borderColor	color of the border block
- * borderSize	size of the border in pixels
- */
+ * @param lag 
+ * @param borderColor 
+ * @param borderSize 
+ * 
+ * @return void
+*/
 void Ship::drawWithBorder(float lag, fgcugl::Color borderColor,
                           int borderSize) {
   float x = currentX + velocity * lag;

@@ -1,6 +1,14 @@
-// file: Block.h
-// By: Dylan Stocking
-// Des: Declaration of block class object
+/** @file Enemy.h
+
+ *  @brief Delcaration of Enemy object
+
+ *  Configuration of enemy object used to fight against player and shoot block object
+
+ *  @author Dylan Stocking
+
+ *  @bug No known bugs.
+
+ */
 
 #ifndef ENEMY_H
 #define ENEMY_H
