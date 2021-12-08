@@ -140,10 +140,14 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>left</b> ()</td></tr>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>right</b> ()</td></tr>
 <tr class="separator:a1a7ce52a8dfe03891375a1f8acd07d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07a8815c763c5b6a947f1a94eb18f47e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a07a8815c763c5b6a947f1a94eb18f47e">isEmpty</a> ()</td></tr>
+<tr class="memdesc:a07a8815c763c5b6a947f1a94eb18f47e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if block is empty (width + height is zero)  <a href="class_block.html#a07a8815c763c5b6a947f1a94eb18f47e">More...</a><br /></td></tr>
 <tr class="separator:a07a8815c763c5b6a947f1a94eb18f47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f0f98429747e4dc2ee7c871f1678d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#af6f0f98429747e4dc2ee7c871f1678d3">draw</a> ()</td></tr>
+<tr class="memitem:af6f0f98429747e4dc2ee7c871f1678d3"><td class="memItemLeft" align="right" valign="top"><a id="af6f0f98429747e4dc2ee7c871f1678d3" name="af6f0f98429747e4dc2ee7c871f1678d3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> ()</td></tr>
+<tr class="memdesc:af6f0f98429747e4dc2ee7c871f1678d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a block object on the OpenGL window. <br /></td></tr>
 <tr class="separator:af6f0f98429747e4dc2ee7c871f1678d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a131bef7d724f3731b9da2807d6b3018c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a131bef7d724f3731b9da2807d6b3018c">drawWithBorder</a> (fgcugl::Color borderColor=fgcugl::Black, int borderSize=1)</td></tr>
+<tr class="memdesc:a131bef7d724f3731b9da2807d6b3018c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a block with a border by drawing the block passed in on top of a background block.  <a href="class_block.html#a131bef7d724f3731b9da2807d6b3018c">More...</a><br /></td></tr>
 <tr class="separator:a131bef7d724f3731b9da2807d6b3018c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -213,24 +217,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>right</b> ()</td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af6f0f98429747e4dc2ee7c871f1678d3" name="af6f0f98429747e4dc2ee7c871f1678d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6f0f98429747e4dc2ee7c871f1678d3">&#9670;&nbsp;</a></span>draw()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Block::draw </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >draw a block object on the OpenGL window </p>
-
-</div>
-</div>
 <a id="a131bef7d724f3731b9da2807d6b3018c" name="a131bef7d724f3731b9da2807d6b3018c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a131bef7d724f3731b9da2807d6b3018c">&#9670;&nbsp;</a></span>drawWithBorder()</h2>
 
@@ -256,8 +242,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>right</b> ()</td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >draw a block with a border by drawing the block passed in on top of a background block</p>
-<p >Paramaters: borderColor color of the border block borderSize size of the border in pixels </p>
+
+<p>Draw a block with a border by drawing the block passed in on top of a background block. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">borderColor</td><td></td></tr>
+    <tr><td class="paramname">borderSize</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -275,13 +268,15 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>right</b> ()</td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >return true if block is empty (width + height is zero) </p>
+
+<p>returns true if block is empty (width + height is zero) </p>
+<dl class="section return"><dt>Returns</dt><dd>bool </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/<a class="el" href="_block_8h_source.html">Block.h</a></li>
-<li>C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/Block.cpp</li>
+<li>C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/<a class="el" href="_block_8cpp.html">Block.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
