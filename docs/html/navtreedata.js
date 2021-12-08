@@ -24,7 +24,14 @@
 */
 var NAVTREE =
 [
-  [ "My Project", "index.html", [
+  [ "Space Invaders", "index.html", [
+    [ "SPACE INVADERS", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html", [
+      [ "This program is for an individual term project for COP 3003", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md1", [
+        [ "It is a clone of the classic arcade game Space Invaders using:", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md2", null ],
+        [ "OpenGL Libraries linked below:", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md3", null ]
+      ] ]
+    ] ],
+    [ "Bug List", "bug.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -35,14 +42,18 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_block_8h_source.html"
+"_block_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
