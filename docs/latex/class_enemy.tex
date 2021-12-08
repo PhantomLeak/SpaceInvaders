@@ -7,10 +7,12 @@ Inherits \mbox{\hyperlink{class_block}{Block}}.
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{class_enemy_a94f30d348b6d2840fd71675472ba38dd}{Enemy}} ()
-\item 
-\mbox{\hyperlink{class_enemy_a5725684dfa5446d40a39a77f419e3ee0}{Enemy}} (int x, int y, int width, int height, fgcugl\+::\+Color color=fgcugl\+::\+White)
-\item 
+\mbox{\Hypertarget{class_enemy_a94f30d348b6d2840fd71675472ba38dd}\label{class_enemy_a94f30d348b6d2840fd71675472ba38dd}} 
+{\bfseries Enemy} ()
+\begin{DoxyCompactList}\small\item\em initialize empty enemy \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_enemy_a5725684dfa5446d40a39a77f419e3ee0}\label{class_enemy_a5725684dfa5446d40a39a77f419e3ee0}} 
+{\bfseries Enemy} (int x, int y, int width, int height, fgcugl\+::\+Color color=fgcugl\+::\+White)
+\begin{DoxyCompactList}\small\item\em Initialize to paramater values. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_enemy_aa214e79310fa2b68bcb74957bf90d873}{get\+XCoordinate}} ()
 \item 
 \mbox{\Hypertarget{class_enemy_a3d138f69c592ce0a05070e075b4baade}\label{class_enemy_a3d138f69c592ce0a05070e075b4baade}} 
@@ -53,27 +55,12 @@ int {\bfseries left} ()
 int {\bfseries right} ()
 \item 
 bool \mbox{\hyperlink{class_enemy_a2e9c89acfcf2fd91b3930e685d4d8666}{is\+Empty}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em checks to enemy object is empty \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_enemy_a7dcf45915f6288ef9264ec60af621b6c}{draw}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em draw a \mbox{\hyperlink{class_enemy}{Enemy}} object on the Open\+GL window \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_enemy_accfc0f900bb88f3a3dc249ed20606754}{draw\+With\+Border}} (fgcugl\+::\+Color border\+Color=fgcugl\+::\+Black, int border\+Size=1)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Draw an \mbox{\hyperlink{class_enemy}{Enemy}} with a broder by drawing the enemy pass in top of a background \mbox{\hyperlink{class_enemy}{Enemy}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
-
-\doxysubsection{Constructor \& Destructor Documentation}
-\mbox{\Hypertarget{class_enemy_a94f30d348b6d2840fd71675472ba38dd}\label{class_enemy_a94f30d348b6d2840fd71675472ba38dd}} 
-\index{Enemy@{Enemy}!Enemy@{Enemy}}
-\index{Enemy@{Enemy}!Enemy@{Enemy}}
-\doxysubsubsection{\texorpdfstring{Enemy()}{Enemy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
-{\footnotesize\ttfamily Enemy\+::\+Enemy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
-
-defaut constructor -\/ initialize empty \mbox{\hyperlink{class_enemy}{Enemy}} \mbox{\Hypertarget{class_enemy_a5725684dfa5446d40a39a77f419e3ee0}\label{class_enemy_a5725684dfa5446d40a39a77f419e3ee0}} 
-\index{Enemy@{Enemy}!Enemy@{Enemy}}
-\index{Enemy@{Enemy}!Enemy@{Enemy}}
-\doxysubsubsection{\texorpdfstring{Enemy()}{Enemy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily Enemy\+::\+Enemy (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{fgcugl\+::\+Color}]{color = {\ttfamily fgcugl\+:\+:White} }\end{DoxyParamCaption})}
-
-Properties constructor -\/ Initialize to paramater values 
 
 \doxysubsection{Member Function Documentation}
 \mbox{\Hypertarget{class_enemy_a7dcf45915f6288ef9264ec60af621b6c}\label{class_enemy_a7dcf45915f6288ef9264ec60af621b6c}} 
@@ -82,15 +69,34 @@ Properties constructor -\/ Initialize to paramater values
 \doxysubsubsection{\texorpdfstring{draw()}{draw()}}
 {\footnotesize\ttfamily void Enemy\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-draw a \mbox{\hyperlink{class_enemy}{Enemy}} object on the Open\+GL window \mbox{\Hypertarget{class_enemy_accfc0f900bb88f3a3dc249ed20606754}\label{class_enemy_accfc0f900bb88f3a3dc249ed20606754}} 
+
+
+draw a \mbox{\hyperlink{class_enemy}{Enemy}} object on the Open\+GL window 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_enemy_accfc0f900bb88f3a3dc249ed20606754}\label{class_enemy_accfc0f900bb88f3a3dc249ed20606754}} 
 \index{Enemy@{Enemy}!drawWithBorder@{drawWithBorder}}
 \index{drawWithBorder@{drawWithBorder}!Enemy@{Enemy}}
 \doxysubsubsection{\texorpdfstring{drawWithBorder()}{drawWithBorder()}}
 {\footnotesize\ttfamily void Enemy\+::draw\+With\+Border (\begin{DoxyParamCaption}\item[{fgcugl\+::\+Color}]{border\+Color = {\ttfamily fgcugl\+:\+:Black},  }\item[{int}]{border\+Size = {\ttfamily 1} }\end{DoxyParamCaption})}
 
-draw a \mbox{\hyperlink{class_enemy}{Enemy}} with a border by drawing the \mbox{\hyperlink{class_enemy}{Enemy}} passed in on top of a background \mbox{\hyperlink{class_enemy}{Enemy}}
 
-Paramaters\+: border\+Color color of the border \mbox{\hyperlink{class_enemy}{Enemy}} border\+Size size of the border in pixels \mbox{\Hypertarget{class_enemy_aa214e79310fa2b68bcb74957bf90d873}\label{class_enemy_aa214e79310fa2b68bcb74957bf90d873}} 
+
+Draw an \mbox{\hyperlink{class_enemy}{Enemy}} with a broder by drawing the enemy pass in top of a background \mbox{\hyperlink{class_enemy}{Enemy}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em border\+Color} & \\
+\hline
+{\em border\+Size} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_enemy_aa214e79310fa2b68bcb74957bf90d873}\label{class_enemy_aa214e79310fa2b68bcb74957bf90d873}} 
 \index{Enemy@{Enemy}!getXCoordinate@{getXCoordinate}}
 \index{getXCoordinate@{getXCoordinate}!Enemy@{Enemy}}
 \doxysubsubsection{\texorpdfstring{getXCoordinate()}{getXCoordinate()}}
@@ -106,9 +112,16 @@ Reimplemented from \mbox{\hyperlink{class_block}{Block}}.
 \doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
 {\footnotesize\ttfamily bool Enemy\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-return true if \mbox{\hyperlink{class_enemy}{Enemy}} is empty (width + height is zero) 
+
+
+checks to enemy object is empty 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Enemy.\+h\item 
-C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Enemy.\+cpp\end{DoxyCompactItemize}
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/\mbox{\hyperlink{_enemy_8h}{Enemy.\+h}}\item 
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/\mbox{\hyperlink{_enemy_8cpp}{Enemy.\+cpp}}\end{DoxyCompactItemize}

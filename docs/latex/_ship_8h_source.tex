@@ -1,64 +1,60 @@
 \hypertarget{_ship_8h_source}{}\doxysection{Ship.\+h}
 \label{_ship_8h_source}\index{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/Ship.h@{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/Ship.h}}
-
+\mbox{\hyperlink{_ship_8h}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{1 \textcolor{comment}{// file: Ship.h}}
-\DoxyCodeLine{2 \textcolor{comment}{// by: Dylan Stocking}}
-\DoxyCodeLine{3 \textcolor{comment}{// Des: Declaration of Ship class object}}
-\DoxyCodeLine{4 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
-\DoxyCodeLine{5 }
-\DoxyCodeLine{6 \textcolor{preprocessor}{\#ifndef SHIP\_H}}
-\DoxyCodeLine{7 \textcolor{preprocessor}{\#define SHIP\_H}}
-\DoxyCodeLine{8 }
-\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}Block.h"{}}}
-\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}fgcugl.h"{}}}
-\DoxyCodeLine{11 }
-\DoxyCodeLine{12 \textcolor{keyword}{class }\mbox{\hyperlink{class_ship}{Ship}} \{}
-\DoxyCodeLine{13  \textcolor{keyword}{public}:}
-\DoxyCodeLine{14   \textcolor{comment}{// Global Defines}}
-\DoxyCodeLine{15   \textcolor{keyword}{enum} ShipDirection \{ None, Left, Right \};}
-\DoxyCodeLine{16   \textcolor{comment}{// Constructors}}
-\DoxyCodeLine{17   \mbox{\hyperlink{class_ship}{Ship}}();}
-\DoxyCodeLine{18   \mbox{\hyperlink{class_ship}{Ship}}(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, \textcolor{keywordtype}{int} width, \textcolor{keywordtype}{int} height,}
-\DoxyCodeLine{19        fgcugl::Color color = fgcugl::Green);}
-\DoxyCodeLine{20   \textcolor{comment}{// Getters}}
-\DoxyCodeLine{21   \mbox{\hyperlink{class_block}{Block}} getShip();}
-\DoxyCodeLine{22   \textcolor{keywordtype}{float} getXCoordinate();}
-\DoxyCodeLine{23   \textcolor{keywordtype}{float} getYCoordinate();}
-\DoxyCodeLine{24   \textcolor{keywordtype}{int} getWidth();}
-\DoxyCodeLine{25   \textcolor{keywordtype}{int} getHeight();}
-\DoxyCodeLine{26   \textcolor{keywordtype}{float} getVelocity();}
-\DoxyCodeLine{27   fgcugl::Color getColor();}
-\DoxyCodeLine{28   \textcolor{comment}{// setters}}
-\DoxyCodeLine{29   \textcolor{keywordtype}{void} setXCoordinate(\textcolor{keywordtype}{float} value);}
-\DoxyCodeLine{30   \textcolor{keywordtype}{void} setYCoordinate(\textcolor{keywordtype}{float} value);}
-\DoxyCodeLine{31   \textcolor{keywordtype}{void} setWidth(\textcolor{keywordtype}{int} value);}
-\DoxyCodeLine{32   \textcolor{keywordtype}{void} setHeight(\textcolor{keywordtype}{int} value);}
-\DoxyCodeLine{33   \textcolor{keywordtype}{void} setVelocity(\textcolor{keywordtype}{float} value);}
-\DoxyCodeLine{34   \textcolor{keywordtype}{void} setColor(fgcugl::Color value);}
-\DoxyCodeLine{35 }
-\DoxyCodeLine{36   \textcolor{comment}{// member methods}}
-\DoxyCodeLine{37   \textcolor{keywordtype}{int} top();}
-\DoxyCodeLine{38   \textcolor{keywordtype}{int} bottom();}
-\DoxyCodeLine{39   \textcolor{keywordtype}{int} left();}
-\DoxyCodeLine{40   \textcolor{keywordtype}{int} right();}
-\DoxyCodeLine{41 }
-\DoxyCodeLine{42   \textcolor{keywordtype}{bool} isEmpty();}
-\DoxyCodeLine{43 }
-\DoxyCodeLine{44   ShipDirection currentDirection();}
-\DoxyCodeLine{45 }
-\DoxyCodeLine{46   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_abe985fe663d2e93560734c40faa0f55f}{update}}(ShipDirection next, \mbox{\hyperlink{class_block}{Block}} leftWall, \mbox{\hyperlink{class_block}{Block}} rightWall, \textcolor{keywordtype}{float} lag);}
-\DoxyCodeLine{47   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}{draw}}(\textcolor{keywordtype}{float} lag);}
-\DoxyCodeLine{48   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a3e6c8e4839ec569518baad64a4490b14}{drawWithBorder}}(\textcolor{keywordtype}{float} lag, fgcugl::Color borderColor = fgcugl::Black,}
-\DoxyCodeLine{49                       \textcolor{keywordtype}{int} borderSize = 1);}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#ifndef SHIP\_H}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#define SHIP\_H}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_block_8h}{Block.h}}"{}}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include "{}fgcugl.h"{}}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{keyword}{class }\mbox{\hyperlink{class_ship}{Ship}} \{}
+\DoxyCodeLine{20  \textcolor{keyword}{public}:}
+\DoxyCodeLine{21   \textcolor{comment}{// Global Defines}}
+\DoxyCodeLine{22   \textcolor{keyword}{enum} ShipDirection \{ None, Left, Right \};}
+\DoxyCodeLine{23   \textcolor{comment}{// Constructors}}
+\DoxyCodeLine{24   \mbox{\hyperlink{class_ship_ab7608fcfc4d27c678aacaf9bfd68a462}{Ship}}();}
+\DoxyCodeLine{25   \mbox{\hyperlink{class_ship_ab7608fcfc4d27c678aacaf9bfd68a462}{Ship}}(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, \textcolor{keywordtype}{int} width, \textcolor{keywordtype}{int} height,}
+\DoxyCodeLine{26        fgcugl::Color color = fgcugl::Green);}
+\DoxyCodeLine{27   \textcolor{comment}{// Getters}}
+\DoxyCodeLine{28   \mbox{\hyperlink{class_block}{Block}} getShip();}
+\DoxyCodeLine{29   \textcolor{keywordtype}{float} getXCoordinate();}
+\DoxyCodeLine{30   \textcolor{keywordtype}{float} getYCoordinate();}
+\DoxyCodeLine{31   \textcolor{keywordtype}{int} getWidth();}
+\DoxyCodeLine{32   \textcolor{keywordtype}{int} getHeight();}
+\DoxyCodeLine{33   \textcolor{keywordtype}{float} getVelocity();}
+\DoxyCodeLine{34   fgcugl::Color getColor();}
+\DoxyCodeLine{35   \textcolor{comment}{// setters}}
+\DoxyCodeLine{36   \textcolor{keywordtype}{void} setXCoordinate(\textcolor{keywordtype}{float} value);}
+\DoxyCodeLine{37   \textcolor{keywordtype}{void} setYCoordinate(\textcolor{keywordtype}{float} value);}
+\DoxyCodeLine{38   \textcolor{keywordtype}{void} setWidth(\textcolor{keywordtype}{int} value);}
+\DoxyCodeLine{39   \textcolor{keywordtype}{void} setHeight(\textcolor{keywordtype}{int} value);}
+\DoxyCodeLine{40   \textcolor{keywordtype}{void} setVelocity(\textcolor{keywordtype}{float} value);}
+\DoxyCodeLine{41   \textcolor{keywordtype}{void} setColor(fgcugl::Color value);}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43   \textcolor{comment}{// member methods}}
+\DoxyCodeLine{44   \textcolor{keywordtype}{int} top();}
+\DoxyCodeLine{45   \textcolor{keywordtype}{int} bottom();}
+\DoxyCodeLine{46   \textcolor{keywordtype}{int} left();}
+\DoxyCodeLine{47   \textcolor{keywordtype}{int} right();}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49   \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}{isEmpty}}();}
 \DoxyCodeLine{50 }
-\DoxyCodeLine{51  \textcolor{keyword}{private}:}
-\DoxyCodeLine{52   \mbox{\hyperlink{class_block}{Block}} ship;}
-\DoxyCodeLine{53   \textcolor{keywordtype}{float} currentX;}
-\DoxyCodeLine{54   \textcolor{keywordtype}{float} currentY;}
-\DoxyCodeLine{55   \textcolor{keywordtype}{float} velocity;}
-\DoxyCodeLine{56 \};}
+\DoxyCodeLine{51   ShipDirection \mbox{\hyperlink{class_ship_aee44a9b6f31add5ddf849b79a072e324}{currentDirection}}();}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_abe985fe663d2e93560734c40faa0f55f}{update}}(ShipDirection next, \mbox{\hyperlink{class_block}{Block}} leftWall, \mbox{\hyperlink{class_block}{Block}} rightWall, \textcolor{keywordtype}{float} lag);}
+\DoxyCodeLine{54   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}{draw}}(\textcolor{keywordtype}{float} lag);}
+\DoxyCodeLine{55   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a3e6c8e4839ec569518baad64a4490b14}{drawWithBorder}}(\textcolor{keywordtype}{float} lag, fgcugl::Color borderColor = fgcugl::Black,}
+\DoxyCodeLine{56                       \textcolor{keywordtype}{int} borderSize = 1);}
 \DoxyCodeLine{57 }
-\DoxyCodeLine{58 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// SHIP\_H}}
+\DoxyCodeLine{58  \textcolor{keyword}{private}:}
+\DoxyCodeLine{59   \mbox{\hyperlink{class_block}{Block}} ship;}
+\DoxyCodeLine{60   \textcolor{keywordtype}{float} currentX;}
+\DoxyCodeLine{61   \textcolor{keywordtype}{float} currentY;}
+\DoxyCodeLine{62   \textcolor{keywordtype}{float} velocity;}
+\DoxyCodeLine{63 \};}
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// SHIP\_H}}
 
 \end{DoxyCode}

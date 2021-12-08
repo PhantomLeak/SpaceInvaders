@@ -12,8 +12,12 @@ enum {\bfseries Ship\+Direction} \{ {\bfseries None}
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{class_ship_a9f5c5cff9726215ced3ca23cffc8e959}{Ship}} (int x, int y, int width, int height, fgcugl\+::\+Color color=fgcugl\+::\+Green)
-\item 
+\mbox{\Hypertarget{class_ship_ab7608fcfc4d27c678aacaf9bfd68a462}\label{class_ship_ab7608fcfc4d27c678aacaf9bfd68a462}} 
+{\bfseries Ship} ()
+\begin{DoxyCompactList}\small\item\em initialize empty ship \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_ship_a9f5c5cff9726215ced3ca23cffc8e959}\label{class_ship_a9f5c5cff9726215ced3ca23cffc8e959}} 
+{\bfseries Ship} (int x, int y, int width, int height, fgcugl\+::\+Color color=fgcugl\+::\+Green)
+\begin{DoxyCompactList}\small\item\em Initalize parameter values. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_ship_a521cd180aff5bdc2664251bc333065ff}\label{class_ship_a521cd180aff5bdc2664251bc333065ff}} 
 \mbox{\hyperlink{class_block}{Block}} {\bfseries get\+Ship} ()
 \item 
@@ -65,53 +69,106 @@ int {\bfseries left} ()
 \mbox{\Hypertarget{class_ship_a97420a3ffe564858d54ae378ffb675bf}\label{class_ship_a97420a3ffe564858d54ae378ffb675bf}} 
 int {\bfseries right} ()
 \item 
-\mbox{\Hypertarget{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}\label{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}} 
-bool {\bfseries is\+Empty} ()
-\item 
-\mbox{\Hypertarget{class_ship_aee44a9b6f31add5ddf849b79a072e324}\label{class_ship_aee44a9b6f31add5ddf849b79a072e324}} 
-Ship\+Direction {\bfseries current\+Direction} ()
-\item 
+bool \mbox{\hyperlink{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}{is\+Empty}} ()
+\begin{DoxyCompactList}\small\item\em checks if ship object is empty \end{DoxyCompactList}\item 
+Ship\+Direction \mbox{\hyperlink{class_ship_aee44a9b6f31add5ddf849b79a072e324}{current\+Direction}} ()
+\begin{DoxyCompactList}\small\item\em Get ships current direction. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_ship_abe985fe663d2e93560734c40faa0f55f}{update}} (Ship\+Direction next, \mbox{\hyperlink{class_block}{Block}} left\+Wall, \mbox{\hyperlink{class_block}{Block}} right\+Wall, float lag)
-\item 
+\begin{DoxyCompactList}\small\item\em Update location of ship each from relative to lag and perform collision checking with left and right walls. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}{draw}} (float lag)
-\item 
+\begin{DoxyCompactList}\small\item\em Draw ship object on the Open\+GL Window Relative to current x/y with lag. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_ship_a3e6c8e4839ec569518baad64a4490b14}{draw\+With\+Border}} (float lag, fgcugl\+::\+Color border\+Color=fgcugl\+::\+Black, int border\+Size=1)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Draw a ship with a border by drawing the block passed in on top of a background block. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
-
-\doxysubsection{Constructor \& Destructor Documentation}
-\mbox{\Hypertarget{class_ship_a9f5c5cff9726215ced3ca23cffc8e959}\label{class_ship_a9f5c5cff9726215ced3ca23cffc8e959}} 
-\index{Ship@{Ship}!Ship@{Ship}}
-\index{Ship@{Ship}!Ship@{Ship}}
-\doxysubsubsection{\texorpdfstring{Ship()}{Ship()}}
-{\footnotesize\ttfamily Ship\+::\+Ship (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{fgcugl\+::\+Color}]{color = {\ttfamily fgcugl\+:\+:Green} }\end{DoxyParamCaption})}
-
-Properties constructor -\/ initalize parameter values 
 
 \doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ship_aee44a9b6f31add5ddf849b79a072e324}\label{class_ship_aee44a9b6f31add5ddf849b79a072e324}} 
+\index{Ship@{Ship}!currentDirection@{currentDirection}}
+\index{currentDirection@{currentDirection}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{currentDirection()}{currentDirection()}}
+{\footnotesize\ttfamily Ship\+::\+Ship\+Direction Ship\+::current\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get ships current direction. 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
 \mbox{\Hypertarget{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}\label{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}} 
 \index{Ship@{Ship}!draw@{draw}}
 \index{draw@{draw}!Ship@{Ship}}
 \doxysubsubsection{\texorpdfstring{draw()}{draw()}}
 {\footnotesize\ttfamily void Ship\+::draw (\begin{DoxyParamCaption}\item[{float}]{lag }\end{DoxyParamCaption})}
 
-draw a Paddle object on the Open\+GL window relative to current x/y with lag \mbox{\Hypertarget{class_ship_a3e6c8e4839ec569518baad64a4490b14}\label{class_ship_a3e6c8e4839ec569518baad64a4490b14}} 
+
+
+Draw ship object on the Open\+GL Window Relative to current x/y with lag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lag} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_ship_a3e6c8e4839ec569518baad64a4490b14}\label{class_ship_a3e6c8e4839ec569518baad64a4490b14}} 
 \index{Ship@{Ship}!drawWithBorder@{drawWithBorder}}
 \index{drawWithBorder@{drawWithBorder}!Ship@{Ship}}
 \doxysubsubsection{\texorpdfstring{drawWithBorder()}{drawWithBorder()}}
 {\footnotesize\ttfamily void Ship\+::draw\+With\+Border (\begin{DoxyParamCaption}\item[{float}]{lag,  }\item[{fgcugl\+::\+Color}]{border\+Color = {\ttfamily fgcugl\+:\+:Black},  }\item[{int}]{border\+Size = {\ttfamily 1} }\end{DoxyParamCaption})}
 
-draw a paddle with a border by drawing the block passed in on top of a background block
 
-Paramaters\+: border\+Color color of the border block border\+Size size of the border in pixels \mbox{\Hypertarget{class_ship_abe985fe663d2e93560734c40faa0f55f}\label{class_ship_abe985fe663d2e93560734c40faa0f55f}} 
+
+Draw a ship with a border by drawing the block passed in on top of a background block. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lag} & \\
+\hline
+{\em border\+Color} & \\
+\hline
+{\em border\+Size} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}\label{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}} 
+\index{Ship@{Ship}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily bool Ship\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+checks if ship object is empty 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_ship_abe985fe663d2e93560734c40faa0f55f}\label{class_ship_abe985fe663d2e93560734c40faa0f55f}} 
 \index{Ship@{Ship}!update@{update}}
 \index{update@{update}!Ship@{Ship}}
 \doxysubsubsection{\texorpdfstring{update()}{update()}}
 {\footnotesize\ttfamily void Ship\+::update (\begin{DoxyParamCaption}\item[{Ship\+Direction}]{next,  }\item[{\mbox{\hyperlink{class_block}{Block}}}]{left\+Wall,  }\item[{\mbox{\hyperlink{class_block}{Block}}}]{right\+Wall,  }\item[{float}]{lag }\end{DoxyParamCaption})}
 
-Update location of the paddle each frame relative to lag and perform collision checking with left and right walls Parameters\+: Next -\/ user keyboard input left\+Wall -\/ location of left wall right\+Wall -\/ location of right wall lag -\/ current frame lag 
+
+
+Update location of ship each from relative to lag and perform collision checking with left and right walls. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em next} & \\
+\hline
+{\em left\+Wall} & \\
+\hline
+{\em right\+Wall} & \\
+\hline
+{\em lag} & \\
+\hline
+\end{DoxyParams}
+
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Ship.\+h\item 
-C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Ship.\+cpp\end{DoxyCompactItemize}
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/\mbox{\hyperlink{_ship_8h}{Ship.\+h}}\item 
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/\mbox{\hyperlink{_ship_8cpp}{Ship.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,143 @@
+\hypertarget{space_invaders_8cpp}{}\doxysection{C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/space\+Invaders.cpp File Reference}
+\label{space_invaders_8cpp}\index{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/spaceInvaders.cpp@{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/spaceInvaders.cpp}}
+
+
+Main application file for space invaders game.  
+
+
+{\ttfamily \#include \char`\"{}space\+Invaders.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Enemy.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Ship.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}fgcugl.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{space_invaders_8cpp_a9b89d45affc946925eb7e84aaf324f9c}{create\+Bricks}} (\mbox{\hyperlink{class_block}{Block}} bricks\mbox{[}BRICKS\+\_\+\+ROWS\mbox{]}\mbox{[}BRICKS\+\_\+\+COLUMNS\mbox{]})
+\begin{DoxyCompactList}\small\item\em Create bricks for user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{space_invaders_8cpp_a41fcabf1455fca9b174f218112e5d5a3}{create\+Enemies}} (\mbox{\hyperlink{class_enemy}{Enemy}} enemies\mbox{[}ENEMIES\+\_\+\+ROWS\mbox{]}\mbox{[}ENEMIES\+\_\+\+COLUMNS\mbox{]})
+\begin{DoxyCompactList}\small\item\em Create rows of enemies. \end{DoxyCompactList}\item 
+Direction \mbox{\hyperlink{space_invaders_8cpp_a4bfa2842a63698b2ff708eab1451dcc4}{process\+Input}} ()
+\begin{DoxyCompactList}\small\item\em Get user direction. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{space_invaders_8cpp_a1995bac2b7bd239168af0e26b108ccf7}{update}} (\mbox{\hyperlink{class_ship}{Ship}} \&ship, \mbox{\hyperlink{struct_walls}{Walls}} walls, double lag, Direction next)
+\begin{DoxyCompactList}\small\item\em Update objectes on Open\+GL window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{space_invaders_8cpp_a2f171535cf2dcee70e98ec2859e44b62}{render}} (\mbox{\hyperlink{class_ship}{Ship}} ship, \mbox{\hyperlink{class_block}{Block}} bricks\mbox{[}BRICKS\+\_\+\+ROWS\mbox{]}\mbox{[}BRICKS\+\_\+\+COLUMNS\mbox{]}, \mbox{\hyperlink{class_enemy}{Enemy}} enemy\mbox{[}ENEMIES\+\_\+\+ROWS\mbox{]}\mbox{[}ENEMIES\+\_\+\+COLUMNS\mbox{]}, \mbox{\hyperlink{struct_walls}{Walls}} walls, double lag)
+\begin{DoxyCompactList}\small\item\em draw game objects on Open\+GL window \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{space_invaders_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{space_invaders_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main application file for space invaders game. 
+
+Main application file to display and render movement, refresh rate, and functions of application
+
+\begin{DoxyAuthor}{Author}
+Dylan Stocking
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000006}{Bug}}]No known bugs.\end{DoxyRefDesc}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{space_invaders_8cpp_a9b89d45affc946925eb7e84aaf324f9c}\label{space_invaders_8cpp_a9b89d45affc946925eb7e84aaf324f9c}} 
+\index{spaceInvaders.cpp@{spaceInvaders.cpp}!createBricks@{createBricks}}
+\index{createBricks@{createBricks}!spaceInvaders.cpp@{spaceInvaders.cpp}}
+\doxysubsubsection{\texorpdfstring{createBricks()}{createBricks()}}
+{\footnotesize\ttfamily void create\+Bricks (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_block}{Block}}}]{bricks\mbox{[}\+BRICKS\+\_\+\+ROWS\mbox{]}\mbox{[}\+BRICKS\+\_\+\+COLUMNS\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Create bricks for user. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bricks} & \\
+\hline
+{\em array} & of blocks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{space_invaders_8cpp_a41fcabf1455fca9b174f218112e5d5a3}\label{space_invaders_8cpp_a41fcabf1455fca9b174f218112e5d5a3}} 
+\index{spaceInvaders.cpp@{spaceInvaders.cpp}!createEnemies@{createEnemies}}
+\index{createEnemies@{createEnemies}!spaceInvaders.cpp@{spaceInvaders.cpp}}
+\doxysubsubsection{\texorpdfstring{createEnemies()}{createEnemies()}}
+{\footnotesize\ttfamily void create\+Enemies (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_enemy}{Enemy}}}]{enemies\mbox{[}\+ENEMIES\+\_\+\+ROWS\mbox{]}\mbox{[}\+ENEMIES\+\_\+\+COLUMNS\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Create rows of enemies. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em enemies} & \\
+\hline
+{\em array} & of blocks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{space_invaders_8cpp_a4bfa2842a63698b2ff708eab1451dcc4}\label{space_invaders_8cpp_a4bfa2842a63698b2ff708eab1451dcc4}} 
+\index{spaceInvaders.cpp@{spaceInvaders.cpp}!processInput@{processInput}}
+\index{processInput@{processInput}!spaceInvaders.cpp@{spaceInvaders.cpp}}
+\doxysubsubsection{\texorpdfstring{processInput()}{processInput()}}
+{\footnotesize\ttfamily Direction process\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get user direction. 
+
+\begin{DoxyReturn}{Returns}
+Direction newdirection 
+\end{DoxyReturn}
+\mbox{\Hypertarget{space_invaders_8cpp_a2f171535cf2dcee70e98ec2859e44b62}\label{space_invaders_8cpp_a2f171535cf2dcee70e98ec2859e44b62}} 
+\index{spaceInvaders.cpp@{spaceInvaders.cpp}!render@{render}}
+\index{render@{render}!spaceInvaders.cpp@{spaceInvaders.cpp}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void render (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ship}{Ship}}}]{ship,  }\item[{\mbox{\hyperlink{class_block}{Block}}}]{bricks\mbox{[}\+BRICKS\+\_\+\+ROWS\mbox{]}\mbox{[}\+BRICKS\+\_\+\+COLUMNS\mbox{]},  }\item[{\mbox{\hyperlink{class_enemy}{Enemy}}}]{enemy\mbox{[}\+ENEMIES\+\_\+\+ROWS\mbox{]}\mbox{[}\+ENEMIES\+\_\+\+COLUMNS\mbox{]},  }\item[{\mbox{\hyperlink{struct_walls}{Walls}}}]{walls,  }\item[{double}]{lag }\end{DoxyParamCaption})}
+
+
+
+draw game objects on Open\+GL window 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ship} & \\
+\hline
+{\em bricks} & \\
+\hline
+{\em enemy} & \\
+\hline
+{\em walls} & \\
+\hline
+{\em lag} & \\
+\hline
+\end{DoxyParams}
+return void \mbox{\Hypertarget{space_invaders_8cpp_a1995bac2b7bd239168af0e26b108ccf7}\label{space_invaders_8cpp_a1995bac2b7bd239168af0e26b108ccf7}} 
+\index{spaceInvaders.cpp@{spaceInvaders.cpp}!update@{update}}
+\index{update@{update}!spaceInvaders.cpp@{spaceInvaders.cpp}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily bool update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ship}{Ship}} \&}]{ship,  }\item[{\mbox{\hyperlink{struct_walls}{Walls}}}]{walls,  }\item[{double}]{lag,  }\item[{Direction}]{next }\end{DoxyParamCaption})}
+
+
+
+Update objectes on Open\+GL window. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ship} & \\
+\hline
+{\em walls} & \\
+\hline
+{\em lag} & \\
+\hline
+{\em next} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}

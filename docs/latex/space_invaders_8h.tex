@@ -1,0 +1,113 @@
+\hypertarget{space_invaders_8h}{}\doxysection{C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/space\+Invaders.h File Reference}
+\label{space_invaders_8h}\index{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/spaceInvaders.h@{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/spaceInvaders.h}}
+
+
+Main configuration for the game.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}Block.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}fgcugl.\+h\char`\"{}}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_walls}{Walls}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a224b9163917ac32fc95a60d8c1eec3aa}\label{space_invaders_8h_a224b9163917ac32fc95a60d8c1eec3aa}} 
+enum {\bfseries Direction} \{ \newline
+{\bfseries DIR\+\_\+\+EXIT} = -\/1
+, {\bfseries DIR\+\_\+\+NONE}
+, {\bfseries DIR\+\_\+\+UP}
+, {\bfseries DIR\+\_\+\+DOWN}
+, \newline
+{\bfseries DIR\+\_\+\+LEFT}
+, {\bfseries DIR\+\_\+\+RIGHT}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a5e6ce0dd58078611570510dc4b8d81f3}\label{space_invaders_8h_a5e6ce0dd58078611570510dc4b8d81f3}} 
+const int {\bfseries WINDOW\+\_\+\+WIDTH} = 900
+\item 
+\mbox{\Hypertarget{space_invaders_8h_ab76d138fa589df9a65fc05eb3bd56073}\label{space_invaders_8h_ab76d138fa589df9a65fc05eb3bd56073}} 
+const int {\bfseries WINDOW\+\_\+\+HEIGHT} = 604
+\item 
+\mbox{\Hypertarget{space_invaders_8h_aab5bde59adf9038e8fa62cf5f6cc2962}\label{space_invaders_8h_aab5bde59adf9038e8fa62cf5f6cc2962}} 
+const std\+::string {\bfseries WINDOW\+\_\+\+TITLE} = \char`\"{}SPACE INVADERS\char`\"{}
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a860134d3d84dd2883095bbe3f72c3d1f}\label{space_invaders_8h_a860134d3d84dd2883095bbe3f72c3d1f}} 
+const double {\bfseries FRAME\+\_\+\+RATE} = 1.\+0 / 60.\+0
+\item 
+\mbox{\Hypertarget{space_invaders_8h_af39e7aaaf24f669a1079a2284d0b6b6a}\label{space_invaders_8h_af39e7aaaf24f669a1079a2284d0b6b6a}} 
+int {\bfseries SHIP\+\_\+\+WIDTH} = 40
+\item 
+\mbox{\Hypertarget{space_invaders_8h_aa12ceb71d8a8dfc3a8173a8558c2b346}\label{space_invaders_8h_aa12ceb71d8a8dfc3a8173a8558c2b346}} 
+int {\bfseries SHIP\+\_\+\+HEIGHT} = 20
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a39be359131887a25658cd18e087301fc}\label{space_invaders_8h_a39be359131887a25658cd18e087301fc}} 
+const int {\bfseries BALL\+\_\+\+SIZE} = 8
+\item 
+\mbox{\Hypertarget{space_invaders_8h_aa78037ea012b8748faa3461a0847a6c9}\label{space_invaders_8h_aa78037ea012b8748faa3461a0847a6c9}} 
+const fgcugl\+::\+Color {\bfseries BALL\+\_\+\+COLOR} = fgcugl\+::\+Blue
+\item 
+\mbox{\Hypertarget{space_invaders_8h_afa64c9ae635cfb599b5e2c9d15f3d2ac}\label{space_invaders_8h_afa64c9ae635cfb599b5e2c9d15f3d2ac}} 
+const float {\bfseries BALL\+\_\+\+SPEED\+\_\+X} = 40.\+0
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a5639d563e226bed29edf8f67397d67c1}\label{space_invaders_8h_a5639d563e226bed29edf8f67397d67c1}} 
+const float {\bfseries BALL\+\_\+\+SPEED\+\_\+Y} = 70.\+0
+\item 
+\mbox{\Hypertarget{space_invaders_8h_afa6282f16d0eef0153ea87002008628a}\label{space_invaders_8h_afa6282f16d0eef0153ea87002008628a}} 
+const int {\bfseries WALL\+\_\+\+SIZE} = 2
+\item 
+\mbox{\Hypertarget{space_invaders_8h_ad5b0fde4f035e50eaa45a25a15791043}\label{space_invaders_8h_ad5b0fde4f035e50eaa45a25a15791043}} 
+const int {\bfseries ENEMY\+\_\+\+HEIGHT} = 20
+\item 
+\mbox{\Hypertarget{space_invaders_8h_aa821075c19ed59f4d008f2a0363e84c7}\label{space_invaders_8h_aa821075c19ed59f4d008f2a0363e84c7}} 
+const int {\bfseries ENEMY\+\_\+\+WIDTH} = 64
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a7def0795514374529245ae28aa937ede}\label{space_invaders_8h_a7def0795514374529245ae28aa937ede}} 
+const int {\bfseries ENEMIES\+\_\+\+COLUMNS} = 14
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a0ea615bdacb551ce68ccb8dd0f73914c}\label{space_invaders_8h_a0ea615bdacb551ce68ccb8dd0f73914c}} 
+const int {\bfseries ENEMIES\+\_\+\+ROWS} = 8
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a540a1266fa5bba7f130d1ee28fc58f27}\label{space_invaders_8h_a540a1266fa5bba7f130d1ee28fc58f27}} 
+const int {\bfseries ENEMIES\+\_\+\+START\+\_\+X} = WALL\+\_\+\+SIZE
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a042919c9c9f20538674e64396eac5bd9}\label{space_invaders_8h_a042919c9c9f20538674e64396eac5bd9}} 
+const int {\bfseries ENEMIES\+\_\+\+START\+\_\+Y} = (WINDOW\+\_\+\+HEIGHT / 2 $\ast$ WALL\+\_\+\+SIZE) / 2
+\item 
+\mbox{\Hypertarget{space_invaders_8h_a421b7fe524f6c671847b0b1349b86364}\label{space_invaders_8h_a421b7fe524f6c671847b0b1349b86364}} 
+const int {\bfseries BRICK\+\_\+\+WIDTH} = 100
+\item 
+\mbox{\Hypertarget{space_invaders_8h_af09945bb11bfc2515f8603813166f6a5}\label{space_invaders_8h_af09945bb11bfc2515f8603813166f6a5}} 
+const int {\bfseries BRICK\+\_\+\+HEIGHT} = 80
+\item 
+\mbox{\Hypertarget{space_invaders_8h_acd863216da24c62c3c97130e0762c04e}\label{space_invaders_8h_acd863216da24c62c3c97130e0762c04e}} 
+const int {\bfseries BRICKS\+\_\+\+COLUMNS} = 1
+\item 
+\mbox{\Hypertarget{space_invaders_8h_ac3bf6af3f480edc5d2957aa246ef90c7}\label{space_invaders_8h_ac3bf6af3f480edc5d2957aa246ef90c7}} 
+const int {\bfseries BRICKS\+\_\+\+ROWS} = 1
+\item 
+\mbox{\Hypertarget{space_invaders_8h_ab44249c481dbd764040ed09bc65d40cf}\label{space_invaders_8h_ab44249c481dbd764040ed09bc65d40cf}} 
+const int {\bfseries BRICKS\+\_\+\+START\+\_\+X} = WALL\+\_\+\+SIZE $\ast$ +100
+\item 
+\mbox{\Hypertarget{space_invaders_8h_ab70f6967b9750e4c8949a555103bbe4b}\label{space_invaders_8h_ab70f6967b9750e4c8949a555103bbe4b}} 
+const int {\bfseries BRICKS\+\_\+\+START\+\_\+Y} = (WINDOW\+\_\+\+HEIGHT / 2 -\/ 30 $\ast$ WALL\+\_\+\+SIZE) / 2
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main configuration for the game. 
+
+Main configureation of objects and variables to be used in the game
+
+\begin{DoxyAuthor}{Author}
+Dylan Stocking
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000007}{Bug}}]No known bugs.\end{DoxyRefDesc}
