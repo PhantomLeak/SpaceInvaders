@@ -8,6 +8,10 @@ var dir_f8b6a331e7549b356f1c58c53e1aa4ef =
     [ "Enemy.h", "_enemy_8h.html", [
       [ "Enemy", "class_enemy.html", "class_enemy" ]
     ] ],
+    [ "Entity.cpp", "_entity_8cpp.html", null ],
+    [ "Entity.h", "_entity_8h.html", [
+      [ "Entity", "class_entity.html", "class_entity" ]
+    ] ],
     [ "fgcugl.h", "fgcugl_8h_source.html", null ],
     [ "Ship.cpp", "_ship_8cpp.html", null ],
     [ "Ship.h", "_ship_8h.html", [
