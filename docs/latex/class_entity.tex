@@ -3,39 +3,103 @@
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_entity_afba6ef91c37f769e91456b497839f617}\label{class_entity_afba6ef91c37f769e91456b497839f617}} 
-{\bfseries Entity} (float x, float y, int health, float movement\+Speed)
+\mbox{\hyperlink{class_entity_a4bded7a67d53174dfe456b01c320b8ff}{Entity}} (int health, float movement\+Speed)
+\begin{DoxyCompactList}\small\item\em Initialization of class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_entity_ae5a9ed9b94b78f5f89b177a611689e5f}\label{class_entity_ae5a9ed9b94b78f5f89b177a611689e5f}} 
+{\bfseries Entity} (float x, float y)
 \item 
-\mbox{\Hypertarget{class_entity_a2b0140ae8c77c0e3654b070ee3c7fe57}\label{class_entity_a2b0140ae8c77c0e3654b070ee3c7fe57}} 
-int {\bfseries get\+Health} ()
-\item 
-\mbox{\Hypertarget{class_entity_a7c0008518b42a8b2d88c3c19203bab15}\label{class_entity_a7c0008518b42a8b2d88c3c19203bab15}} 
-float {\bfseries get\+Movement\+Speed} ()
-\item 
+\mbox{\Hypertarget{class_entity_adf6d3f7cb1b2ba029b6b048a395cc8ae}\label{class_entity_adf6d3f7cb1b2ba029b6b048a395cc8ae}} 
+virtual {\bfseries $\sim$\+Entity} ()
+\begin{DoxyCompactList}\small\item\em Deconstructor of \mbox{\hyperlink{class_entity}{Entity}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_entity_a2b0140ae8c77c0e3654b070ee3c7fe57}{get\+Health}} ()
+\begin{DoxyCompactList}\small\item\em Gets health of entity object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_entity_a7731e711f8b332528ca29c120b9950b5}{get\+Movement\+Speed}} ()
+\begin{DoxyCompactList}\small\item\em Gets \mbox{\hyperlink{class_entity}{Entity}} movement speed. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{class_entity_ab471b9e63e648b7bd6431e5b3b338cfa}\label{class_entity_ab471b9e63e648b7bd6431e5b3b338cfa}} 
 void {\bfseries set\+Health} (int value)
 \item 
-\mbox{\Hypertarget{class_entity_aeed24bf28131271913ad4d1c22da3404}\label{class_entity_aeed24bf28131271913ad4d1c22da3404}} 
-void {\bfseries movement} (double frame\+Time, short int direction)
+\mbox{\Hypertarget{class_entity_aef3280609e8ebc2bef86552b5717090a}\label{class_entity_aef3280609e8ebc2bef86552b5717090a}} 
+void {\bfseries movement} (float lag, short int direction)
 \item 
 \mbox{\Hypertarget{class_entity_adf844532e2d58a1fe400f1f8ae13674d}\label{class_entity_adf844532e2d58a1fe400f1f8ae13674d}} 
 void {\bfseries hp\+Down} ()
-\item 
-\mbox{\Hypertarget{class_entity_a4d78d5c5061893ed4464fc014adfd6b8}\label{class_entity_a4d78d5c5061893ed4464fc014adfd6b8}} 
-bool {\bfseries is\+Dead} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Reduces \mbox{\hyperlink{class_entity}{Entity}}\textquotesingle{}s HP when hit. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_entity_a4d78d5c5061893ed4464fc014adfd6b8}{is\+Dead}} ()
+\begin{DoxyCompactList}\small\item\em Checks if \mbox{\hyperlink{class_entity}{Entity}} is Dead. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_entity_a9426b329f149607131e39ce3eacbd4f6}\label{class_entity_a9426b329f149607131e39ce3eacbd4f6}} 
-float {\bfseries \+\_\+movement\+\_\+speed}
+\mbox{\Hypertarget{class_entity_a8701efa0d8e1187400ea8ae745a86984}\label{class_entity_a8701efa0d8e1187400ea8ae745a86984}} 
+float {\bfseries \+\_\+movement\+Speed}
 \item 
 \mbox{\Hypertarget{class_entity_a5d9f213ef26f1e09ebff7fcb46634b97}\label{class_entity_a5d9f213ef26f1e09ebff7fcb46634b97}} 
 int {\bfseries \+\_\+health}
 \end{DoxyCompactItemize}
 
 
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_entity_a4bded7a67d53174dfe456b01c320b8ff}\label{class_entity_a4bded7a67d53174dfe456b01c320b8ff}} 
+\index{Entity@{Entity}!Entity@{Entity}}
+\index{Entity@{Entity}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{Entity()}{Entity()}}
+{\footnotesize\ttfamily Entity\+::\+Entity (\begin{DoxyParamCaption}\item[{int}]{health,  }\item[{float}]{movement\+Speed }\end{DoxyParamCaption})}
+
+
+
+Initialization of class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em health} & \\
+\hline
+{\em movement\+Speed} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_entity_a2b0140ae8c77c0e3654b070ee3c7fe57}\label{class_entity_a2b0140ae8c77c0e3654b070ee3c7fe57}} 
+\index{Entity@{Entity}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getHealth()}{getHealth()}}
+{\footnotesize\ttfamily int Entity\+::get\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets health of entity object. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_entity_a7731e711f8b332528ca29c120b9950b5}\label{class_entity_a7731e711f8b332528ca29c120b9950b5}} 
+\index{Entity@{Entity}!getMovementSpeed@{getMovementSpeed}}
+\index{getMovementSpeed@{getMovementSpeed}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{getMovementSpeed()}{getMovementSpeed()}}
+{\footnotesize\ttfamily int Entity\+::get\+Movement\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets \mbox{\hyperlink{class_entity}{Entity}} movement speed. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_entity_a4d78d5c5061893ed4464fc014adfd6b8}\label{class_entity_a4d78d5c5061893ed4464fc014adfd6b8}} 
+\index{Entity@{Entity}!isDead@{isDead}}
+\index{isDead@{isDead}!Entity@{Entity}}
+\doxysubsubsection{\texorpdfstring{isDead()}{isDead()}}
+{\footnotesize\ttfamily bool Entity\+::is\+Dead (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if \mbox{\hyperlink{class_entity}{Entity}} is Dead. 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Entity.\+h\item 
-C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Entity.\+cpp\end{DoxyCompactItemize}
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/\mbox{\hyperlink{_entity_8h}{Entity.\+h}}\item 
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/\mbox{\hyperlink{_entity_8cpp}{Entity.\+cpp}}\end{DoxyCompactItemize}

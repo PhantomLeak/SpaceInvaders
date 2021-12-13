@@ -8,53 +8,54 @@
 \DoxyCodeLine{15 }
 \DoxyCodeLine{16 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_block_8h}{Block.h}}"{}}}
 \DoxyCodeLine{17 \textcolor{preprocessor}{\#include "{}fgcugl.h"{}}}
-\DoxyCodeLine{18 }
-\DoxyCodeLine{19 \textcolor{keyword}{class }\mbox{\hyperlink{class_ship}{Ship}} \{}
-\DoxyCodeLine{20  \textcolor{keyword}{public}:}
-\DoxyCodeLine{21   \textcolor{comment}{// Global Defines}}
-\DoxyCodeLine{22   \textcolor{keyword}{enum} ShipDirection \{ None, Left, Right \};}
-\DoxyCodeLine{23   \textcolor{comment}{// Constructors}}
-\DoxyCodeLine{24   \mbox{\hyperlink{class_ship_ab7608fcfc4d27c678aacaf9bfd68a462}{Ship}}();}
-\DoxyCodeLine{25   \mbox{\hyperlink{class_ship_ab7608fcfc4d27c678aacaf9bfd68a462}{Ship}}(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, \textcolor{keywordtype}{int} width, \textcolor{keywordtype}{int} height,}
-\DoxyCodeLine{26        fgcugl::Color color = fgcugl::Green);}
-\DoxyCodeLine{27   \textcolor{comment}{// Getters}}
-\DoxyCodeLine{28   \mbox{\hyperlink{class_block}{Block}} getShip();}
-\DoxyCodeLine{29   \textcolor{keywordtype}{float} getXCoordinate();}
-\DoxyCodeLine{30   \textcolor{keywordtype}{float} getYCoordinate();}
-\DoxyCodeLine{31   \textcolor{keywordtype}{int} getWidth();}
-\DoxyCodeLine{32   \textcolor{keywordtype}{int} getHeight();}
-\DoxyCodeLine{33   \textcolor{keywordtype}{float} getVelocity();}
-\DoxyCodeLine{34   fgcugl::Color getColor();}
-\DoxyCodeLine{35   \textcolor{comment}{// setters}}
-\DoxyCodeLine{36   \textcolor{keywordtype}{void} setXCoordinate(\textcolor{keywordtype}{float} value);}
-\DoxyCodeLine{37   \textcolor{keywordtype}{void} setYCoordinate(\textcolor{keywordtype}{float} value);}
-\DoxyCodeLine{38   \textcolor{keywordtype}{void} setWidth(\textcolor{keywordtype}{int} value);}
-\DoxyCodeLine{39   \textcolor{keywordtype}{void} setHeight(\textcolor{keywordtype}{int} value);}
-\DoxyCodeLine{40   \textcolor{keywordtype}{void} setVelocity(\textcolor{keywordtype}{float} value);}
-\DoxyCodeLine{41   \textcolor{keywordtype}{void} setColor(fgcugl::Color value);}
-\DoxyCodeLine{42 }
-\DoxyCodeLine{43   \textcolor{comment}{// member methods}}
-\DoxyCodeLine{44   \textcolor{keywordtype}{int} top();}
-\DoxyCodeLine{45   \textcolor{keywordtype}{int} bottom();}
-\DoxyCodeLine{46   \textcolor{keywordtype}{int} left();}
-\DoxyCodeLine{47   \textcolor{keywordtype}{int} right();}
-\DoxyCodeLine{48 }
-\DoxyCodeLine{49   \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}{isEmpty}}();}
-\DoxyCodeLine{50 }
-\DoxyCodeLine{51   ShipDirection \mbox{\hyperlink{class_ship_aee44a9b6f31add5ddf849b79a072e324}{currentDirection}}();}
-\DoxyCodeLine{52 }
-\DoxyCodeLine{53   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_abe985fe663d2e93560734c40faa0f55f}{update}}(ShipDirection next, \mbox{\hyperlink{class_block}{Block}} leftWall, \mbox{\hyperlink{class_block}{Block}} rightWall, \textcolor{keywordtype}{float} lag);}
-\DoxyCodeLine{54   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}{draw}}(\textcolor{keywordtype}{float} lag);}
-\DoxyCodeLine{55   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a3e6c8e4839ec569518baad64a4490b14}{drawWithBorder}}(\textcolor{keywordtype}{float} lag, fgcugl::Color borderColor = fgcugl::Black,}
-\DoxyCodeLine{56                       \textcolor{keywordtype}{int} borderSize = 1);}
-\DoxyCodeLine{57 }
-\DoxyCodeLine{58  \textcolor{keyword}{private}:}
-\DoxyCodeLine{59   \mbox{\hyperlink{class_block}{Block}} ship;}
-\DoxyCodeLine{60   \textcolor{keywordtype}{float} currentX;}
-\DoxyCodeLine{61   \textcolor{keywordtype}{float} currentY;}
-\DoxyCodeLine{62   \textcolor{keywordtype}{float} velocity;}
-\DoxyCodeLine{63 \};}
-\DoxyCodeLine{64 }
-\DoxyCodeLine{65 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// SHIP\_H}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_entity_8h}{Entity.h}}"{}}}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{keyword}{class }\mbox{\hyperlink{class_ship}{Ship}}\{}
+\DoxyCodeLine{21  \textcolor{keyword}{public}:}
+\DoxyCodeLine{22   \textcolor{comment}{// Global Defines}}
+\DoxyCodeLine{23   \textcolor{keyword}{enum} ShipDirection \{ None, Left, Right \};}
+\DoxyCodeLine{24   \textcolor{comment}{// Constructors}}
+\DoxyCodeLine{25   \mbox{\hyperlink{class_ship_ab7608fcfc4d27c678aacaf9bfd68a462}{Ship}}();}
+\DoxyCodeLine{26   \mbox{\hyperlink{class_ship_ab7608fcfc4d27c678aacaf9bfd68a462}{Ship}}(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, \textcolor{keywordtype}{int} width, \textcolor{keywordtype}{int} height,}
+\DoxyCodeLine{27        fgcugl::Color color = fgcugl::Green);}
+\DoxyCodeLine{28   \textcolor{comment}{// Getters}}
+\DoxyCodeLine{29   \mbox{\hyperlink{class_block}{Block}} \mbox{\hyperlink{class_ship_a521cd180aff5bdc2664251bc333065ff}{getShip}}();}
+\DoxyCodeLine{30   \textcolor{keywordtype}{float} \mbox{\hyperlink{class_ship_a469230a299a68c4d159f154875bf1270}{getXCoordinate}}();}
+\DoxyCodeLine{31   \textcolor{keywordtype}{float} \mbox{\hyperlink{class_ship_a1cdc8d76d0cdcd013aaaa5d0e8b136af}{getYCoordinate}}();}
+\DoxyCodeLine{32   \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ship_aeba3adb876e7c83760448245f6950d8b}{getWidth}}();}
+\DoxyCodeLine{33   \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ship_aa776da1fa8f5fd12019ec0030ae138c0}{getHeight}}();}
+\DoxyCodeLine{34   \textcolor{keywordtype}{float} \mbox{\hyperlink{class_ship_a508dfb701b8e49feba1b9cd40041e220}{getVelocity}}();}
+\DoxyCodeLine{35   fgcugl::Color \mbox{\hyperlink{class_ship_a7d6b2af81d00cd32283c256d2eda907f}{getColor}}();}
+\DoxyCodeLine{36   \textcolor{comment}{// setters}}
+\DoxyCodeLine{37   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_af5470d5f605c070ca84571e7e5c12d38}{setXCoordinate}}(\textcolor{keywordtype}{float} value);}
+\DoxyCodeLine{38   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a394a0c33818877f21b70b909133b52dd}{setYCoordinate}}(\textcolor{keywordtype}{float} value);}
+\DoxyCodeLine{39   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a6e0c917d7013aa6c1fc1b35bbb1957c1}{setWidth}}(\textcolor{keywordtype}{int} value);}
+\DoxyCodeLine{40   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_acf4e20d1612e1c91749376af7014c3c8}{setHeight}}(\textcolor{keywordtype}{int} value);}
+\DoxyCodeLine{41   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a4f35fb8266d5018b467fdb5b4e0c8925}{setVelocity}}(\textcolor{keywordtype}{float} value);}
+\DoxyCodeLine{42   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_ae4dcfebaf9e379eaf2cb5066f6799b50}{setColor}}(fgcugl::Color value);}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44   \textcolor{comment}{// member methods}}
+\DoxyCodeLine{45   \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ship_a28f83e65230b40e533837df30a3b5435}{top}}();}
+\DoxyCodeLine{46   \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ship_a6a41898b8327484aa2e608ecc20f89b4}{bottom}}();}
+\DoxyCodeLine{47   \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ship_a4cb05563cc8632db30554047ad70811b}{left}}();}
+\DoxyCodeLine{48   \textcolor{keywordtype}{int} \mbox{\hyperlink{class_ship_a97420a3ffe564858d54ae378ffb675bf}{right}}();}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50   \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_ship_aaeab3097fd28045c90d4b82d4eea29e0}{isEmpty}}();}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52   ShipDirection \mbox{\hyperlink{class_ship_aee44a9b6f31add5ddf849b79a072e324}{currentDirection}}();}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_abe985fe663d2e93560734c40faa0f55f}{update}}(ShipDirection next, \mbox{\hyperlink{class_block}{Block}} leftWall, \mbox{\hyperlink{class_block}{Block}} rightWall, \textcolor{keywordtype}{float} lag);}
+\DoxyCodeLine{55   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a7ffcc5b0f253f3e2404d48e71a948c14}{draw}}(\textcolor{keywordtype}{float} lag);}
+\DoxyCodeLine{56   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ship_a3e6c8e4839ec569518baad64a4490b14}{drawWithBorder}}(\textcolor{keywordtype}{float} lag, fgcugl::Color borderColor = fgcugl::Black,}
+\DoxyCodeLine{57                       \textcolor{keywordtype}{int} borderSize = 1);}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59  \textcolor{keyword}{private}:}
+\DoxyCodeLine{60   \mbox{\hyperlink{class_block}{Block}} ship;}
+\DoxyCodeLine{61   \textcolor{keywordtype}{float} currentX;}
+\DoxyCodeLine{62   \textcolor{keywordtype}{float} currentY;}
+\DoxyCodeLine{63   \textcolor{keywordtype}{float} velocity;}
+\DoxyCodeLine{64 \};}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// SHIP\_H}}
 
 \end{DoxyCode}
