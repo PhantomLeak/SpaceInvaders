@@ -9,7 +9,7 @@
   - OpenGL Extension Wrangler Library http://glew.sourceforge.net/
   - Object Oriented Programming
 
-###License
+### License
 This project is licensed under the MIT License.
 
 ### Acknowledgments
