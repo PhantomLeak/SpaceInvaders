@@ -42,8 +42,8 @@ const double FRAME_RATE = 1.0 / 60.0;  // Updae game every 1/60th of a second
 // game components
 
 // Player ship properties
-int SHIP_WIDTH = 40;
-int SHIP_HEIGHT = 20;
+int SHIP_WIDTH = 30;
+int SHIP_HEIGHT = 30;
 
 // Bullet properties
 const int BALL_SIZE = 8;  // radius of ball in pixels

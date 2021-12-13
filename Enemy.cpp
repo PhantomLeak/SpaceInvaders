@@ -36,23 +36,94 @@ Enemy::Enemy(int x, int y, int width, int height, fgcugl::Color color) {
 
 // accessors
 // getters
+
+/**
+ * @brief Get Enemy X Coordinate
+ * @return int
+*/
 int Enemy::getXCoordinate() { return xpos; }
+
+/**
+ * @brief Get Enemy Y Coordinate
+ * @return int
+*/
 int Enemy::getYCoordinate() { return ypos; }
+
+/**
+ * @brief Get Enemy Width
+ * @return int 
+*/
 int Enemy::getWidth() { return width; }
+
+/**
+ * @brief Get Enemy Height
+ * @return int 
+*/
 int Enemy::getHeight() { return height; }
+
+/**
+ * @brief Get Enemy Color
+ * @return FGCUGL::Color
+*/
 fgcugl::Color Enemy::getColor() { return color; }
+
 // setters
+
+/**
+ * @brief Set Enemy X Coordinate
+ * @param value 
+*/
 void Enemy::setXCoordinate(int value) { xpos = value; }
+
+/**
+ * @brief Set Enemy Y Coordinate
+ * @param value 
+*/
 void Enemy::setYCoordinate(int value) { ypos = value; }
+
+/**
+ * @brief Set Enemy Width
+ * @param value 
+*/
 void Enemy::setWidth(int value) { width = value; }
+
+/**
+ * @brief Set Enemy Height
+ * @param value 
+*/
 void Enemy::setHeight(int value) { height = value; }
+
+/**
+ * @brief Set Enemy Color
+ * @param value 
+*/
 void Enemy::setColor(fgcugl::Color value) { color = value; }
 
 //-----------------------------------------------------
 // member methods
+
+/**
+ * @brief Set Enemy Top
+ * @return int 
+*/
 int Enemy::top() { return ypos + height; }
+
+/**
+ * @brief Set Enemy Bottom
+ * @return int 
+*/
 int Enemy::bottom() { return ypos; }
+
+/**
+ * @brief Set Enemy Left
+ * @return int 
+*/
 int Enemy::left() { return xpos; }
+
+/**
+ * @brief Set Enemy Right
+ * @return int 
+*/
 int Enemy::right() { return xpos + width; }
 
 /**
@@ -63,7 +134,6 @@ bool Enemy::isEmpty() { return width + height == 0; }
 
 /**
  * @brief draw a Enemy object on the OpenGL window
- * @return void 
 */
 void Enemy::draw()
 {
@@ -77,7 +147,6 @@ void Enemy::draw()
 * @param borderColor
 * @param borderSize
 * 
-* @return void
 */
 void Enemy::drawWithBorder(fgcugl::Color borderColor, int borderSize)
 {

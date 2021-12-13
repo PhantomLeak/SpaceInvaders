@@ -3,7 +3,7 @@
  *  @brief Main application file for space invaders game
 
  *  Main application file to display and render movement, refresh rate, and
- functions of application
+ *  functions of application
 
  *  @author Dylan Stocking
 
@@ -64,6 +64,15 @@ int main() {
   while (!gameover) {
     std::string displayTitle = "SPACE INVADERS";
     fgcugl::drawText(360, 550, displayTitle, 2.5);
+
+    std::string displayHealth = "HEALTH: ";
+    fgcugl::drawText(20, 550, displayHealth, 2.5, fgcugl::Red);
+    
+    int health = 2;
+    fgcugl::drawText(145, 550, std::to_string(health), 2.5, fgcugl::Red);
+
+    fgcugl::drawText(750, 550, "SCORE: ", 2.5, fgcugl::Green);
+
     finishTime = fgcugl::getTime();       // sright the frame timer
     deltaTime += finishTime - startTime;  // add current lag
     startTime = finishTime;
@@ -96,7 +105,6 @@ int main() {
  * @param enemies
  * @param array of blocks
  *
- * @return void
  */
 void createEnemies(Enemy enemies[ENEMIES_ROWS][ENEMIES_COLUMNS]) {
   int y = ENEMIES_START_Y;
@@ -138,8 +146,6 @@ void createEnemies(Enemy enemies[ENEMIES_ROWS][ENEMIES_COLUMNS]) {
  *
  * @param bricks
  * @param array of blocks
- *
- * @return void
  */
 void createBricks(Block bricks[BRICKS_ROWS][BRICKS_COLUMNS]) {
   int y = BRICKS_START_Y;
@@ -183,7 +189,7 @@ void createBricks(Block bricks[BRICKS_ROWS][BRICKS_COLUMNS]) {
 
 /**
  * @brief Get user direction
- * 
+ *
  * @return Direction newdirection
  */
 Direction processInput() {
@@ -247,7 +253,6 @@ bool update(Ship& ship, Walls walls, double lag, Direction next) {
  * @param walls
  * @param lag
  *
- * return void
  */
 void render(Ship ship, Block bricks[BRICKS_ROWS][BRICKS_COLUMNS],
             Enemy enemy[ENEMIES_ROWS][ENEMIES_COLUMNS], Walls walls,

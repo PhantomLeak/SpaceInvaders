@@ -38,32 +38,117 @@ Ship::Ship(int x, int y, int width, int height, fgcugl::Color color) {
 }
 
 // Getters
+
+/**
+ * @brief Get Player Ship
+ * @return Block
+*/
 Block Ship::getShip() { return ship; }
+
+/**
+ * @brief Get X Coordinate
+ * @return float 
+*/
 float Ship::getXCoordinate() { return currentX; }
+
+/**
+ * @brief Get Y Coordinate
+ * @return float 
+*/
 float Ship::getYCoordinate() { return currentY; }
+
+/**
+ * @brief Get Ship Width
+ * @return int
+*/
 int Ship::getWidth() { return ship.getWidth(); }
+
+/**
+ * @brief Get Ship Height
+ * @return int
+*/
 int Ship::getHeight() { return ship.getHeight(); }
+
+/**
+ * @brief Get Ship's Velocity
+ * @return float 
+*/
 float Ship::getVelocity() { return velocity; }
+
+/**
+ * @brief Get Color of Ship
+ * @return FGCUGL::Color
+*/
 fgcugl::Color Ship::getColor() { return ship.getColor(); }
 
 // Setters
+
+/**
+ * @brief Set Ship X Coordinate
+ * @param value 
+*/
 void Ship::setXCoordinate(float value) {
   currentX = value;
   ship.setXCoordinate(value);
 }
+
+/**
+ * @brief Set Ship Y Coordinate
+ * @param value 
+*/
 void Ship::setYCoordinate(float value) {
   currentY = value;
   ship.setYCoordinate(value);
 }
+
+/**
+ * @brief Set Ship Width
+ * @param value 
+*/
 void Ship::setWidth(int value) { ship.setWidth(value); }
+
+/**
+ * @brief Set Ship Height
+ * @param value 
+*/
 void Ship::setHeight(int value) { ship.setHeight(value); }
+
+/**
+ * @brief Set Ship Velocity
+ * @param value 
+*/
 void Ship::setVelocity(float value) { velocity = value; }
+
+/**
+ * @brief Set Ship Color
+ * @param value 
+*/
 void Ship::setColor(fgcugl::Color value) { ship.setColor(value); }
 
 // Member methods
+
+/**
+ * @brief Set Ship Top
+ * @return int
+*/
 int Ship::top() { return ship.top(); }
+
+/**
+ * @brief Set Ship Bottom
+ * @return int 
+*/
 int Ship::bottom() { return ship.bottom(); }
+
+/**
+ * @brief Set Ship Left
+ * @return int 
+*/
 int Ship::left() { return ship.left(); }
+
+/**
+ * @brief Set Ship Right
+ * @return int 
+*/
 int Ship::right() { return ship.right(); }
 
 /**
@@ -168,7 +253,6 @@ void Ship::draw(float lag) {
  * @param borderColor 
  * @param borderSize 
  * 
- * @return void
 */
 void Ship::drawWithBorder(float lag, fgcugl::Color borderColor,
                           int borderSize) {

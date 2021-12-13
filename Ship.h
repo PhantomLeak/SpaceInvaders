@@ -15,8 +15,9 @@
 
 #include "Block.h"
 #include "fgcugl.h"
+#include "Entity.h"
 
-class Ship {
+class Ship{
  public:
   // Global Defines
   enum ShipDirection { None, Left, Right };

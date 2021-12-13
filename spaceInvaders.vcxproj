@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="Block.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Entity.h" />
     <ClInclude Include="fgcugl.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="spaceInvaders.h" />
@@ -156,6 +157,7 @@
   <ItemGroup>
     <ClCompile Include="Block.cpp" />
     <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="fgcugl.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="spaceInvaders.cpp" />
