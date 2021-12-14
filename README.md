@@ -7,13 +7,19 @@
 ## Getting Started
   - Download OpenGL libraries and OpenGL Wrangler Libraries linked in the software section
   - Include libraries into project (inserting files directily into working directory) 
+  
   - Add libraries to C/C++ Addition Include directories:
+ 
   - 1. Linker
       >  General
       >>  Aditional Library Directories
       >>>  Add lib folders for glew and glfw
   - 2. Input
-      >  Add Openg132.lib;glew32.lib;glfw3.lib;
+      >  Add openg132.lib;glew32.lib;glfw3.lib;
+     
+  - Add GLEW and GLFW files to directory containing your C++ files 
+
+  - After linking all the libraries, test to make sure everything has been properly added (#include "fgcugl.h") 
   
 ## Software:
   - OpenGL libraries https://www.opengl.org/
