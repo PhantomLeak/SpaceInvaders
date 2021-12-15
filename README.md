@@ -5,25 +5,33 @@
  >**You Can view the documentation here:** https://phantomleak.github.io/SpaceInvaders/html/
 
 ## Getting Started
+### Needed files:
   - Download OpenGL libraries and OpenGL Wrangler Libraries linked in the software section
-  - Include libraries into project (inserting files directily into working directory) 
-  
-  - Add libraries to C/C++ Addition Include directories:
- 
-  - 1. Linker
-      >  General
-      >>  Aditional Library Directories
-      >>>  Add lib folders for glew and glfw
-  - 2. Input
-      >  Add openg132.lib;glew32.lib;glfw3.lib;
+  - Pull the FGCU OpenGL wrapper API code files linked in the Software & Acknowledgements sections
+ ### Setting up the project:
+  - Open the properties section for your project (In Visual Studio, right click on the directory in solution explorer and select properties)
+    1. Select C/C++
+       - General 
+         > Additional Include Directories
+         >> Add lib folders for GLEW & GLFW (glew02.1.0\include) (glfw-3.3.4.bin.WIN32\include)
+    2. Select Linker
+        - General
+          >  Aditional Library Directories
+          >>  Add lib folders for GLEW & GLFW (glew02.1.0\include) (glfw-3.3.4.bin.WIN32\include)
+        - Input 
+          > Additional Dependencies (DO NOT DELETE ANY DEPENDENCEIS ALREADY THERE)
+          >> Add dependencies -> openg132.lib;glew32.lib;glfw3.lib;
      
-  - Add GLEW and GLFW files to directory containing your C++ files 
+  3. Apply changes and close out of the properties section.
+      
+  4. Add the FGCUGL API files (fgcugl.h, fgcugl.cpp) to your directory containing the .cpp files.
+  5. Test building the project to make sure linking was successful.
 
-  - After linking all the libraries, test to make sure everything has been properly added (#include "fgcugl.h") 
   
 ## Software:
-  - OpenGL libraries https://www.opengl.org/
-  - OpenGL Extension Wrangler Library http://glew.sourceforge.net/
+  - GLEW 2.1.0 (https://www.opengl.org/sdk/libs/GLEW/)
+  - GLFW 3.3.4 (https://www.glfw.org/)
+  - FGCU OpenGL wrapper API code: https://github.com/pallenfgcu/fgcugl
   - Microsoft Visual Studio
   - Git
   - WSL Ubuntu
