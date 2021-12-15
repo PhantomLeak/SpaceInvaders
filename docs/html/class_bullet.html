@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Bullet Class Reference</title>
+<title>Space Invaders: Bullet Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">My Project
+   <div id="projectname">Space Invaders
    </div>
   </td>
  </tr>
@@ -93,58 +93,394 @@ $(document).ready(function(){initNavTree('class_bullet.html',''); initResizable(
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ab672966c4264f294ab8db1d2d341f09f"><td class="memItemLeft" align="right" valign="top"><a id="ab672966c4264f294ab8db1d2d341f09f" name="ab672966c4264f294ab8db1d2d341f09f"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>CollisionType</b> { <b>None</b>
-, <b>Vertical</b>
+, <b>Horizontal</b>
  }</td></tr>
 <tr class="separator:ab672966c4264f294ab8db1d2d341f09f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac5ae75582febcefda6d41ad9cf329dd0"><td class="memItemLeft" align="right" valign="top"><a id="ac5ae75582febcefda6d41ad9cf329dd0" name="ac5ae75582febcefda6d41ad9cf329dd0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Bullet</b> (float x, float y, short int direction, int size, fgcugl::Color color, float movementSpeed)</td></tr>
-<tr class="separator:ac5ae75582febcefda6d41ad9cf329dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a544f09f215032e858f6be6e8b31310dc"><td class="memItemLeft" align="right" valign="top"><a id="a544f09f215032e858f6be6e8b31310dc" name="a544f09f215032e858f6be6e8b31310dc"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>getXCoordinate</b> ()</td></tr>
+<tr class="memitem:a6bbe13349c421f639b29615fd32b5134"><td class="memItemLeft" align="right" valign="top"><a id="a6bbe13349c421f639b29615fd32b5134" name="a6bbe13349c421f639b29615fd32b5134"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Bullet</b> (float x, float y, float speed, int size, fgcugl::Color color=fgcugl::White)</td></tr>
+<tr class="separator:a6bbe13349c421f639b29615fd32b5134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544f09f215032e858f6be6e8b31310dc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#a544f09f215032e858f6be6e8b31310dc">getXCoordinate</a> ()</td></tr>
+<tr class="memdesc:a544f09f215032e858f6be6e8b31310dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="class_bullet.html">Bullet</a> X Coordinate.  <a href="class_bullet.html#a544f09f215032e858f6be6e8b31310dc">More...</a><br /></td></tr>
 <tr class="separator:a544f09f215032e858f6be6e8b31310dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcc784106a74c704d52f92ca27644899"><td class="memItemLeft" align="right" valign="top"><a id="abcc784106a74c704d52f92ca27644899" name="abcc784106a74c704d52f92ca27644899"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>getYCoordinate</b> ()</td></tr>
+<tr class="memitem:abcc784106a74c704d52f92ca27644899"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#abcc784106a74c704d52f92ca27644899">getYCoordinate</a> ()</td></tr>
+<tr class="memdesc:abcc784106a74c704d52f92ca27644899"><td class="mdescLeft">&#160;</td><td class="mdescRight">get <a class="el" href="class_bullet.html">Bullet</a> Y Coordinate  <a href="class_bullet.html#abcc784106a74c704d52f92ca27644899">More...</a><br /></td></tr>
 <tr class="separator:abcc784106a74c704d52f92ca27644899"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eb9c0d97996269c40e08e86f3bcdacb"><td class="memItemLeft" align="right" valign="top"><a id="a7eb9c0d97996269c40e08e86f3bcdacb" name="a7eb9c0d97996269c40e08e86f3bcdacb"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>getSize</b> ()</td></tr>
+<tr class="memitem:a05330de13e4ce4856225442de04891fb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#a05330de13e4ce4856225442de04891fb">getVelocity</a> ()</td></tr>
+<tr class="memdesc:a05330de13e4ce4856225442de04891fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get <a class="el" href="class_bullet.html">Bullet</a> Velocity  <a href="class_bullet.html#a05330de13e4ce4856225442de04891fb">More...</a><br /></td></tr>
+<tr class="separator:a05330de13e4ce4856225442de04891fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eb9c0d97996269c40e08e86f3bcdacb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#a7eb9c0d97996269c40e08e86f3bcdacb">getSize</a> ()</td></tr>
+<tr class="memdesc:a7eb9c0d97996269c40e08e86f3bcdacb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="class_bullet.html">Bullet</a> size.  <a href="class_bullet.html#a7eb9c0d97996269c40e08e86f3bcdacb">More...</a><br /></td></tr>
 <tr class="separator:a7eb9c0d97996269c40e08e86f3bcdacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a604b2e10a7f72a04c8cdb5b2fca1f01d"><td class="memItemLeft" align="right" valign="top"><a id="a604b2e10a7f72a04c8cdb5b2fca1f01d" name="a604b2e10a7f72a04c8cdb5b2fca1f01d"></a>
-fgcugl::Color&#160;</td><td class="memItemRight" valign="bottom"><b>getColor</b> ()</td></tr>
+<tr class="memitem:a604b2e10a7f72a04c8cdb5b2fca1f01d"><td class="memItemLeft" align="right" valign="top">fgcugl::Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#a604b2e10a7f72a04c8cdb5b2fca1f01d">getColor</a> ()</td></tr>
+<tr class="memdesc:a604b2e10a7f72a04c8cdb5b2fca1f01d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="class_bullet.html">Bullet</a> Color.  <a href="class_bullet.html#a604b2e10a7f72a04c8cdb5b2fca1f01d">More...</a><br /></td></tr>
 <tr class="separator:a604b2e10a7f72a04c8cdb5b2fca1f01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72a251fb60393fbaee6d9eb7621fd307"><td class="memItemLeft" align="right" valign="top"><a id="a72a251fb60393fbaee6d9eb7621fd307" name="a72a251fb60393fbaee6d9eb7621fd307"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setXCoordinate</b> (float value)</td></tr>
+<tr class="memitem:a72a251fb60393fbaee6d9eb7621fd307"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#a72a251fb60393fbaee6d9eb7621fd307">setXCoordinate</a> (float value)</td></tr>
+<tr class="memdesc:a72a251fb60393fbaee6d9eb7621fd307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="class_bullet.html">Bullet</a> X Coordinate.  <a href="class_bullet.html#a72a251fb60393fbaee6d9eb7621fd307">More...</a><br /></td></tr>
 <tr class="separator:a72a251fb60393fbaee6d9eb7621fd307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca6d278b7baeb343ec746044ce0b555"><td class="memItemLeft" align="right" valign="top"><a id="a2ca6d278b7baeb343ec746044ce0b555" name="a2ca6d278b7baeb343ec746044ce0b555"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setYCoordinate</b> (float value)</td></tr>
+<tr class="memitem:a2ca6d278b7baeb343ec746044ce0b555"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#a2ca6d278b7baeb343ec746044ce0b555">setYCoordinate</a> (float value)</td></tr>
+<tr class="memdesc:a2ca6d278b7baeb343ec746044ce0b555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="class_bullet.html">Bullet</a> Y Coordinate.  <a href="class_bullet.html#a2ca6d278b7baeb343ec746044ce0b555">More...</a><br /></td></tr>
 <tr class="separator:a2ca6d278b7baeb343ec746044ce0b555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb3377b7eeee7314d3b48671cfbd499c"><td class="memItemLeft" align="right" valign="top"><a id="adb3377b7eeee7314d3b48671cfbd499c" name="adb3377b7eeee7314d3b48671cfbd499c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setSize</b> (int)</td></tr>
+<tr class="memitem:ad1c49f2ffb238c3950fb6264e9a5d7fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#ad1c49f2ffb238c3950fb6264e9a5d7fd">setVelocity</a> (float value)</td></tr>
+<tr class="memdesc:ad1c49f2ffb238c3950fb6264e9a5d7fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="class_bullet.html">Bullet</a> Velocity.  <a href="class_bullet.html#ad1c49f2ffb238c3950fb6264e9a5d7fd">More...</a><br /></td></tr>
+<tr class="separator:ad1c49f2ffb238c3950fb6264e9a5d7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3377b7eeee7314d3b48671cfbd499c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#adb3377b7eeee7314d3b48671cfbd499c">setSize</a> (int)</td></tr>
+<tr class="memdesc:adb3377b7eeee7314d3b48671cfbd499c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="class_bullet.html">Bullet</a> Size.  <a href="class_bullet.html#adb3377b7eeee7314d3b48671cfbd499c">More...</a><br /></td></tr>
 <tr class="separator:adb3377b7eeee7314d3b48671cfbd499c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11102e2a7895a844bc028d6ec7004e80"><td class="memItemLeft" align="right" valign="top"><a id="a11102e2a7895a844bc028d6ec7004e80" name="a11102e2a7895a844bc028d6ec7004e80"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setColor</b> (fgcugl::Color value)</td></tr>
+<tr class="memitem:a11102e2a7895a844bc028d6ec7004e80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#a11102e2a7895a844bc028d6ec7004e80">setColor</a> (fgcugl::Color value)</td></tr>
+<tr class="memdesc:a11102e2a7895a844bc028d6ec7004e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="class_bullet.html">Bullet</a> Color.  <a href="class_bullet.html#a11102e2a7895a844bc028d6ec7004e80">More...</a><br /></td></tr>
 <tr class="separator:a11102e2a7895a844bc028d6ec7004e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa77b8b83e5cbcc4e688e28580c73ed12"><td class="memItemLeft" align="right" valign="top"><a id="aa77b8b83e5cbcc4e688e28580c73ed12" name="aa77b8b83e5cbcc4e688e28580c73ed12"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>top</b> ()</td></tr>
+<tr class="memitem:aa77b8b83e5cbcc4e688e28580c73ed12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#aa77b8b83e5cbcc4e688e28580c73ed12">top</a> ()</td></tr>
+<tr class="memdesc:aa77b8b83e5cbcc4e688e28580c73ed12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <a class="el" href="class_bullet.html">Bullet</a> top.  <a href="class_bullet.html#aa77b8b83e5cbcc4e688e28580c73ed12">More...</a><br /></td></tr>
 <tr class="separator:aa77b8b83e5cbcc4e688e28580c73ed12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc2984bebd9e420da9835d956936efe5"><td class="memItemLeft" align="right" valign="top"><a id="afc2984bebd9e420da9835d956936efe5" name="afc2984bebd9e420da9835d956936efe5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (float lag)</td></tr>
+<tr class="memitem:afc2984bebd9e420da9835d956936efe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#afc2984bebd9e420da9835d956936efe5">update</a> (float lag)</td></tr>
+<tr class="memdesc:afc2984bebd9e420da9835d956936efe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update location of the bullet relative to lag.  <a href="class_bullet.html#afc2984bebd9e420da9835d956936efe5">More...</a><br /></td></tr>
 <tr class="separator:afc2984bebd9e420da9835d956936efe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27c9a8fa2de0fe842ab255ade0adf831"><td class="memItemLeft" align="right" valign="top"><a id="a27c9a8fa2de0fe842ab255ade0adf831" name="a27c9a8fa2de0fe842ab255ade0adf831"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>draw</b> (float lag)</td></tr>
+<tr class="memitem:a27c9a8fa2de0fe842ab255ade0adf831"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#a27c9a8fa2de0fe842ab255ade0adf831">draw</a> (float lag)</td></tr>
+<tr class="memdesc:a27c9a8fa2de0fe842ab255ade0adf831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw <a class="el" href="class_bullet.html">Bullet</a> Object on OpenGL Window.  <a href="class_bullet.html#a27c9a8fa2de0fe842ab255ade0adf831">More...</a><br /></td></tr>
 <tr class="separator:a27c9a8fa2de0fe842ab255ade0adf831"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15e8cb39c717274c51f6440f44217334"><td class="memItemLeft" align="right" valign="top"><a id="a15e8cb39c717274c51f6440f44217334" name="a15e8cb39c717274c51f6440f44217334"></a>
-CollisionType&#160;</td><td class="memItemRight" valign="bottom"><b>collisionCheck</b> (<a class="el" href="class_block.html">Block</a> block)</td></tr>
-<tr class="separator:a15e8cb39c717274c51f6440f44217334"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9972b13b4a619c11c0d0671c2c8d2dba"><td class="memItemLeft" align="right" valign="top"><a id="a9972b13b4a619c11c0d0671c2c8d2dba" name="a9972b13b4a619c11c0d0671c2c8d2dba"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>doCollision</b> (int collision)</td></tr>
-<tr class="separator:a9972b13b4a619c11c0d0671c2c8d2dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaee3692b69b3a4ad052b2a9fd581442"><td class="memItemLeft" align="right" valign="top">CollisionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bullet.html#acaee3692b69b3a4ad052b2a9fd581442">collisionCheck</a> (<a class="el" href="class_block.html">Block</a> block)</td></tr>
+<tr class="memdesc:acaee3692b69b3a4ad052b2a9fd581442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check Collision Type with block object.  <a href="class_bullet.html#acaee3692b69b3a4ad052b2a9fd581442">More...</a><br /></td></tr>
+<tr class="separator:acaee3692b69b3a4ad052b2a9fd581442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf2623250c8e140bfcfc229e96d4460"><td class="memItemLeft" align="right" valign="top"><a id="a3cf2623250c8e140bfcfc229e96d4460" name="a3cf2623250c8e140bfcfc229e96d4460"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>doCollision</b> (int collisions)</td></tr>
+<tr class="separator:a3cf2623250c8e140bfcfc229e96d4460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="acaee3692b69b3a4ad052b2a9fd581442" name="acaee3692b69b3a4ad052b2a9fd581442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaee3692b69b3a4ad052b2a9fd581442">&#9670;&nbsp;</a></span>collisionCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Bullet::CollisionType Bullet::collisionCheck </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_block.html">Block</a>&#160;</td>
+          <td class="paramname"><em>block</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check Collision Type with block object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">block</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>CollisionType </dd></dl>
+
+</div>
+</div>
+<a id="a27c9a8fa2de0fe842ab255ade0adf831" name="a27c9a8fa2de0fe842ab255ade0adf831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27c9a8fa2de0fe842ab255ade0adf831">&#9670;&nbsp;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bullet::draw </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw <a class="el" href="class_bullet.html">Bullet</a> Object on OpenGL Window. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lag</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a604b2e10a7f72a04c8cdb5b2fca1f01d" name="a604b2e10a7f72a04c8cdb5b2fca1f01d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a604b2e10a7f72a04c8cdb5b2fca1f01d">&#9670;&nbsp;</a></span>getColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fgcugl::Color Bullet::getColor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get <a class="el" href="class_bullet.html">Bullet</a> Color. </p>
+<dl class="section return"><dt>Returns</dt><dd>fgcugl::color </dd></dl>
+
+</div>
+</div>
+<a id="a7eb9c0d97996269c40e08e86f3bcdacb" name="a7eb9c0d97996269c40e08e86f3bcdacb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eb9c0d97996269c40e08e86f3bcdacb">&#9670;&nbsp;</a></span>getSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Bullet::getSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get <a class="el" href="class_bullet.html">Bullet</a> size. </p>
+<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="a05330de13e4ce4856225442de04891fb" name="a05330de13e4ce4856225442de04891fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05330de13e4ce4856225442de04891fb">&#9670;&nbsp;</a></span>getVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Bullet::getVelocity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get <a class="el" href="class_bullet.html">Bullet</a> Velocity </p>
+<dl class="section return"><dt>Returns</dt><dd>float </dd></dl>
+
+</div>
+</div>
+<a id="a544f09f215032e858f6be6e8b31310dc" name="a544f09f215032e858f6be6e8b31310dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a544f09f215032e858f6be6e8b31310dc">&#9670;&nbsp;</a></span>getXCoordinate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Bullet::getXCoordinate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get <a class="el" href="class_bullet.html">Bullet</a> X Coordinate. </p>
+<dl class="section return"><dt>Returns</dt><dd>float </dd></dl>
+
+</div>
+</div>
+<a id="abcc784106a74c704d52f92ca27644899" name="abcc784106a74c704d52f92ca27644899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc784106a74c704d52f92ca27644899">&#9670;&nbsp;</a></span>getYCoordinate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Bullet::getYCoordinate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get <a class="el" href="class_bullet.html">Bullet</a> Y Coordinate </p>
+<dl class="section return"><dt>Returns</dt><dd>float </dd></dl>
+
+</div>
+</div>
+<a id="a11102e2a7895a844bc028d6ec7004e80" name="a11102e2a7895a844bc028d6ec7004e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11102e2a7895a844bc028d6ec7004e80">&#9670;&nbsp;</a></span>setColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bullet::setColor </td>
+          <td>(</td>
+          <td class="paramtype">fgcugl::Color&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set <a class="el" href="class_bullet.html">Bullet</a> Color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adb3377b7eeee7314d3b48671cfbd499c" name="adb3377b7eeee7314d3b48671cfbd499c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3377b7eeee7314d3b48671cfbd499c">&#9670;&nbsp;</a></span>setSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bullet::setSize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set <a class="el" href="class_bullet.html">Bullet</a> Size. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad1c49f2ffb238c3950fb6264e9a5d7fd" name="ad1c49f2ffb238c3950fb6264e9a5d7fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1c49f2ffb238c3950fb6264e9a5d7fd">&#9670;&nbsp;</a></span>setVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bullet::setVelocity </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set <a class="el" href="class_bullet.html">Bullet</a> Velocity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a72a251fb60393fbaee6d9eb7621fd307" name="a72a251fb60393fbaee6d9eb7621fd307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72a251fb60393fbaee6d9eb7621fd307">&#9670;&nbsp;</a></span>setXCoordinate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bullet::setXCoordinate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set <a class="el" href="class_bullet.html">Bullet</a> X Coordinate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2ca6d278b7baeb343ec746044ce0b555" name="a2ca6d278b7baeb343ec746044ce0b555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ca6d278b7baeb343ec746044ce0b555">&#9670;&nbsp;</a></span>setYCoordinate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bullet::setYCoordinate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set <a class="el" href="class_bullet.html">Bullet</a> Y Coordinate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa77b8b83e5cbcc4e688e28580c73ed12" name="aa77b8b83e5cbcc4e688e28580c73ed12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa77b8b83e5cbcc4e688e28580c73ed12">&#9670;&nbsp;</a></span>top()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Bullet::top </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set <a class="el" href="class_bullet.html">Bullet</a> top. </p>
+<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="afc2984bebd9e420da9835d956936efe5" name="afc2984bebd9e420da9835d956936efe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc2984bebd9e420da9835d956936efe5">&#9670;&nbsp;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bullet::update </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>lag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update location of the bullet relative to lag. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lag</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/<a class="el" href="_bullet_8h_source.html">Bullet.h</a></li>
-<li>C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/Bullet.cpp</li>
+<li>C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/<a class="el" href="_bullet_8cpp.html">Bullet.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

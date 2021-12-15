@@ -26,10 +26,13 @@ var NAVTREE =
 [
   [ "Space Invaders", "index.html", [
     [ "SPACE INVADERS", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html", [
-      [ "This program is for an individual term project for COP 3003", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md1", [
-        [ "It is a clone of the classic arcade game Space Invaders using:", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md2", null ],
-        [ "OpenGL Libraries linked below:", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md3", null ]
-      ] ]
+      [ "Getting Started", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md1", [
+        [ "Needed files:", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md2", null ],
+        [ "Setting up the project:", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md3", null ]
+      ] ],
+      [ "Software:", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md4", null ],
+      [ "License", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md5", null ],
+      [ "Acknowledgments", "md__c___users__dstoc_source_repos_space_invaders_space_invaders__r_e_a_d_m_e.html#autotoc_md6", null ]
     ] ],
     [ "Bug List", "bug.html", null ],
     [ "Classes", "annotated.html", [

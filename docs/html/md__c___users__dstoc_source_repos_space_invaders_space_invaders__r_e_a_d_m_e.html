@@ -85,22 +85,52 @@ $(document).ready(function(){initNavTree('md__c___users__dstoc_source_repos_spac
   <div class="headertitle"><div class="title">SPACE INVADERS </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md1"></a>
-This program is for an individual term project for COP 3003</h1>
+<div class="textblock"><p >This program is for an individual term project for COP 3003. It is a clone of the classis arace game Space Invaders using Object Oriented Programming written entirely in C++ &gt;<b>You Can view the documentation here:</b> <a href="https://phantomleak.github.io/SpaceInvaders/html/">https://phantomleak.github.io/SpaceInvaders/html/</a></p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Getting Started</h1>
 <h2><a class="anchor" id="autotoc_md2"></a>
-It is a clone of the classic arcade game Space Invaders using:</h2>
+Needed files:</h2>
 <ul>
-<li>C++</li>
-<li>OpenGL libraries</li>
-<li>FGCU OpenGL wraper API</li>
-<li>Object Oriented Programming</li>
+<li>Download OpenGL libraries and OpenGL Wrangler Libraries linked in the software section</li>
+<li>Pull the FGCU OpenGL wrapper API code files linked in the Software &amp; Acknowledgements sections </li>
 </ul>
 <h2><a class="anchor" id="autotoc_md3"></a>
-OpenGL Libraries linked below:</h2>
+Setting up the project:</h2>
 <ul>
-<li>OpenGL: <a href="https://www.opengl.org/">https://www.opengl.org/</a></li>
-<li>OpenGL Extension Wrangler Library (GLEW): <a href="http://glew.sourceforge.net/">http://glew.sourceforge.net/</a></li>
-<li>OpenGL: <a href="https://www.glfw.org/">https://www.glfw.org/</a></li>
+<li>Open the properties section for your project (In Visual Studio, right click on the directory in solution explorer and select properties)<ol type="1">
+<li>Select C/C++<ul>
+<li>General &gt; Additional Include Directories &gt;&gt; Add lib folders for GLEW &amp; GLFW (glew02.1.0 (glfw-3.3.4.bin.WIN32</li>
+</ul>
+</li>
+<li>Select Linker<ul>
+<li>General &gt; Aditional Library Directories &gt;&gt; Add lib folders for GLEW &amp; GLFW (glew02.1.0 (glfw-3.3.4.bin.WIN32</li>
+<li>Input &gt; Additional Dependencies (DO NOT DELETE ANY DEPENDENCEIS ALREADY THERE) &gt;&gt; Add dependencies -&gt; openg132.lib;glew32.lib;glfw3.lib;</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<ol type="1">
+<li>Apply changes and close out of the properties section.</li>
+<li>Add the FGCUGL API files (<a class="el" href="fgcugl_8h_source.html">fgcugl.h</a>, fgcugl.cpp) to your directory containing the .cpp files.</li>
+<li>Test building the project to make sure linking was successful.</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Software:</h1>
+<ul>
+<li>GLEW 2.1.0 (<a href="https://www.opengl.org/sdk/libs/GLEW/">https://www.opengl.org/sdk/libs/GLEW/</a>)</li>
+<li>GLFW 3.3.4 (<a href="https://www.glfw.org/">https://www.glfw.org/</a>)</li>
+<li>FGCU OpenGL wrapper API code: <a href="https://github.com/pallenfgcu/fgcugl">https://github.com/pallenfgcu/fgcugl</a></li>
+<li>Microsoft Visual Studio</li>
+<li>Git</li>
+<li>WSL Ubuntu</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md5"></a>
+License</h1>
+<p >This project is licensed under the MIT License.</p>
+<h1><a class="anchor" id="autotoc_md6"></a>
+Acknowledgments</h1>
+<ul>
 <li>FGCU OpenGL wrapper API code: <a href="https://github.com/pallenfgcu/fgcugl">https://github.com/pallenfgcu/fgcugl</a> </li>
 </ul>
 </div></div><!-- contents -->

@@ -4,7 +4,10 @@ var dir_f8b6a331e7549b356f1c58c53e1aa4ef =
     [ "Block.h", "_block_8h.html", [
       [ "Block", "class_block.html", "class_block" ]
     ] ],
-    [ "Enemy.cpp", "_enemy_8cpp.html", null ],
+    [ "Bullet.cpp", "_bullet_8cpp.html", null ],
+    [ "Bullet.h", "_bullet_8h.html", [
+      [ "Bullet", "class_bullet.html", "class_bullet" ]
+    ] ],
     [ "Enemy.h", "_enemy_8h.html", [
       [ "Enemy", "class_enemy.html", "class_enemy" ]
     ] ],
