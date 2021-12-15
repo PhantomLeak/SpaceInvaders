@@ -5,57 +5,253 @@
 \item 
 \mbox{\Hypertarget{class_bullet_ab672966c4264f294ab8db1d2d341f09f}\label{class_bullet_ab672966c4264f294ab8db1d2d341f09f}} 
 enum {\bfseries Collision\+Type} \{ {\bfseries None}
-, {\bfseries Vertical}
+, {\bfseries Horizontal}
  \}
 \end{DoxyCompactItemize}
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_bullet_ac5ae75582febcefda6d41ad9cf329dd0}\label{class_bullet_ac5ae75582febcefda6d41ad9cf329dd0}} 
-{\bfseries Bullet} (float x, float y, short int direction, int size, fgcugl\+::\+Color color, float movement\+Speed)
+\mbox{\Hypertarget{class_bullet_a6bbe13349c421f639b29615fd32b5134}\label{class_bullet_a6bbe13349c421f639b29615fd32b5134}} 
+{\bfseries Bullet} (float x, float y, float speed, int size, fgcugl\+::\+Color color=fgcugl\+::\+White)
 \item 
-\mbox{\Hypertarget{class_bullet_a544f09f215032e858f6be6e8b31310dc}\label{class_bullet_a544f09f215032e858f6be6e8b31310dc}} 
-float {\bfseries get\+XCoordinate} ()
-\item 
-\mbox{\Hypertarget{class_bullet_abcc784106a74c704d52f92ca27644899}\label{class_bullet_abcc784106a74c704d52f92ca27644899}} 
-float {\bfseries get\+YCoordinate} ()
-\item 
-\mbox{\Hypertarget{class_bullet_a7eb9c0d97996269c40e08e86f3bcdacb}\label{class_bullet_a7eb9c0d97996269c40e08e86f3bcdacb}} 
-int {\bfseries get\+Size} ()
-\item 
-\mbox{\Hypertarget{class_bullet_a604b2e10a7f72a04c8cdb5b2fca1f01d}\label{class_bullet_a604b2e10a7f72a04c8cdb5b2fca1f01d}} 
-fgcugl\+::\+Color {\bfseries get\+Color} ()
-\item 
-\mbox{\Hypertarget{class_bullet_a72a251fb60393fbaee6d9eb7621fd307}\label{class_bullet_a72a251fb60393fbaee6d9eb7621fd307}} 
-void {\bfseries set\+XCoordinate} (float value)
-\item 
-\mbox{\Hypertarget{class_bullet_a2ca6d278b7baeb343ec746044ce0b555}\label{class_bullet_a2ca6d278b7baeb343ec746044ce0b555}} 
-void {\bfseries set\+YCoordinate} (float value)
-\item 
-\mbox{\Hypertarget{class_bullet_adb3377b7eeee7314d3b48671cfbd499c}\label{class_bullet_adb3377b7eeee7314d3b48671cfbd499c}} 
-void {\bfseries set\+Size} (int)
-\item 
-\mbox{\Hypertarget{class_bullet_a11102e2a7895a844bc028d6ec7004e80}\label{class_bullet_a11102e2a7895a844bc028d6ec7004e80}} 
-void {\bfseries set\+Color} (fgcugl\+::\+Color value)
-\item 
-\mbox{\Hypertarget{class_bullet_aa77b8b83e5cbcc4e688e28580c73ed12}\label{class_bullet_aa77b8b83e5cbcc4e688e28580c73ed12}} 
-int {\bfseries top} ()
-\item 
-\mbox{\Hypertarget{class_bullet_afc2984bebd9e420da9835d956936efe5}\label{class_bullet_afc2984bebd9e420da9835d956936efe5}} 
-void {\bfseries update} (float lag)
-\item 
-\mbox{\Hypertarget{class_bullet_a27c9a8fa2de0fe842ab255ade0adf831}\label{class_bullet_a27c9a8fa2de0fe842ab255ade0adf831}} 
-void {\bfseries draw} (float lag)
-\item 
-\mbox{\Hypertarget{class_bullet_a15e8cb39c717274c51f6440f44217334}\label{class_bullet_a15e8cb39c717274c51f6440f44217334}} 
-Collision\+Type {\bfseries collision\+Check} (\mbox{\hyperlink{class_block}{Block}} block)
-\item 
-\mbox{\Hypertarget{class_bullet_a9972b13b4a619c11c0d0671c2c8d2dba}\label{class_bullet_a9972b13b4a619c11c0d0671c2c8d2dba}} 
-void {\bfseries do\+Collision} (int collision)
+float \mbox{\hyperlink{class_bullet_a544f09f215032e858f6be6e8b31310dc}{get\+XCoordinate}} ()
+\begin{DoxyCompactList}\small\item\em Get \mbox{\hyperlink{class_bullet}{Bullet}} X Coordinate. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_bullet_abcc784106a74c704d52f92ca27644899}{get\+YCoordinate}} ()
+\begin{DoxyCompactList}\small\item\em get \mbox{\hyperlink{class_bullet}{Bullet}} Y Coordinate \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_bullet_a05330de13e4ce4856225442de04891fb}{get\+Velocity}} ()
+\begin{DoxyCompactList}\small\item\em get \mbox{\hyperlink{class_bullet}{Bullet}} Velocity \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bullet_a7eb9c0d97996269c40e08e86f3bcdacb}{get\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Get \mbox{\hyperlink{class_bullet}{Bullet}} size. \end{DoxyCompactList}\item 
+fgcugl\+::\+Color \mbox{\hyperlink{class_bullet_a604b2e10a7f72a04c8cdb5b2fca1f01d}{get\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Get \mbox{\hyperlink{class_bullet}{Bullet}} Color. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bullet_a72a251fb60393fbaee6d9eb7621fd307}{set\+XCoordinate}} (float value)
+\begin{DoxyCompactList}\small\item\em Set \mbox{\hyperlink{class_bullet}{Bullet}} X Coordinate. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bullet_a2ca6d278b7baeb343ec746044ce0b555}{set\+YCoordinate}} (float value)
+\begin{DoxyCompactList}\small\item\em Set \mbox{\hyperlink{class_bullet}{Bullet}} Y Coordinate. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bullet_ad1c49f2ffb238c3950fb6264e9a5d7fd}{set\+Velocity}} (float value)
+\begin{DoxyCompactList}\small\item\em Set \mbox{\hyperlink{class_bullet}{Bullet}} Velocity. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bullet_adb3377b7eeee7314d3b48671cfbd499c}{set\+Size}} (int)
+\begin{DoxyCompactList}\small\item\em Set \mbox{\hyperlink{class_bullet}{Bullet}} Size. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bullet_a11102e2a7895a844bc028d6ec7004e80}{set\+Color}} (fgcugl\+::\+Color value)
+\begin{DoxyCompactList}\small\item\em Set \mbox{\hyperlink{class_bullet}{Bullet}} Color. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bullet_aa77b8b83e5cbcc4e688e28580c73ed12}{top}} ()
+\begin{DoxyCompactList}\small\item\em Set \mbox{\hyperlink{class_bullet}{Bullet}} top. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bullet_afc2984bebd9e420da9835d956936efe5}{update}} (float lag)
+\begin{DoxyCompactList}\small\item\em Update location of the bullet relative to lag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bullet_a27c9a8fa2de0fe842ab255ade0adf831}{draw}} (float lag)
+\begin{DoxyCompactList}\small\item\em Draw \mbox{\hyperlink{class_bullet}{Bullet}} Object on Open\+GL Window. \end{DoxyCompactList}\item 
+Collision\+Type \mbox{\hyperlink{class_bullet_acaee3692b69b3a4ad052b2a9fd581442}{collision\+Check}} (\mbox{\hyperlink{class_block}{Block}} block)
+\begin{DoxyCompactList}\small\item\em Check Collision Type with block object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bullet_a3cf2623250c8e140bfcfc229e96d4460}\label{class_bullet_a3cf2623250c8e140bfcfc229e96d4460}} 
+void {\bfseries do\+Collision} (int collisions)
 \end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bullet_acaee3692b69b3a4ad052b2a9fd581442}\label{class_bullet_acaee3692b69b3a4ad052b2a9fd581442}} 
+\index{Bullet@{Bullet}!collisionCheck@{collisionCheck}}
+\index{collisionCheck@{collisionCheck}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{collisionCheck()}{collisionCheck()}}
+{\footnotesize\ttfamily Bullet\+::\+Collision\+Type Bullet\+::collision\+Check (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_block}{Block}}}]{block }\end{DoxyParamCaption})}
+
+
+
+Check Collision Type with block object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em block} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Collision\+Type 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bullet_a27c9a8fa2de0fe842ab255ade0adf831}\label{class_bullet_a27c9a8fa2de0fe842ab255ade0adf831}} 
+\index{Bullet@{Bullet}!draw@{draw}}
+\index{draw@{draw}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Bullet\+::draw (\begin{DoxyParamCaption}\item[{float}]{lag }\end{DoxyParamCaption})}
+
+
+
+Draw \mbox{\hyperlink{class_bullet}{Bullet}} Object on Open\+GL Window. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lag} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bullet_a604b2e10a7f72a04c8cdb5b2fca1f01d}\label{class_bullet_a604b2e10a7f72a04c8cdb5b2fca1f01d}} 
+\index{Bullet@{Bullet}!getColor@{getColor}}
+\index{getColor@{getColor}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily fgcugl\+::\+Color Bullet\+::get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get \mbox{\hyperlink{class_bullet}{Bullet}} Color. 
+
+\begin{DoxyReturn}{Returns}
+fgcugl\+::color 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bullet_a7eb9c0d97996269c40e08e86f3bcdacb}\label{class_bullet_a7eb9c0d97996269c40e08e86f3bcdacb}} 
+\index{Bullet@{Bullet}!getSize@{getSize}}
+\index{getSize@{getSize}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily int Bullet\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get \mbox{\hyperlink{class_bullet}{Bullet}} size. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bullet_a05330de13e4ce4856225442de04891fb}\label{class_bullet_a05330de13e4ce4856225442de04891fb}} 
+\index{Bullet@{Bullet}!getVelocity@{getVelocity}}
+\index{getVelocity@{getVelocity}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{getVelocity()}{getVelocity()}}
+{\footnotesize\ttfamily float Bullet\+::get\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get \mbox{\hyperlink{class_bullet}{Bullet}} Velocity 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bullet_a544f09f215032e858f6be6e8b31310dc}\label{class_bullet_a544f09f215032e858f6be6e8b31310dc}} 
+\index{Bullet@{Bullet}!getXCoordinate@{getXCoordinate}}
+\index{getXCoordinate@{getXCoordinate}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{getXCoordinate()}{getXCoordinate()}}
+{\footnotesize\ttfamily float Bullet\+::get\+XCoordinate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get \mbox{\hyperlink{class_bullet}{Bullet}} X Coordinate. 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bullet_abcc784106a74c704d52f92ca27644899}\label{class_bullet_abcc784106a74c704d52f92ca27644899}} 
+\index{Bullet@{Bullet}!getYCoordinate@{getYCoordinate}}
+\index{getYCoordinate@{getYCoordinate}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{getYCoordinate()}{getYCoordinate()}}
+{\footnotesize\ttfamily float Bullet\+::get\+YCoordinate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get \mbox{\hyperlink{class_bullet}{Bullet}} Y Coordinate 
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bullet_a11102e2a7895a844bc028d6ec7004e80}\label{class_bullet_a11102e2a7895a844bc028d6ec7004e80}} 
+\index{Bullet@{Bullet}!setColor@{setColor}}
+\index{setColor@{setColor}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Bullet\+::set\+Color (\begin{DoxyParamCaption}\item[{fgcugl\+::\+Color}]{value }\end{DoxyParamCaption})}
+
+
+
+Set \mbox{\hyperlink{class_bullet}{Bullet}} Color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bullet_adb3377b7eeee7314d3b48671cfbd499c}\label{class_bullet_adb3377b7eeee7314d3b48671cfbd499c}} 
+\index{Bullet@{Bullet}!setSize@{setSize}}
+\index{setSize@{setSize}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{setSize()}{setSize()}}
+{\footnotesize\ttfamily void Bullet\+::set\+Size (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Set \mbox{\hyperlink{class_bullet}{Bullet}} Size. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bullet_ad1c49f2ffb238c3950fb6264e9a5d7fd}\label{class_bullet_ad1c49f2ffb238c3950fb6264e9a5d7fd}} 
+\index{Bullet@{Bullet}!setVelocity@{setVelocity}}
+\index{setVelocity@{setVelocity}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{setVelocity()}{setVelocity()}}
+{\footnotesize\ttfamily void Bullet\+::set\+Velocity (\begin{DoxyParamCaption}\item[{float}]{value }\end{DoxyParamCaption})}
+
+
+
+Set \mbox{\hyperlink{class_bullet}{Bullet}} Velocity. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bullet_a72a251fb60393fbaee6d9eb7621fd307}\label{class_bullet_a72a251fb60393fbaee6d9eb7621fd307}} 
+\index{Bullet@{Bullet}!setXCoordinate@{setXCoordinate}}
+\index{setXCoordinate@{setXCoordinate}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{setXCoordinate()}{setXCoordinate()}}
+{\footnotesize\ttfamily void Bullet\+::set\+XCoordinate (\begin{DoxyParamCaption}\item[{float}]{value }\end{DoxyParamCaption})}
+
+
+
+Set \mbox{\hyperlink{class_bullet}{Bullet}} X Coordinate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bullet_a2ca6d278b7baeb343ec746044ce0b555}\label{class_bullet_a2ca6d278b7baeb343ec746044ce0b555}} 
+\index{Bullet@{Bullet}!setYCoordinate@{setYCoordinate}}
+\index{setYCoordinate@{setYCoordinate}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{setYCoordinate()}{setYCoordinate()}}
+{\footnotesize\ttfamily void Bullet\+::set\+YCoordinate (\begin{DoxyParamCaption}\item[{float}]{value }\end{DoxyParamCaption})}
+
+
+
+Set \mbox{\hyperlink{class_bullet}{Bullet}} Y Coordinate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bullet_aa77b8b83e5cbcc4e688e28580c73ed12}\label{class_bullet_aa77b8b83e5cbcc4e688e28580c73ed12}} 
+\index{Bullet@{Bullet}!top@{top}}
+\index{top@{top}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{top()}{top()}}
+{\footnotesize\ttfamily int Bullet\+::top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Set \mbox{\hyperlink{class_bullet}{Bullet}} top. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bullet_afc2984bebd9e420da9835d956936efe5}\label{class_bullet_afc2984bebd9e420da9835d956936efe5}} 
+\index{Bullet@{Bullet}!update@{update}}
+\index{update@{update}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Bullet\+::update (\begin{DoxyParamCaption}\item[{float}]{lag }\end{DoxyParamCaption})}
+
+
+
+Update location of the bullet relative to lag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lag} & \\
+\hline
+\end{DoxyParams}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Bullet.\+h\item 
-C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/Bullet.\+cpp\end{DoxyCompactItemize}
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/\mbox{\hyperlink{_bullet_8h}{Bullet.\+h}}\item 
+C\+:/\+Users/\+Dstoc/source/repos/space\+Invaders/space\+Invaders/\mbox{\hyperlink{_bullet_8cpp}{Bullet.\+cpp}}\end{DoxyCompactItemize}

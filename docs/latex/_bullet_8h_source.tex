@@ -1,51 +1,54 @@
 \hypertarget{_bullet_8h_source}{}\doxysection{Bullet.\+h}
 \label{_bullet_8h_source}\index{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/Bullet.h@{C:/Users/Dstoc/source/repos/spaceInvaders/spaceInvaders/Bullet.h}}
-
+\mbox{\hyperlink{_bullet_8h}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{1 \textcolor{comment}{// file: Bullet.h}}
-\DoxyCodeLine{2 \textcolor{comment}{// By: Dylan Stocking}}
-\DoxyCodeLine{3 \textcolor{comment}{// Des: Declaration of Bullet class object}}
-\DoxyCodeLine{4 }
-\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef BULLET\_H}}
-\DoxyCodeLine{6 \textcolor{preprocessor}{\#define BULLET\_H}}
-\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}Block.h"{}}}
-\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}fgcugl.h"{}}}
-\DoxyCodeLine{9 }
-\DoxyCodeLine{10 \textcolor{keyword}{class }\mbox{\hyperlink{class_bullet}{Bullet}} \{}
-\DoxyCodeLine{11  \textcolor{keyword}{public}:}
-\DoxyCodeLine{12   \textcolor{comment}{// Gloabal defines}}
-\DoxyCodeLine{13   \textcolor{keyword}{enum} CollisionType \{ None, Vertical \};}
-\DoxyCodeLine{14   \textcolor{comment}{// Constructor}}
-\DoxyCodeLine{15   \mbox{\hyperlink{class_bullet}{Bullet}}(\textcolor{keywordtype}{float} x, \textcolor{keywordtype}{float} y, \textcolor{keywordtype}{short} \textcolor{keywordtype}{int} direction, \textcolor{keywordtype}{int} size, fgcugl::Color color,}
-\DoxyCodeLine{16          \textcolor{keywordtype}{float} movementSpeed);}
-\DoxyCodeLine{17 }
-\DoxyCodeLine{18   \textcolor{comment}{// Getters}}
-\DoxyCodeLine{19   \textcolor{keywordtype}{float} getXCoordinate();}
-\DoxyCodeLine{20   \textcolor{keywordtype}{float} getYCoordinate();}
-\DoxyCodeLine{21   \textcolor{keywordtype}{int} getSize();}
-\DoxyCodeLine{22   fgcugl::Color getColor();}
-\DoxyCodeLine{23   \textcolor{comment}{// Setters}}
-\DoxyCodeLine{24   \textcolor{keywordtype}{void} setXCoordinate(\textcolor{keywordtype}{float} value);}
-\DoxyCodeLine{25   \textcolor{keywordtype}{void} setYCoordinate(\textcolor{keywordtype}{float} value);}
-\DoxyCodeLine{26   \textcolor{keywordtype}{void} setSize(\textcolor{keywordtype}{int});}
-\DoxyCodeLine{27   \textcolor{keywordtype}{void} setColor(fgcugl::Color value);}
-\DoxyCodeLine{28   \textcolor{comment}{// Member methods}}
-\DoxyCodeLine{29   \textcolor{keywordtype}{int} top();}
-\DoxyCodeLine{30 }
-\DoxyCodeLine{31   \textcolor{keywordtype}{void} update(\textcolor{keywordtype}{float} lag);}
-\DoxyCodeLine{32   \textcolor{keywordtype}{void} draw(\textcolor{keywordtype}{float} lag);}
-\DoxyCodeLine{33   CollisionType collisionCheck(\mbox{\hyperlink{class_block}{Block}} block);}
-\DoxyCodeLine{34   \textcolor{keywordtype}{void} doCollision(\textcolor{keywordtype}{int} collision);}
-\DoxyCodeLine{35 }
-\DoxyCodeLine{36  \textcolor{keyword}{private}:}
-\DoxyCodeLine{37   \textcolor{keywordtype}{float} xpos;}
-\DoxyCodeLine{38   \textcolor{keywordtype}{float} ypos;}
-\DoxyCodeLine{39   \textcolor{keywordtype}{short} \textcolor{keywordtype}{int} \_direction;}
-\DoxyCodeLine{40   \textcolor{keywordtype}{float} \_movementSpeed;}
-\DoxyCodeLine{41   \textcolor{keywordtype}{int} radius;}
-\DoxyCodeLine{42   fgcugl::Color \_color;}
-\DoxyCodeLine{43 \};}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#ifndef BULLET\_H}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#define BULLET\_H}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include "{}fgcugl.h"{}}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_block_8h}{Block.h}}"{}}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{keyword}{class }\mbox{\hyperlink{class_bullet}{Bullet}} \{}
+\DoxyCodeLine{20  \textcolor{keyword}{public}:}
+\DoxyCodeLine{21   \textcolor{keyword}{enum} CollisionType \{}
+\DoxyCodeLine{22     None,}
+\DoxyCodeLine{23     Horizontal,}
+\DoxyCodeLine{24   \};}
+\DoxyCodeLine{25   \mbox{\hyperlink{class_bullet}{Bullet}}(\textcolor{keywordtype}{float} x, \textcolor{keywordtype}{float} y, \textcolor{keywordtype}{float} speed, \textcolor{keywordtype}{int} size,}
+\DoxyCodeLine{26          fgcugl::Color color = fgcugl::White);}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28   \textcolor{comment}{// getters}}
+\DoxyCodeLine{29   \textcolor{keywordtype}{float} \mbox{\hyperlink{class_bullet_a544f09f215032e858f6be6e8b31310dc}{getXCoordinate}}();}
+\DoxyCodeLine{30   \textcolor{keywordtype}{float} \mbox{\hyperlink{class_bullet_abcc784106a74c704d52f92ca27644899}{getYCoordinate}}();}
+\DoxyCodeLine{31   \textcolor{keywordtype}{float} \mbox{\hyperlink{class_bullet_a05330de13e4ce4856225442de04891fb}{getVelocity}}();}
+\DoxyCodeLine{32   \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bullet_a7eb9c0d97996269c40e08e86f3bcdacb}{getSize}}();}
+\DoxyCodeLine{33   fgcugl::Color \mbox{\hyperlink{class_bullet_a604b2e10a7f72a04c8cdb5b2fca1f01d}{getColor}}();}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35   \textcolor{comment}{// setters}}
+\DoxyCodeLine{36   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_a72a251fb60393fbaee6d9eb7621fd307}{setXCoordinate}}(\textcolor{keywordtype}{float} value);}
+\DoxyCodeLine{37   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_a2ca6d278b7baeb343ec746044ce0b555}{setYCoordinate}}(\textcolor{keywordtype}{float} value);}
+\DoxyCodeLine{38   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_ad1c49f2ffb238c3950fb6264e9a5d7fd}{setVelocity}}(\textcolor{keywordtype}{float} value);}
+\DoxyCodeLine{39   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_adb3377b7eeee7314d3b48671cfbd499c}{setSize}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{40   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_a11102e2a7895a844bc028d6ec7004e80}{setColor}}(fgcugl::Color value);}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42   \textcolor{comment}{// member methods}}
+\DoxyCodeLine{43   \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bullet_aa77b8b83e5cbcc4e688e28580c73ed12}{top}}();}
 \DoxyCodeLine{44 }
-\DoxyCodeLine{45 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// BULLET\_H}}
+\DoxyCodeLine{45   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_afc2984bebd9e420da9835d956936efe5}{update}}(\textcolor{keywordtype}{float} lag);}
+\DoxyCodeLine{46   \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_a27c9a8fa2de0fe842ab255ade0adf831}{draw}}(\textcolor{keywordtype}{float} lag);}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48   CollisionType \mbox{\hyperlink{class_bullet_acaee3692b69b3a4ad052b2a9fd581442}{collisionCheck}}(\mbox{\hyperlink{class_block}{Block}} block);}
+\DoxyCodeLine{49   \textcolor{keywordtype}{void} doCollision(\textcolor{keywordtype}{int} collisions);}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51  \textcolor{keyword}{private}:}
+\DoxyCodeLine{52   \textcolor{keywordtype}{float} xpos;}
+\DoxyCodeLine{53   \textcolor{keywordtype}{float} ypos;}
+\DoxyCodeLine{54   \textcolor{keywordtype}{float} velocity;}
+\DoxyCodeLine{55   \textcolor{keywordtype}{int} radius;}
+\DoxyCodeLine{56   fgcugl::Color color;}
+\DoxyCodeLine{57 \};}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// !BULLET\_H}}
 
 \end{DoxyCode}
