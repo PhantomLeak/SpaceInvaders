@@ -41,4 +41,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
   - FGCU OpenGL wrapper API code: https://github.com/pallenfgcu/fgcugl
+
+![image](https://github.com/PhantomLeak/SpaceInvaders/blob/main/SpaceInvaders.png)
    
